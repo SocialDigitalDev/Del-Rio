@@ -1,0 +1,45 @@
+{ 
+  "global-css": {
+    "component": "GlobalCSS"
+  },
+  "instafeed": {
+    "component": "InstaFeed"
+  },
+  "sy-newsletter": {
+    "component": "Newsletter"
+  },
+  "sy-popup": {
+    "component": "NewsletterPopup"
+  },
+  "sy-login-custom": {
+    "component": "LoginInfo"
+  },
+  "sy-atendimento":{
+    "component": "Atendimento"
+  },
+  "sy-productInfo":{
+    "component": "ProductInfo"
+  },
+  "institutional-main": {
+    "component": "InstitutionalPage",
+    "composition": "children"
+  },
+  "sy-modal-lgpd": {
+    "component": "ModalLGPD"
+  },
+  "helmet-component":{
+    "component": "HelmetComponent"
+  },
+  "shelf-color": {
+    "component": "ShelfProductColor"
+  },
+  "linkTrocaFacil": {
+		"component": "LinkTrocaFacil"
+	},
+  "BlackFriday": {
+		"component": "BlackFriday"
+	},
+  "theme-natal": {
+		"component": "ThemeNatal"
+	}
+}

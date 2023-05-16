@@ -1,0 +1,340 @@
+/*==================================*/
+/*==========   MINICART   ==========*/
+/*==================================*/
+.cartIcon {
+  display: none;
+}
+
+.openIconContainer{
+  padding: 0;
+}
+
+.openIconContainer :global(.vtex-button__label) {
+  padding-left: 0;
+}
+
+.openIconContainer :global(.vtex-button):hover {
+  background: none;
+}
+
+
+.minicartIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.minicartIconContainer::before {
+  content: '';
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.75 8.25C3.55109 8.25 3.36032 8.32902 3.21967 8.46967C3.07902 8.61032 3 8.80109 3 9V19.125C3 20.5425 4.2075 21.75 5.625 21.75H18.375C19.7925 21.75 21 20.6011 21 19.1836V9C21 8.80109 20.921 8.61032 20.7803 8.46967C20.6397 8.32902 20.4489 8.25 20.25 8.25H3.75Z' stroke='%2347395A' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M7.5 8.25V6.75C7.5 5.55653 7.97411 4.41193 8.81802 3.56802C9.66193 2.72411 10.8065 2.25 12 2.25V2.25C13.1935 2.25 14.3381 2.72411 15.182 3.56802C16.0259 4.41193 16.5 5.55653 16.5 6.75V8.25' stroke='%2347395A' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e ");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.minicartIconContainer::after {
+  color: #47395A;
+  content: 'Sacola';
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+:global(.vtex-minicart-2-x-opened) {
+  z-index: 9999;
+}
+
+@media (max-width: 640px) {
+  .minicartIconContainer::after {
+    font-size: 0;
+  }
+
+  :global(.vtex-minicart-2-x-opened) {
+    max-width: none !important;
+    width: 100% !important;
+  }
+}
+
+.closeIconContainer {
+  justify-content: flex-end;
+  position: absolute;
+  right: 5px;
+  top: 22px;  
+}
+
+.closeIconButton {
+  color: #323232;
+  background: #FFFFFF;
+}
+
+.minicartTitle {
+  color: #48385C;
+  font-size: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.minicartTitle::before {
+  content: 'Sacola';
+  font-family: Akrobat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: inline-block;
+}
+
+
+.minicartQuantityBadge {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #323232;
+  height: 13px;
+  width: 13px;
+  padding: 1px;
+}
+
+.minicartQuantityBadgeDefault {
+  top: -0.25rem;
+  right: 0;
+  left: 0.9rem;
+  border-radius: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--minicart-footer) {
+  box-shadow: none;
+}
+
+:global(.vtex-minicart-2-x-minicartSummary) {
+  padding-bottom: 32px;
+}
+
+:global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+:global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-price){
+  color:#353840;
+  font-family: Akrobat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+:global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-name-remove-container){
+  display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-name-remove-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-name-remove-container) :global(.vtex-button) {
+  border: 0;
+  border-radius: 0;
+  background: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-name-remove-container) :global(.vtex-button) :global(.vtex-button__label) {
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left; 
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 !important;
+  white-space: nowrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-name-remove-container) :global(.vtex-product-list-0-x-productName) {
+  color: #181818;
+  font-family: Akrobat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;  
+  width: 100%;
+  max-width: 150px;
+  padding-right: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sy-product-minicart) :global(.vtex-product-list-0-x-quantitySelectorWrapper) {
+  width: 100%;
+  max-width: 85px;
+  margin-right: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sy-product-minicart) :global(.vtex-product-list-0-x-quantitySelectorButton){
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  background: #323232;
+  color: #FFFFFF;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-quantity-price-container) {
+  display: flex;
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-quantity-price-container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sy-product-minicart) :global(.vtex-product-list-0-x-inputContainer) {
+  flex: initial;
+  width: 40px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  border: none
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sy-product-minicart) :global(.vtex-product-list-0-x-productPriceCurrency) {
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sy-product-minicart) :global(.vtex-product-list-0-x-price) {
+  color: #000000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--sy-product-main-container) {
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--sy-product-main-container) {
+  height: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-product-minicart) {
+  border-bottom: 1px solid #CACACA;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer) {
+  scrollbar-color: #A6A6A6 #EFEFEF;;
+  scrollbar-width: thin;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)::-webkit-scrollbar {
+  width: 4px;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)::-webkit-scrollbar-track {
+  background: #EFEFEF;;
+}
+ 
+:global(.vtex-minicart-2-x-minicartProductListContainer)::-webkit-scrollbar-thumb,
+:global(.vtex-minicart-2-x-minicartProductListContainer)::-webkit-scrollbar-thumb:hover  {
+  background: #A6A6A6;
+}
+
+.minicartCheckoutButton {
+  justify-content: center;
+  width: 100%;
+  max-width: 335px;
+  margin: 0 auto 16px;
+  padding: 0;
+}
+
+@media (max-width: 640px) {
+  .minicartCheckoutButton {
+    max-width: 303px;
+    margin: 0 auto;
+  }
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background: #48385C;
+  height: 40px;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+}
+
+
+/*SACOLA VAZIA*/
+
+.minicartEmptyStateContainer {
+  align-items: center;
+  justify-content: center;
+}
+
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-container) {
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--cart-empty) {
+  color: #47395A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;  
+}
+
+:global(.vtex-rich-text-0-x-container--cart-emptybtn) {
+  justify-content: center;
+  align-items: center;
+  width: 209px;
+  height: 40px;
+  background: #48385C;
+}
+
+:global(.vtex-rich-text-0-x-link--cart-emptybtn) {
+  color: #FFFFFF;
+  font-family: Akrobat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-decoration: none;
+}

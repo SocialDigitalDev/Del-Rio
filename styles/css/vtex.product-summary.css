@@ -1,0 +1,50 @@
+.containerNormal {
+    background-color: #F5F5F5;
+    border-radius: 0;
+}
+
+.containerNormal .imageNormal {
+    width: 100% !important;
+    height: auto !important;
+    max-height: initial !important;
+}
+
+.containerNormal .element {
+    padding: 0;
+}
+
+.containerNormal .nameContainer {
+    padding: 7px 8px 0;
+}
+
+.containerNormal .nameContainer .productNameContainer {
+    text-align: left !important;
+    font-size: initial !important;
+}
+
+.containerNormal .nameContainer .brandName {
+    font-size: 18px;
+    font-weight: 600;
+    color: #181818;
+    text-transform: none;
+    text-align: left;
+    line-height: 22px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) and (min-width: 100px) {
+
+    .containerNormal .nameContainer {
+        padding: 4px 8px 0;
+    }
+
+    .containerNormal .nameContainer .brandName {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}

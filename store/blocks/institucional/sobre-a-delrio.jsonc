@@ -1,0 +1,32 @@
+{
+  "store.custom#sobre-a-delrio": {
+      "blocks": [
+          "institutional-main#sobre-a-delrio"
+      ]
+  },
+
+  "institutional-main#sobre-a-delrio": {
+      "children": [
+          "rich-text#title-sobre-a-delrio",
+          "rich-text#texts-sobre-a-delrio"
+      ]
+  },
+
+  "rich-text#title-sobre-a-delrio": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "#### Sobre a DelRio",
+          "blockClass": "title-institucional"
+      }
+  },
+
+  "rich-text#texts-sobre-a-delrio": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "#### Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio architecto exercitationem, maiores amet similique quae in consequatur asperiores adipisci? Necessitatibus quod velit consectetur similique repellat inventore dolorem, suscipit unde?",
+          "blockClass": "text-institucional"
+      }
+  }
+}

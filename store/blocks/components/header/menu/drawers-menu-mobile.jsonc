@@ -1,0 +1,263 @@
+{ 
+  /*FEMININO*/
+  "drawer#submenu-feminino": {
+    "children": ["menu#drawer-feminino"],
+    "blocks": ["drawer-trigger#feminino"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Feminino Mobile"
+  },
+  "drawer-trigger#feminino": {
+    "children": ["rich-text#submenu-feminino"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-feminino": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Feminino"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-feminino": {
+    "children": [
+      "rich-text#feminino-mobile",
+      "vtex.menu@2.x:menu#feminino-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-feminino",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Feminino"
+  },
+
+  /***************************************/
+  /************** MASCULINO **************/
+  /***************************************/
+  "drawer#submenu-sport": {
+    "children": ["menu#drawer-sport"],
+    "blocks": ["drawer-trigger#sport"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Sport Mobile"
+  },
+  "drawer-trigger#sport": {
+    "children": ["rich-text#submenu-sport"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-sport": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Sport"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-sport": {
+    "children": [
+      "rich-text#sport-mobile",
+      "vtex.menu@2.x:menu#sport-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-sport",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Sport"
+  },
+  "rich-text#sport-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Sport](/sport)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#sport-m": {
+    "props": {
+      "blockClass": "sport-m",
+      "orientation": "vertical"
+    }
+  },
+  
+  /***************************************/
+  /************** MASCULINO **************/
+  /***************************************/
+  "drawer#submenu-masculino": {
+    "children": ["menu#drawer-masculino"],
+    "blocks": ["drawer-trigger#masculino"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Masculino Mobile"
+  },
+  "drawer-trigger#masculino": {
+    "children": ["rich-text#submenu-masculino"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-masculino": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Masculino"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-masculino": {
+    "children": [
+      "rich-text#masculino-mobile",
+      "vtex.menu@2.x:menu#masculino-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-masculino",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Masculino"
+  },
+
+  /***************************************/
+  /************** INFANTIL **************/
+  /***************************************/
+  "drawer#submenu-infantil": {
+    "children": ["menu#drawer-infantil"],
+    "blocks": ["drawer-trigger#infantil"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Infantil Mobile"
+  },
+  "drawer-trigger#infantil": {
+    "children": ["rich-text#submenu-infantil"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-infantil": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Infantil"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-infantil": {
+    "children": [
+      "rich-text#infantil-mobile",
+      "vtex.menu@2.x:menu#infantil-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-infantil",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Infantil"
+  },
+
+  /***************************************/
+  /************** MATERNIDADE **************/
+  /***************************************/
+  "drawer#submenu-maternidade": {
+    "children": ["menu#drawer-maternidade"],
+    "blocks": ["drawer-trigger#maternidade"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Maternidade Mobile"
+  },
+  "drawer-trigger#maternidade": {
+    "children": ["rich-text#submenu-maternidade"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-maternidade": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Maternidade"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-maternidade": {
+    "children": [
+      "rich-text#maternidade-mobile",
+      "vtex.menu@2.x:menu#maternidade-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-maternidade",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Maternidade"
+  },
+
+  /***************************************/
+  /************** KITS **************/
+  /***************************************/
+  "drawer#submenu-kits": {
+    "children": ["menu#drawer-kits"],
+    "blocks": ["drawer-trigger#kits"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Kits Mobile"
+  },
+  "drawer-trigger#kits": {
+    "children": ["rich-text#submenu-kits"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-kits": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Kits"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-kits": {
+    "children": [
+      "rich-text#kits-mobile",
+      "vtex.menu@2.x:menu#kits-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-kits",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Kits"
+  },
+
+
+  /***************************************/
+  /************** ECOLOGICO **************/
+  /***************************************/
+  "drawer#submenu-ecologico": {
+    "children": ["menu#drawer-ecologico"],
+    "blocks": ["drawer-trigger#ecologico"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Ecologico Mobile"
+  },
+  "drawer-trigger#ecologico": {
+    "children": ["rich-text#submenu-ecologico"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-ecologico": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Ecologico"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-ecologico": {
+    "children": [
+      "rich-text#ecologico-mobile",
+      "vtex.menu@2.x:menu#ecologico-m"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-ecologico",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Ecologico"
+  }
+  
+}

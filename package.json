@@ -1,0 +1,17 @@
+{
+  "name": "delrio",
+  "version": "1.4.3",
+  "main": "index.js",
+  "author": "Synapcom",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"vtex link\" \"sass --watch --no-source-map react/scss:react/css --style compressed\"",
+    "deploy-sass": "sass --no-source-map react/scss:react/css --style compressed",
+    "precaution": "echo Tenha certeza de que você está logado na loja utilizando o vtex login",
+    "checkout": "concurrently \"sass --watch --no-source-map checkout/assets/scss:checkout/assets/ --style compressed\""
+  },
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "sass": "^1.43.4"
+  }
+}

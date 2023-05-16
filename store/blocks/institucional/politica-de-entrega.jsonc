@@ -1,0 +1,32 @@
+{
+    "store.custom#politica-de-entrega": {
+        "blocks": [
+            "institutional-main#politica-de-entrega"
+        ]
+    },
+
+    "institutional-main#politica-de-entrega": {
+        "children": [
+            "rich-text#title-politica-de-entrega",
+            "rich-text#texts-politica-de-entrega"
+        ]
+    },
+
+    "rich-text#title-politica-de-entrega": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "#### Política de entrega",
+            "blockClass": "title-institucional"
+        }
+    },
+
+    "rich-text#texts-politica-de-entrega": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "#### Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio architecto exercitationem, maiores amet similique quae in consequatur asperiores adipisci? Necessitatibus quod velit consectetur similique repellat inventore dolorem, suscipit unde?",
+            "blockClass": "text-institucional"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<svg class="dn" height="0" version="1.1" width="0" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<g id="mpa-filter-settings">
+			<path d="M0 8H4V6.66667H0V8ZM0 0V1.33333H12V0H0ZM0 4.66667H8V3.33333H0V4.66667Z" fill="#48385C" />
+		</g>
+
+		<g id="nav-caret--right">
+			<path d="M7.41 10.59L2.83 6L7.41 1.41L6 -2.62268e-07L-2.62268e-07 6L6 12L7.41 10.59Z" fill="#000000"/>
+		</g>
+
+		<g id="nav-caret--down">
+			<path d="M7.41 10.59L2.83 6L7.41 1.41L6 -2.62268e-07L-2.62268e-07 6L6 12L7.41 10.59Z" fill="#000000"/>
+		</g>
+	</defs>
+</svg>

@@ -1,0 +1,88 @@
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    },
+    "children": [
+      "linkTrocaFacil"
+    ]
+  },  
+
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+
+  "store.not-found#product": {
+    "blocks": ["rich-text#not-found"],
+    "props": {
+      "blockClass": "sy-notFound"
+    }
+  },
+
+  "store.not-found#search": {
+    "blocks": ["flex-layout.row#not-found"],
+    "props": {
+      "blockClass": "sy-notFound"
+    }
+  },
+
+  "flex-layout.row#not-found": {
+    "children": ["flex-layout.col#not-found"],
+    "props": {
+      "blockClass": "sy-container"
+    }
+  },
+
+  "flex-layout.col#not-found": {
+    "children": [
+      "rich-text#not-found", 
+      "rich-text#not-found-subtitle",
+      "image#not-found"
+    ]
+  },  
+
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Página não encontrada",
+      "blockClass": "notFound-tilte"
+    }
+  },
+
+  "rich-text#not-found-subtitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "##### Clique aqui e volte para a \n [Home](/)",
+      "blockClass": "notFound-subtitle"
+    }
+  },
+
+  "image#not-found": {
+    "props": {
+      "src": "/arquivos/735-9_ecommerce_banner-rotativo_01-renda_v1.jpg",
+      "maxHeight": 450,
+      "maxWidth": "100%",
+      "link": "/feminino",
+      "blockClass": "notFound-image"
+    }
+  }
+}

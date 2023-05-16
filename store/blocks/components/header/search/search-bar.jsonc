@@ -1,0 +1,45 @@
+{
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "sy-search-desktop",
+      "placeholder": "Pesquisar",
+      "maxSuggestedProducts": 5,
+      "maxSuggestedTerms": 5,
+      "maxTopSearches": 5,
+      "hideTitles": false
+    }
+  },
+  
+  "modal-trigger#search-mobile" :{
+    "children":["image#search","modal-layout#search-mobile"],
+    "props":{
+      "blockClass": "sy-modal-trigger--search-mobile"
+    }
+  },
+
+  "image#search": {
+    "props": {
+      "src": "/arquivos/search-outline.svg",
+      "maxHeight": "24px",
+      "maxWidth": "24px"
+    }
+  },
+  
+  "modal-layout#search-mobile": {
+    "children": ["search-bar#mobile"],
+    "props": {
+      "blockClass": "sy-modal--search-mobile"
+    }
+  },
+
+  "search-bar#mobile":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props":{
+      "openAutocompleteOnFocus": false,
+      "blockClass": "sy-search-mobile",
+      "placeholder": "Pesquisar"
+    }
+  }
+}

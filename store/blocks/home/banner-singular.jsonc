@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#banner-singular": {
+    "title": "Banner Singular",
+    "props": {
+      "blockClass": "sy-row-banner-singular"
+    },
+    "children": ["list-context.image-list#banner-singular"]
+  },  
+  "list-context.image-list#banner-singular": {
+    "children": ["slider-layout#banner-singular"],
+    "props": {
+      "images": [
+        {
+          "image":  "/arquivos/735-9_ecommerce_banner-intermediario_1222x280_v1.png",
+          "mobileImage": "/arquivos/735-9_ecommerce_mobile-intermediario_360x245_v1.png"
+        }                  
+      ]
+    }
+  },
+  "slider-layout#banner-singular": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },      
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "sy-banner-singular"
+    }
+  }
+}

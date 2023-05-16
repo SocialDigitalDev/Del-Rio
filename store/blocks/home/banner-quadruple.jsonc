@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#banner-quadruple": {
+    "title": "Banners Quadruplo",
+    "props": {
+      "blockClass": "sy-row-banner-quadruple"
+    },
+    "children": ["list-context.image-list#mini-banners"]
+  },
+  "image#banner-row1": {
+    "props": {
+      "src": "/arquivos/735-9_ecommerce_marcas-delrio_280x280_v1.png",
+      "maxWidth": 280,
+      "maxHeight": 280,
+      "link": "/",
+      "alt": "DelRio"
+    }
+  },
+  "image#banner-row2": {
+    "props": {
+      "src": "/arquivos/735-9_ecommerce_marcas-rioman_280x280_v1.png",
+      "maxWidth": 280,
+      "maxHeight": 280,
+      "link": "/",
+      "alt": "Rio Man"
+    }
+  },
+  "image#banner-row3": {
+    "props": {
+      "src": "/arquivos/735-9_ecommerce_marcas-miss_280x280_v1.png",
+      "maxWidth": 280,
+      "maxHeight": 280,
+      "link": "/",
+      "alt": "Miss DeRio"
+    }
+  },
+  "image#banner-row4": {
+    "props": {
+      "src": "/arquivos/735-9_ecommerce_marcas-club_280x280_v1.png",
+      "maxWidth": 280,
+      "maxHeight": 280,
+      "link": "/",
+      "alt": "Kids Club"
+    }
+  },
+  "slider-layout#quadruple": {
+    // "children": [
+    //   "image#banner-row1",
+    //   "image#banner-row2",
+    //   "image#banner-row3"    
+    // ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 1
+      },
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "to-the-left"
+      },
+      "infinite": false,
+      "showPaginationDots": "desktopOnly",
+      "showNavigationArrows": "never",
+      "blockClass": "sy-banner-quadruple"
+    }
+  },
+  "list-context.image-list#mini-banners": {
+    "children": ["slider-layout#quadruple"],
+    "props": {
+      "preload": true,
+      "height": 280,
+      "images": [
+        {
+          "image": "https://delrio.vtexassets.com/assets/vtex.file-manager-graphql/images/30bacee3-d9a0-44c1-9b46-22c636bf8a1d___9651f34f962b6cac0752eddb4add758a.jpg",
+          "description": "something something"
+        },
+        {
+          "image": "https://delrio.vtexassets.com/assets/vtex.file-manager-graphql/images/f437c4d7-f22d-4730-b780-17299fcb5ecc___e56f19b24417b700ed3898ba43e5d4b4.jpg",
+          "description": "something something"
+        },
+        {
+          "image": "https://delrio.vtexassets.com/assets/vtex.file-manager-graphql/images/45e3b7ee-509a-4b1f-844d-fe0e3b5fa34e___566b47e263174e251e30d7b6b220102e.jpg",
+          "description": "something something"
+        }
+      ]
+    }
+  }
+}

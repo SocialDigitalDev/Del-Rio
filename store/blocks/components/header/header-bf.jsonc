@@ -1,0 +1,9 @@
+{
+    "header#header-bf": {
+      "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header.full#header-bf": {
+      "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    }
+
+  }

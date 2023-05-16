@@ -1,0 +1,23 @@
+{
+    "product-summary.shelf#related-products": {
+        "children": [
+            "product-specification-badges#product-related"
+        ],
+        "props": {
+          "blockClass": "product-related-slide"
+        }
+    },
+
+    "product-specification-badges#product-related": {
+        "props": {
+            "specificationGroupName": "Cor",
+            "specificationsOptions": [{
+                "specificationName": "Cor",
+                "displayValue": "SPECIFICATION_VALUE"
+            }],
+            "blockClass": "product-related"
+        }
+    }
+
+
+}

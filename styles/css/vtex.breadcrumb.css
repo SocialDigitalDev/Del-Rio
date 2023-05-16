@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.homeLink {
+    display: inline-block;
+    outline: none;
+}
+
+.homeLink::after {
+    content: "Home";
+    font-size: 14px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.homeLink:hover {
+    color: #414141;
+}
+
+.homeIcon {
+    display: none;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.link:focus {
+    font-size: 14px;
+    color: #414141;
+    outline: none;
+}
+
+.term {
+    font-size: 14px;
+    font-weight: 600;
+    color: #414141;
+}
+
+.caretIcon {
+    display: none;
+}
+
+.arrow {
+    padding: 0;
+}
+
+.arrow::before {
+    content: "-";
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.arrow .link {
+    padding: 0 5px;
+}
+
+.arrow:last-child .link {
+    color: #48385C;
+    font-weight: 700;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+    .container {
+        padding: 23px 0 5px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 100px) {
+
+    .container {
+        display: none !important;
+    }
+
+    :global(.vtex-search-result-3-x-notFound--layout) .container,
+    :global(.vtex-product-context-provider) .container {
+        display: block !important;
+    }
+    
+    :global(.vtex-product-context-provider) .container .homeLink::after,
+    :global(.vtex-product-context-provider) .container .link, 
+    :global(.vtex-product-context-provider) .container .link:focus,
+    :global(.vtex-product-context-provider) .container .term {
+        font-size: 12px;
+    }
+}

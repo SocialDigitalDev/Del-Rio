@@ -1,0 +1,81 @@
+{
+  /*INICIO TOP BAR*/
+  "flex-layout.row#topbar": {
+    "props": {
+      "blockClass": "sy-topHeader-desk",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.row#spacer-topHeader",
+      "rich-text#topbar-promo",
+      "flex-layout.row#header-social-images"
+    ]
+  },
+  "flex-layout.row#topbar-mobile": {
+    "props": {
+      "blockClass": "sy-topHeader-mobile"
+    },
+    "children": [
+      "rich-text#topbar-promo"
+    ]
+  },
+  "flex-layout.row#spacer-topHeader": {
+    "props": {
+      "width": "auto"
+    }
+  },
+  "rich-text#topbar-promo": {
+    "props": {
+      "blockClass": "sy-topbar-promo",
+      "text": "Frete grátis a partir de R$ 250,00"
+    }
+  },
+  "flex-layout.row#header-social-images": {
+    "children": ["link#header-instagram", "link#header-facebook", "link#header-youtube"],
+    "props": {
+      "blockClass": "sy-header-social",
+      "vertical-align": "middle",
+      "horizontal-align": "center"
+    }
+  },
+  "link#header-instagram": {
+    "children": ["image#header-instagram"],
+    "props": {
+      "href": "https://www.instagram.com/modadelrio/",
+      "target": "_blank"
+    }
+  },
+  "image#header-instagram": {
+    "props": {
+      "src": "/arquivos/logo-instagram-branco.svg",
+      "alt": "Instagram"
+    }
+  },
+  "link#header-facebook": {
+    "children": ["image#header-facebook"],
+    "props": {
+      "href": "https://www.facebook.com/ModaDelRio/",
+      "target": "_blank"
+    }
+  },
+  "image#header-facebook": {
+    "props": {
+      "src": "/arquivos/logo-facebook-branco.svg",
+      "alt": "Facebook"
+    }
+  },
+  "link#header-youtube": {
+    "children": ["image#header-youtube"],
+    "props": {
+      "href": "https://www.youtube.com/channel/UCGeujNJJZ7jHKxUaPtJsmWw",
+      "target": "_blank"
+    }
+  },
+  "image#header-youtube": {
+    "props": {
+      "src": "/arquivos/logo-youtube-branco.svg",
+      "alt": "Youtube"
+    }
+  }
+  /*FIM TOP BAR*/
+}

@@ -1,0 +1,170 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "sy-newsletter",
+      "flex-layout.row#footer-desktop-container"      
+    ],
+    "props": {
+      "blockClass": "sy-footer-container"
+    }
+  },
+  "flex-layout.row#footer-desktop-container": {
+    "children": ["flex-layout.col#footer-desktop-container"]
+  },
+  "flex-layout.col#footer-desktop-container": {
+    "children": [
+      "flex-layout.row#footer-top-desktop",
+      "flex-layout.row#footer-bottom-desktop"
+    ]
+  },
+  "flex-layout.row#footer-top-desktop": {
+    "children": [
+      "flex-layout.col#footer-top-desktop",
+      "vtex.menu@2.x:menu#Institucional",
+      "vtex.menu@2.x:menu#FaleConosco",
+      "flex-layout.col#footer-payment"
+    ],
+    "props": {
+      "blockClass": "sy-footer-links"
+    }
+  },
+  "flex-layout.col#footer-top-desktop": {
+    "children": [
+      "logo#footer-logo-desktop--edit",
+      "rich-text#social",
+      "flex-layout.row#footer-social-images"
+    ],
+    "props": {
+      "blockClass": "sy-footer-logo"
+    }
+  },
+  "rich-text#social": {
+    "props": {
+      "text": "Redes sociais",
+      "blockClass": "social-title"
+    }
+  },
+  "flex-layout.row#footer-social-images": {
+    "children": ["link#instagram", "link#facebook", "link#youtube"],
+    "props": {
+      "blockClass": "sy-footer-social"
+    }
+  },
+  "link#instagram": {
+    "children": ["image#instagram"],
+    "props": {
+      "href": "https://www.instagram.com/modadelrio/",
+      "target": "_blank"
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "/arquivos/logo-instagram.svg",      
+      "alt": "Instagram"
+    }
+  },
+  "link#facebook": {
+    "children": ["image#facebook"],
+    "props": {
+      "href": "https://www.facebook.com/ModaDelRio/",
+      "target": "_blank"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "src": "/arquivos/logo-facebook.svg",
+      "alt": "Facebook"
+    }
+  },
+  "link#youtube": {
+    "children": ["image#youtube"],
+    "props": {
+      "href": "https://www.youtube.com/channel/UCGeujNJJZ7jHKxUaPtJsmWw",
+      "target": "_blank"
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "/arquivos/logo-youtube.svg",
+      "alt": "Youtube"
+    }
+  },
+  "logo#footer-logo-desktop--edit": {
+    "props": {
+      "url": "/arquivos/logo-DelRio-preto.png",
+      "href": "/",
+      "blockClass": "footer-logo-desktop"
+    }
+  },
+  "flex-layout.col#footer-payment": {
+    "children": ["vtex.menu@2.x:menu#Pagamento", "vtex.menu@2.x:menu#Security"],
+    "props": {
+      "blockClass": "sy-footer-right"
+    }
+  },
+  "flex-layout.row#footer-bottom-desktop": {
+    "children": ["flex-layout.row#footer-copy-col"],
+    "props": {
+      "blockClass": "sy-footer-copy"
+    }
+  },
+  "flex-layout.row#footer-copy-col": {
+    "children": ["rich-text#copy", "flex-layout.row#footer-bottom-images"],
+    "props": {
+      "blockClass": "sy-footer-copy-col"
+    }
+  },
+  "flex-layout.row#footer-bottom-images": {
+    "children": ["image#infracommerce-logo"],
+    "props": {
+      "width": "100%",
+      "blockClass": "sy-payments-synap"
+    }
+  },
+  "rich-text#copy": {
+    "props": {
+      "text": "2021 © Copyright Delrio. Todos os direitos reservados.\nA loja online Delrio é operada pela Infracommerce CNPJ: 15.427.207/0009-71 / Endereço: CENU - Torre Norte, Av. das Nações Unidas, 12901 - Cidade Monções, São Paulo.",
+      "blockClass": "sy-footer-copy-content",
+      "width": "100%"
+    }
+  },
+  "image#infracommerce-logo": {
+    "props": {
+      "src": "assets/global-logo-infracommerce.png",
+      "link": {
+        "url": "https://www.infracommerce.com.br/",
+        "openNewTab": true,
+        "noFollow": true,
+        "title": "Infracommerce"
+      },
+      "blockClass": "logo-infracommerce"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "sy-newsletter",
+      "flex-layout.row#footer-top-mobile",
+      "flex-layout.row#footer-bottom-mobile"      
+    ]
+  },
+  "flex-layout.row#footer-top-mobile": {
+    "children": [
+      "flex-layout.col#footer-top-desktop",
+      "vtex.menu@2.x:menu#Institucional",
+      "vtex.menu@2.x:menu#FaleConosco",
+      "flex-layout.col#footer-payment"
+    ],
+    "props": {
+      "blockClass": "sy-footer-links"
+    }
+  },
+  "flex-layout.row#footer-bottom-mobile": {
+    "children": ["flex-layout.row#footer-copy-col"],
+    "props": {
+      "blockClass": "sy-footer-copy"
+    }
+  }
+}

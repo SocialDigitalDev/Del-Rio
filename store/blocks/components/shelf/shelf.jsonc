@@ -1,0 +1,98 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "shelf-color",
+      "product-summary-space",
+      "flex-layout.row#prices"
+      // "flex-layout.row#btn-buy"
+    ]
+  },
+  "flex-layout.row#prices": {
+    "children": [
+      "flex-layout.col#prices",
+      "product-installments#summary"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-price"
+    }
+  },
+  "flex-layout.col#prices": {
+    "children": [
+      "product-list-price",
+      "flex-layout.row#selling-price-savings"
+    ]
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+    ]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "showVariationsLabels": ["false"]
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["product-selling-price#summary"]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "alwaysShow": true
+    }
+  },
+  "flex-layout.row#btn-buy": {
+    "props": {
+      "blockClass": "buy-btn"
+    },
+    "children": ["product-summary-buy-button"]
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Comprar"
+    }
+  }
+}

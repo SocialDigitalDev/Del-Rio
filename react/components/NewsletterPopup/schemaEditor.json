@@ -1,0 +1,27 @@
+{
+  "title": "Popup Newsletter",
+  "description": "Popup inicial contendo a newsletter",
+  "type": "object",
+  "properties": {
+      "image": {
+          "title": "Imagem",
+          "description": "Imagem",
+          "type": "string"
+      },
+      "button": {
+          "title": "Texto do botão",
+          "description": "Texto do botão de enviar",
+          "type": "string"
+      },
+      "title": {
+          "title": "Título",
+          "description": "Título",
+          "type": "string"
+      },
+      "highlighted-title": {
+          "title": "Título em destaque",
+          "description": "Título em destaque",
+          "type": "string"
+      }
+  }
+}

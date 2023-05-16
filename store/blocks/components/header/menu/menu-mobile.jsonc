@@ -1,0 +1,190 @@
+{
+  "rich-text#feminino-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Feminino](/feminino)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#feminino-m": {
+    "props": {
+      "blockClass": "feminino-m",
+      "orientation": "vertical"
+    }
+  },
+
+  /*************************************************/
+  /*************  MASCULINO  *************/
+  /*************************************************/
+ 
+  "rich-text#masculino-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Masculino](/masculino)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#masculino-m": {
+    "props": {
+      "blockClass": "masculino-m",
+      "orientation": "vertical"
+    }
+  },
+
+  /*************************************************/
+  /*************  INFANTIL  *************/
+  /*************************************************/
+
+  "rich-text#infantil-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Infantil](/infantil)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#infantil-m": {
+    "props": {
+      "blockClass": "infantil-m",
+      "orientation": "vertical"
+    }
+  },
+
+  /*************************************************/
+  /*************  MATERNIDADE  *************/
+  /*************************************************/
+
+  "rich-text#maternidade-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Maternidade](/maternidade)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#maternidade-m": {
+    "props": {
+      "blockClass": "maternidade-m",
+      "orientation": "vertical"
+    }
+  },
+
+
+  /*************************************************/
+  /*************  kits  *************/
+  /*************************************************/
+  "rich-text#kits-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Kits](/kits)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#kits-m": {
+    "props": {
+      "blockClass": "kits-m",
+      "orientation": "vertical"
+    }
+  },
+  
+  /*************************************************/
+  /*************  ECOLOGICO  *************/
+  /*************************************************/
+  "rich-text#ecologico-mobile": {
+    "props": {
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ecologico](/ecologico)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#ecologico-m": {
+    "props": {
+      "blockClass": "ecologico-m",
+      "orientation": "vertical"
+    }
+  },
+
+
+  /*************************************************/
+  /*************  NOVIDADES | OFERTAS  *************/
+  /*************************************************/
+  "menu-item#novidades-mobile": {
+    "blocks": [
+      // "vtex.menu@2.x:submenu.accordion#novidades-mobile"
+    ],
+    "props": {
+      "blockClass": ["main-mobile", "novidades-item"],
+      "id": "menu-item-category-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      }
+    }
+  },
+  "menu-item#ofertas-mobile": {
+    "blocks": [
+      // "vtex.menu@2.x:submenu.accordion#ofertas-mobile"
+    ],
+    "props": {
+      "blockClass": ["main-mobile", "ofertas-mobile"],
+      "id": "menu-item-category-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    }
+  },
+  "menu-item#linhanoite-mobile": {
+    "blocks": [
+      // "vtex.menu@2.x:submenu.accordion#linhanoite-mobile"
+    ],
+    "props": {
+      "blockClass": ["main-mobile", "linhanoite-item"],
+      "id": "menu-item-category-linhanoite",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linha-noite",
+        "noFollow": true,
+        "tagTitle": "LINHA NOITE",
+        "text": "LINHA NOITE"
+      }
+    }
+  }
+}

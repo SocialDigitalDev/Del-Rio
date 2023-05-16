@@ -1,0 +1,138 @@
+body.estilo-bf .render-route-store-home .bg-base{
+    position: relative;
+    background-color: #121212;
+}
+body.estilo-bf .render-route-store-home .bg-base::before {
+    position: absolute;
+    content: "";
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background:url("https://delrio.vtexassets.com/arquivos/bg-selo-black-friday-delrio.png") center top repeat-y ;
+    z-index: 0;
+}
+
+body.estilo-bf .vtex-flex-layout-0-x-flexRow--sy-topHeader-desk{
+    background-color: #2F2F2F;
+    z-index: 1;
+}
+body.estilo-bf .vtex-flex-layout-0-x-flexRow--sy-topHeader-desk .vtex-store-components-3-x-imageElement {filter: brightness(0);}
+body.estilo-bf .vtex-sticky-layout-0-x-wrapper .vtex-flex-layout-0-x-flexRow--sy-desktop-header {background-color: #121212;} 
+body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input::-webkit-input-placeholder{color: #beafd1;}
+body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input:-ms-input-placeholder{color: #beafd1;}
+body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input::placeholder{color: #beafd1;}
+body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer--sy-search-desktop .vtex-input-prefix__group{
+    background: #272727;
+    border-color: #272727;
+}
+body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer--sy-search-desktop .vtex-input-prefix__group .vtex-styleguide-9-x-input,
+body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer--sy-search-desktop .vtex-input-prefix__group .vtex-input__suffix {
+    background: #272727;
+    color: #beafd1;
+    opacity: 1;
+}
+body.estilo-bf .vtex-store-components-3-x-searchBarIcon--search::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.5 11.5H11.71L11.43 11.23C12.41 10.09 13 8.61 13 7C13 3.41 10.09 0.5 6.5 0.5C2.91 0.5 0 3.41 0 7C0 10.59 2.91 13.5 6.5 13.5C8.11 13.5 9.59 12.91 10.73 11.93L11 12.21V13L16 17.99L17.49 16.5L12.5 11.5ZM6.5 11.5C4.01 11.5 2 9.49 2 7C2 4.51 4.01 2.5 6.5 2.5C8.99 2.5 11 4.51 11 7C11 9.49 8.99 11.5 6.5 11.5Z' fill='%23beafd1'/%3E%3C/svg%3E");
+}
+body.estilo-bf .vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger .vtex-rich-text-0-x-paragraph{color: #beafd1;}
+body.estilo-bf .vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger .vtex-rich-text-0-x-paragraph::before {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M16.1249 6.75C15.9412 9.22828 14.0624 11.25 11.9999 11.25C9.93742 11.25 8.05538 9.22875 7.87492 6.75C7.68742 4.17188 9.51554 2.25 11.9999 2.25C14.4843 2.25 16.3124 4.21875 16.1249 6.75Z' stroke='%23beafd1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M12 14.25C7.92187 14.25 3.7828 16.5 3.01687 20.7469C2.92452 21.2588 3.21421 21.75 3.74999 21.75H20.25C20.7862 21.75 21.0759 21.2588 20.9836 20.7469C20.2172 16.5 16.0781 14.25 12 14.25Z' stroke='%23beafd1' stroke-miterlimit='10'/%3e%3c/svg%3e ");
+}
+body.estilo-bf .vtex-minicart-2-x-minicartIconContainer::before {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.75 8.25C3.55109 8.25 3.36032 8.32902 3.21967 8.46967C3.07902 8.61032 3 8.80109 3 9V19.125C3 20.5425 4.2075 21.75 5.625 21.75H18.375C19.7925 21.75 21 20.6011 21 19.1836V9C21 8.80109 20.921 8.61032 20.7803 8.46967C20.6397 8.32902 20.4489 8.25 20.25 8.25H3.75Z' stroke='%23beafd1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M7.5 8.25V6.75C7.5 5.55653 7.97411 4.41193 8.81802 3.56802C9.66193 2.72411 10.8065 2.25 12 2.25V2.25C13.1935 2.25 14.3381 2.72411 15.182 3.56802C16.0259 4.41193 16.5 5.55653 16.5 6.75V8.25' stroke='%23beafd1' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e ");
+}
+body.estilo-bf .vtex-minicart-2-x-minicartIconContainer::after {color: #beafd1;}
+body.estilo-bf .vtex-sticky-layout-0-x-wrapper .vtex-flex-layout-0-x-flexRow--sy-navMenu-desk .vtex-store-components-3-x-container { background-color: #47395A;}
+body.estilo-bf .vtex-menu-2-x-submenuContainer--main-submenu .vtex-menu-2-x-submenu{ background: #121212; }
+body.estilo-bf .vtex-menu-2-x-submenuContainer--main-submenu .vtex-menu-2-x-submenu .vtex-menu-2-x-styledLinkContent--submenuTitle {color: #beafd1; }
+
+body.estilo-bf .vtex-store-footer-2-x-footerLayout .vtex-menu-2-x-styledLink--highlight,
+body.estilo-bf .vtex-store-footer-2-x-footerLayout .vtex-rich-text-0-x-paragraph--social-title ,
+body.estilo-bf .vtex-store-footer-2-x-footerLayout .vtex-menu-2-x-styledLink--highlight .vtex-menu-2-x-styledLinkContent,
+body.estilo-bf .vtex-store-footer-2-x-footerLayout .vtex-rich-text-0-x-paragraph--social-title .vtex-menu-2-x-styledLinkContent,
+body.estilo-bf .vtex-store-footer-2-x-footerLayout .vtex-menu-2-x-styledLink,
+body.estilo-bf .vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors span.delrio--list-qtd ,
+body.estilo-bf .vtex-flex-layout-0-x-flexRowContent--product-price .vtex-product-price-1-x-sellingPriceValue--summary .vtex-product-price-1-x-currencyContainer--summary,
+body.estilo-bf .vtex-flex-layout-0-x-flexRowContent--product-price .vtex-product-price-1-x-installments--summary,
+body.estilo-bf .vtex-product-price-1-x-listPrice,
+body.estilo-bf .vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-nameContainer .vtex-product-summary-2-x-brandName {
+    color: #fff;  
+}
+body.estilo-bf .vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--sy-footer-links {
+    background: #2F2F2F;
+}
+body.estilo-bf .vtex-product-summary-2-x-containerNormal {
+    background-color: #222222;
+    border-radius: 0;
+}
+body.estilo-bf .vtex-rich-text-0-x-heading--banners-categoriesTitle,
+body.estilo-bf .vtex-rich-text-0-x-headingLevel2--shelfTitle,
+body.estilo-bf .vtex-rich-text-0-x-paragraph--sy-instafeed-title {
+    color:#FF2D2F;
+}
+
+@media (max-width: 767px) {
+    body.estilo-bf .vtex-rich-text-0-x-heading--banners-categoriesTitle,
+    body.estilo-bf .vtex-rich-text-0-x-headingLevel2--shelfTitle,
+    body.estilo-bf .vtex-rich-text-0-x-paragraph--sy-instafeed-title {
+        color:#FF2D2F;
+    }
+}
+
+body.estilo-bf .vtex-store-components-3-x-infoCardCallActionContainer--style-bf {
+    background: #FF2D2F;
+}
+
+body.estilo-bf .sy-form-newsletter .sy-inputs-newsletter input,
+body.estilo-bf .sy-form-newsletter .sy-termo-newsletter input{
+    background: #121212!important;
+}
+
+body.estilo-bf .vtex-sticky-layout-0-x-container--sy-mobile-header .vtex-flex-layout-0-x-flexRow--sy-flex-headerMobile{
+    background-color: #121212;
+}
+body.estilo-bf .vtex-store-drawer-0-x-openIconContainer--sy-menu-mobile::before{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M3.75 7.5H20.25' stroke='%23beafd1' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M3.75 12H20.25' stroke='%23beafd1' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M3.75 16.5H20.25' stroke='%23beafd1' stroke-miterlimit='10' stroke-linecap='round'/%3e%3c/svg%3e")
+}
+body.estilo-bf .vtex-modal-layout-0-x-triggerContainer--sy-modal-trigger--search-mobile img{
+    filter: brightness(300%);
+}
+
+body.estilo-bf  .vtex-modal-layout-0-x-paper--sy-modal--search-mobile{
+    background-color: #2F2F2F;
+}
+
+body.estilo-bf .vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group{
+    background: #272727;
+    border-color: #272727;
+}
+
+body.estilo-bf .vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group .vtex-styleguide-9-x-input,
+body.estilo-bf .vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group .vtex-input__suffix{
+    background: #272727;
+}
+body.estilo-bf .vtex-store-drawer-0-x-drawer--sy-menu-mobile, 
+body.estilo-bf .vtex-store-drawer-0-x-overlay--sy-menu-mobile,
+body.estilo-bf .vtex-store-drawer-0-x-drawer--submenu-mobile,
+body.estilo-bf .vtex-store-drawer-0-x-overlay--submenu-mobile,
+body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--sy-menu-mobile,
+body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--submenu-mobile{
+    background-color: #121212;
+}
+
+body.estilo-bf .vtex-rich-text-0-x-wrapper--submenu-mobile, 
+body.estilo-bf .vtex-menu-2-x-styledLink--main-mobile,
+body.estilo-bf .vtex-store-drawer-0-x-drawerContent--submenu-mobile .vtex-rich-text-0-x-wrapper--main-mobile, 
+body.estilo-bf .vtex-store-drawer-0-x-drawerContent--submenu-mobile .vtex-menu-2-x-styledLink{
+    border-bottom:1px solid #beafd1;
+}
+body.estilo-bf .vtex-menu-2-x-styledLinkContent--main-mobile,
+body.estilo-bf .vtex-rich-text-0-x-paragraph--submenu-mobile,
+body.estilo-bf .vtex-rich-text-0-x-paragraph--categorias-item{
+    color: #beafd1;
+}
+body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--sy-menu-mobile .vtex-store-drawer-0-x-closeIcon,
+body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--submenu-mobile .vtex-store-drawer-0-x-closeIcon {
+    filter: brightness(300%);
+}

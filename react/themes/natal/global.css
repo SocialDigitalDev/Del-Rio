@@ -1,0 +1,152 @@
+.render-route-store-home .bg-base{
+    position: relative;
+    background-color: #87050D;
+}
+.vtex-flex-layout-0-x-flexRow--sy-topHeader-desk, 
+.vtex-flex-layout-0-x-flexRow--sy-topHeader-mobile {
+    background-color: #121212!important;
+    z-index: 1;
+}
+.render-route-store-home .bg-base::before {
+    position: absolute;
+    content: "";
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background:url("https://delrio.vtexassets.com/arquivos/bg-selo-natal-delrio.png") center top repeat-y ;
+    z-index: 0;
+    top: 500px;
+}
+.vtex-flex-layout-0-x-flexRow--sy-navMenu-desk {
+    background-color: #87050D;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--sy-container {
+    background-color: #FFF;
+    padding: 0 20px;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--sy-banner-container,
+.vtex-flex-layout-0-x-flexRowContent--sy-container .vtex-flex-layout-0-x-flexColChild {
+    background-color: #fff;
+}
+
+
+
+/* header */
+.vtex-flex-layout-0-x-flexRow--sy-navMenu-desk {
+    background-color: #fff!important;
+}
+.vtex-sticky-layout-0-x-container--sticky-header {
+    background-color: #87050D!important;
+}
+.vtex-sticky-layout-0-x-wrapper 
+.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger 
+.vtex-rich-text-0-x-paragraph {
+    color: #fff;
+}
+.vtex-sticky-layout-0-x-wrapper .vtex-minicart-2-x-minicartIconContainer::after {
+    color: #fff;
+}
+.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger .vtex-rich-text-0-x-paragraph::before,
+.vtex-minicart-2-x-minicartIconContainer::before {
+    filter: brightness(10);
+}
+.vtex-menu-2-x-styledLink--main-menu-item .vtex-menu-2-x-styledLinkContent--main-menu-item {
+    color: #87050D!important;
+}
+.vtex-menu-2-x-styledLinkContent--submenuTitle {
+    color: #222222!important;
+}
+.vtex-menu-2-x-styledLinkContent--submenuTitle:hover {
+    color: #87050D!important;
+    text-decoration: none!important;
+}
+
+/* banner tv */
+.vtex-slider-layout-0-x-paginationDot.vtex-slider-layout-0-x-paginationDot--isActive,
+.vtex-store-components-3-x-swiperBullet.vtex-store-components-3-x-swiperBullet--active {
+    background-color: #87050D!important;
+}
+
+/* slick */
+.vtex-slider-layout-0-x-sliderArrows--sy-banner-categories {
+    background-color: #87050D!important;
+    height: 30px;
+}
+.vtex-slider-layout-0-x-sliderArrows--sy-banner-categories svg {
+    filter: invert(1);
+}
+
+/* compre por tamanho */
+.vtex-rich-text-0-x-heading--banners-categoriesTitle {
+    color: #87050D!important;
+}
+.vtex-store-components-3-x-infoCardCallActionContainer--sy-banner-categories {
+    background-color: #87050D!important;
+}
+
+/* titulo vitrine */
+.vtex-rich-text-0-x-headingLevel2--shelfTitle, .vtex-rich-text-0-x-paragraph--sy-instafeed-title {
+    color: #87050D!important;
+}
+
+/* vitrines */
+.vtex-flex-layout-0-x-flexRowContent--product-price .vtex-flex-layout-0-x-flexColChild {
+    background: transparent;
+    padding: 0;
+}
+.vtex-flex-layout-0-x-flexRowContent--product-price .vtex-product-price-1-x-sellingPriceValue--summary .vtex-product-price-1-x-currencyContainer--summary {
+    color: #87050D!important;
+}
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color {
+    border-radius: 0!important;
+}
+
+/* instagram */
+.instafeed {
+    padding-bottom: 20px;
+}
+
+
+/* FOOTER */
+.vtex-store-footer-2-x-footerLayout--sy-footer-container > section {
+    background: #fff;
+}
+.vtex-store-footer-2-x-footerLayout--sy-footer-container .sy-newsletter-center h2 {
+    color: #87050D!important;
+}
+.vtex-store-footer-2-x-footerLayout--sy-footer-container .sy-form-newsletter .sy-termo-newsletter a {
+    color: #2F2F2F!important;
+}
+.vtex-store-footer-2-x-footerLayout--sy-footer-container .sy-form-newsletter .sy-inputs-newsletter input[type='text'] {
+    background-color: #EFEFEF!important;
+}
+.vtex-store-footer-2-x-footerLayout--sy-footer-container .sy-form-newsletter .sy-termo-newsletter input[type="checkbox"] {
+    background-color: #EFEFEF!important;
+}
+
+.vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--sy-footer-links {
+    background-color: #87050D!important;
+}
+.vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--sy-footer-links *{
+    color: #fff!important;
+}
+
+.vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--sy-footer-links img {
+    filter: brightness(0) grayscale(2) contrast(1) invert(1);
+}
+
+.vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--sy-footer-copy {
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+.vtex-store-footer-2-x-footerLayout .vtex-flex-layout-0-x-flexRow--sy-footer-copy .vtex-rich-text-0-x-paragraph--sy-footer-copy-content {
+    color: #000;
+}
+
+.vtex-flex-layout-0-x-flexRow.vtex-flex-layout-0-x-flexRow--sy-payments-synap {
+    filter: invert(1);
+}

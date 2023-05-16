@@ -1,0 +1,135 @@
+:global(.vtex-flex-layout-0-x-flexCol--e-product-price) {
+  flex-direction: row;
+  align-items: center;
+  max-width: 540px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--e-product-price) :global(.vtex-flex-layout-0-x-flexRowContent) {
+  margin: 0;
+}
+
+.listPrice {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+  text-decoration-line: line-through;
+  display: flex;
+  min-height: 30px;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--sy-product-price) .sellingPrice {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: left;
+  margin-right: 116px;
+}
+
+.sellingPriceValue {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: left;
+}
+
+.installments {
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  display: flex;
+  min-height: 30px;
+  align-items: center;
+}
+
+.installmentsNumber,
+.installmentValue{
+  margin: 0 1.5px;
+}
+
+.savings {
+  font-weight: 500;
+  color: #efefef;
+  background: #861e1f;
+  padding: 6px;
+  font-size: 11px;
+  width: max-content;
+}
+
+.savings--savings-product{
+  height: 11px;
+}
+
+.sellingPriceValue--summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2E2E2E;
+}
+
+.savings--summary {
+  background: #8BC34A;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: .875rem;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.listPrice--summary , .installments--summary{
+  padding: 0px 10px;
+}
+
+.savings--summary{
+  display: none;
+}
+
+.installments--summary{
+  margin-bottom: 10px;
+}
+
+.installments--productDetails-installments{
+  font-size: 15px;
+}
+
+/* Product */
+
+.installments--productDetails-installments{color:#000;text-transform:uppercase;}
+
+@media only screen and (max-width: 640px) {
+  .installments--productDetails-installments{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .listPrice--summary , .installments--summary{
+    padding: 0px 55px;
+    display: block;
+  }
+}

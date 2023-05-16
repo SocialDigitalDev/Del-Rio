@@ -1,0 +1,201 @@
+.institutional-main .vtex-flex-layout-0-x-flexRow--newsletter-footer{
+    display: none;
+}
+
+.sy-institutional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sy-institucional__banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.sy-institucional__banner-img{
+    width: 100%;
+    height: auto;
+}
+.sy-institucional__banner-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sy-institucional__banner-text .vtex-rich-text-0-x-headingLevel4--title-institucional{
+    margin: unset;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    color: #000;
+}
+@media (min-width: 1200px) {
+    .sy-institucional__banner-text .vtex-rich-text-0-x-headingLevel4--title-institucional{
+        max-width: 500px;
+    }
+}
+
+.sy-institucional__main{
+    margin-top: 48px;
+    margin-bottom: 175px;
+    padding-left: 11.2%;
+    padding-right: 11.3%;
+    display: flex;
+}
+
+.sy-institucional__main-left{
+    display: flex;
+    flex-direction: column;
+    padding: unset;
+    margin: unset;
+}
+
+.sy-institucional__main-left--item{
+    margin-bottom: 15px;
+    width: 250px;
+    height: 40px;
+    background: #e6eae9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sy-institucional__main-left--item.active{
+    background-color: #47395A;
+}
+.sy-institucional__main-left--item:last-of-type{
+    margin-bottom: unset;
+}
+
+.sy-institucional__main-right--title h1{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    color: #000;
+}
+
+.sy-institucional__main-right--title h4 {
+    font-size: 18px;
+}
+
+.sy-institucional__main-left--item a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.sy-institucional__main-left--item.active a{
+    color: #FFFFFF;
+}
+
+.sy-institucional__main-right{
+    margin-left: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sy-institucional__main-right--title{
+    margin-top: 8px;
+    margin-left: 7px;
+    margin-bottom: 33px;
+}
+.sy-institucional__main-right--title .vtex-rich-text-0-x-headingLevel4--title-institucional{
+    margin: unset;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: #000;
+}
+
+.sy-institucional__main-right--text .vtex-rich-text-0-x-headingLevel4--text-institucional{
+    margin-top: unset;
+}
+
+.sy-institucional__main-right--text .vtex-rich-text-0-x-headingLevel4--text-institucional,
+.sy-institucional__main-right--text .vtex-rich-text-0-x-paragraph--text-institucional{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    color: #000;
+}
+
+
+/* tablet */
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    .sy-institucional__banner{
+        width: 100%;
+    }
+    .sy-institucional__banner-text .vtex-rich-text-0-x-headingLevel4--title-institucional{
+        font-size: 42px;
+    }
+    
+    .sy-institucional__main{
+        margin-bottom: 193px;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .sy-institucional__main-left{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 85px;
+    }
+    .sy-institucional__main-left--item{
+        height: 50px;
+    }
+    .sy-institucional__main-right{
+        margin-right: unset;
+        margin-top: 64px;
+    }
+    .sy-institucional__main-right--title{
+        margin-top: unset;
+        margin-left: unset;
+        margin-bottom: 29px;
+    }
+}
+
+/* mobile */
+@media (max-width: 766px) {
+    .sy-institucional__banner{
+        width: 100%;
+    }
+    
+    .sy-institucional__banner-text .vtex-rich-text-0-x-headingLevel4--title-institucional{
+        font-size: 32px;
+    }
+    
+    .sy-institucional__main{
+        margin-bottom: 208px;
+        flex-direction: column;
+        padding: 0 17px;
+    }
+    .sy-institucional__main-left{
+        align-items: center;
+    }
+    .sy-institucional__main-left--item{
+        height: 50px;
+    }
+    .sy-institucional__main-right{
+        margin-right: unset;
+        margin-top: 46px;
+    }
+    .sy-institucional__main-right--title{
+        margin-top: unset;
+        margin-left: unset;
+        margin-bottom: 29px;
+    }
+}

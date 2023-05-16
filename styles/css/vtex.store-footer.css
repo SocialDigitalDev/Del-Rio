@@ -1,0 +1,300 @@
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-blocks) {
+  width: 100%;
+  background: #626262;
+  padding: 0;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-blocks) :global(.vtex-menu-2-x-styledLink) {
+  color: #000;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  text-transform: initial;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-blocks) :global(.vtex-menu-2-x-styledLink):global(.vtex-menu-2-x-styledLink--highlight) {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-blocks) :global(.vtex-menu-2-x-styledLink):hover {
+  color: #000;
+  font-weight: bold;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-menu-2-x-styledLink--highlight),
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-rich-text-0-x-paragraph--social-title) {
+  color: #575757;
+  font-family:  "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-menu-2-x-styledLink--highlight) :global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-rich-text-0-x-paragraph--social-title) :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #575757;
+  font-family:  "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-menu-2-x-styledLink) {
+  color: #626262;
+  font-family: "Open Sans";  
+  font-size: 12px;
+  line-height: 16px;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-payments-methods) {
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-rich-text-0-x-wrapper--sobre-title) {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-rich-text-0-x-wrapper--sobre-title) :global(.vtex-rich-text-0-x-paragraph--sobre-title) {
+  margin: 0;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-payments-right),
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--payments-logo) {
+  align-items: center;
+}
+
+@media (max-width: 622px) {
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-payments-right),
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--payments-logo),
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--payments-logo) :global(.vtex-flex-layout-0-x-flexRowContent--payments-logo) {
+    display: flex;
+    margin-left: 0;
+  }
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-payments-right) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+  justify-content: flex-start;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+  max-width: none;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-links) {
+  background: #E4E4E4;
+  position: relative;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-links) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-links) {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+@media (min-width: 623px) and (max-width: 1080px) {
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--sy-footer-links) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-links) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-links) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100%;
+  }
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0;
+  min-width: auto;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexCol--sy-footer-logo) {
+  align-items: center;
+  min-width: 200px;
+}
+
+:global(.vtex-store-components-3-x-logoLink--footer-logo-desktop) {
+  display: block;
+  margin-bottom: 30px;
+  line-height: 22px;
+}
+
+@media (min-width:623px) and (max-width: 1080px) {
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexCol--sy-footer-logo) {
+    align-items: flex-start;
+  }
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-social) {
+  display: flex;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-social) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  padding: 0 8px;
+}
+
+@media  (min-width: 623px) and (max-width: 1080px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-social) {
+    flex-direction: row;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--sy-footer-right) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px !important;
+    margin-top: 30px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-links) :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-social) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--sy-fale-institucional),
+:global(.vtex-menu-2-x-menuContainerNav--sy-fale-conosco),
+:global(.vtex-menu-2-x-menuContainerNav--sy-payments-block),
+:global(.vtex-menu-2-x-menuContainerNav--sy-security-block) {
+  min-width: 200px;
+  margin: 0;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--sy-fale-institucional) :global(.vtex-menu-2-x-styledLinkContainer),
+:global(.vtex-menu-2-x-menuContainerNav--sy-fale-conosco) :global(.vtex-menu-2-x-styledLinkContainer),
+:global(.vtex-menu-2-x-menuContainerNav--sy-payments-block) :global(.vtex-menu-2-x-styledLinkContainer),
+:global(.vtex-menu-2-x-menuContainerNav--sy-security-block) :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}
+
+@media (max-width: 622px) {
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexCol--sy-footer-logo),
+  :global(.vtex-menu-2-x-menuContainerNav--sy-fale-conosco),
+  :global(.vtex-menu-2-x-menuContainerNav--sy-fale-institucional) {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 622px) {
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-payments-social) {
+    display: flex;
+  }
+
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-menu-2-x-menuContainer) {
+    align-items: center;
+  }
+
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexCol--sy-footer-right) {
+    grid-gap:  20px;
+  }
+}
+
+
+
+/*COPY RIGHT*/
+:global(.vtex-flex-layout-0-x-flexRow--sy-footer-copy) {
+  width: 100%;
+  background: #47395A;
+  padding: 24px 10px;
+}
+
+
+@media (max-width: 1080px){
+  :global(.vtex-flex-layout-0-x-flexRow--sy-footer-copy) {
+    padding: 16px 10px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sy-footer-copy) :global(.vtex-rich-text-0-x-paragraph--sy-footer-copy-content) {
+  color: #FFF;
+  font-family:  "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  max-width: 663px;
+  width: 100%;
+}
+
+@media (max-width: 622px) {
+  :global(.vtex-rich-text-0-x-container--sy-footer-copy-content) {
+    max-width: 345px;
+    margin: 0 auto;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--sy-footer-copy) :global(.vtex-rich-text-0-x-paragraph--sy-footer-copy-content) {
+    text-align: center;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-copy-col) {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-copy-col) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  padding: 0 10px;
+}
+
+@media (max-width: 622px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-copy-col) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-payments-synap){
+  max-width: 141px !important;
+  width: 100%;
+}
+
+@media (max-width: 622px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--sy-payments-synap){
+    margin: 20px auto;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-payments-synap) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  justify-content: flex-end !important;
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-copy-col) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+
+
+
+@media (max-width: 622px) {
+  :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRowContent--sy-footer-copy) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: center;
+  }
+}
+
+.row--menu-row {
+  padding-right: 24px
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start
+}
+
+.row--payment-methods {
+  padding-top: 16px
+}

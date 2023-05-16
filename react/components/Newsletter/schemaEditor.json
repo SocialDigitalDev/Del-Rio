@@ -1,0 +1,37 @@
+{
+  "title": "Newsletter",
+  "description": "Newsletter",
+  "type": "object",
+  "properties": {
+    "title": {
+      "title": "Título",
+      "description": "Titulo da seção",
+      "type": "string"
+    },
+    "subtitle": {
+      "title": "Subtítulo",
+      "description": "Subtítulo",
+      "type": "string"
+    },
+    "placeholdername": {
+      "title": "Placeholder Nome",
+      "description": "Descrição do campo Nome",
+      "type": "string"
+    },
+    "placeholderemail": {
+      "title": "Placeholder E-mail",
+      "description": "Descrição do campo E-mail",
+      "type": "string"
+    },
+    "textbutton": {
+      "title": "Texto Botão",
+      "description": "Texto do botão de cadastrar",
+      "type": "string"
+    },
+    "texttermo": {
+      "title": "Termo de aceite",
+      "description": "Texto do termo de aceite",
+      "type": "string"
+    }
+  }
+}

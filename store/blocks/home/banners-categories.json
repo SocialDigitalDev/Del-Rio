@@ -1,0 +1,244 @@
+{
+  "rich-text#title-banners-categories": {
+    "props": {
+      "text": "## Compre por tamanho",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["banners-categoriesTitle"]
+    }
+  },
+  "flex-layout.row#banners-categories": {
+    "title": "Compre por tamanho",
+    "props": {
+      "blockClass": "sy-row-banner-categories"
+    },
+    "children": ["slider-layout#categories"]
+  },
+  "info-card#banner-categorie-38": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "38",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-40": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "40",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-42": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "42",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-44": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "44",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-46": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "46",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-48": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "48",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-50": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "50",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-52": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "52",
+      "callToActionUrl": "/feminino/52?initialMap=c&initialQuery=feminino&map=category-1,tamanho",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-54": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "54",
+      "callToActionUrl": "/feminino/54?initialMap=c&initialQuery=feminino&map=category-1,tamanho",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-PP": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "PP",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-P": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "P",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-M": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "M",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-G": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "G",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-GG": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "GG",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-EG": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "EG",
+      "callToActionUrl": "/",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-categorie-EEG": {
+    "props": {
+      "id": "banner-categorie",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "link",
+      "callToActionText": "EEG",
+      "callToActionUrl": "/feminino/eeg?initialMap=c&initialQuery=feminino&map=category-1,tamanho",
+      "blockClass": ["sy-banner-categories"],
+      "textAlignment": "center"
+    }
+  },
+  "slider-layout#categories": {
+    "children": [
+      "info-card#banner-categorie-38",
+      "info-card#banner-categorie-40",
+      "info-card#banner-categorie-42",
+      "info-card#banner-categorie-44",
+      "info-card#banner-categorie-46",
+      "info-card#banner-categorie-48",
+      "info-card#banner-categorie-50",
+      "info-card#banner-categorie-52",
+      "info-card#banner-categorie-54",
+      "info-card#banner-categorie-PP",
+      "info-card#banner-categorie-P",
+      "info-card#banner-categorie-M",
+      "info-card#banner-categorie-G",
+      "info-card#banner-categorie-GG",
+      "info-card#banner-categorie-EG",
+      "info-card#banner-categorie-EEG"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 8,
+        "phone": 4
+      },
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "to-the-left"
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": ["sy-banner-categories"],
+      "arrowSize": 15
+    }
+  }
+}

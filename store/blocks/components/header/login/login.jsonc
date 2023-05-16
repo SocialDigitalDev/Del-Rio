@@ -1,0 +1,56 @@
+{  
+  "modal-trigger#login": {
+    "children": [
+      "rich-text#login",
+      "modal-layout#login"
+    ],
+    "props": {
+      "blockClass": "sy-modal-login__trigger"
+    }
+  },
+  "rich-text#login": {
+    "props": {
+      "text": "Login"
+    }
+  },
+  "modal-layout#login": {
+    "children": [
+      "modal-header#login",
+      "modal-content#login"
+    ],
+    "props": {
+      "blockClass": "sy-modal-login"
+    }
+  },
+  "modal-header#login": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 20,
+      "blockClass": "sy-modal-login__header"
+    }
+  },
+  "modal-content#login": {
+    "children": [
+      "rich-text#login-title",
+      "login-content"
+    ],
+    "props": {
+      "blockClass": "sy-modal-login__content"
+    }
+  },
+  "rich-text#login-title": {
+    "props": {
+      "text": "Login",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "sy-login__content--title"
+    }
+  },
+  "login-content": {
+    "props": {
+      "optionsTitle": "Use uma das opções para confirmar sua identidade",
+      "isInitialScreenOptionOnly": true,
+      "blockClass": "sy-login-content"
+    }
+  }
+}

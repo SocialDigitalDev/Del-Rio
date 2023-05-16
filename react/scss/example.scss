@@ -1,0 +1,6 @@
+.exemplo{
+    display: block;
+    & .example{
+        display: flex;
+    }
+}

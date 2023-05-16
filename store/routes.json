@@ -1,0 +1,17 @@
+{   
+  "store.custom#atendimento": {
+    "path": "/atendimento"
+  },
+  "store.custom#politica-de-entrega" : {
+    "path": "/politica-de-entrega"
+  },
+  "store.custom#politica-de-privacidade" : {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#sobre-a-delrio" : {
+    "path": "/sobre-a-delrio"
+  },
+  "store.custom#trocas-e-devolucoes" : {
+    "path": "/trocas-e-devolucoes"
+  }
+}

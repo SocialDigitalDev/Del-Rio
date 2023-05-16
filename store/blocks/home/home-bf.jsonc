@@ -1,0 +1,188 @@
+{
+    "store.home#home-bf": {
+        "blocks": [
+            "flex-layout.row#banner-principal",
+            "flex-layout.row#home-container",
+            "back-to-top-button"
+        ]
+    },
+    "back-to-top-button": {
+      "props": {
+        "displayThreshold": 800,
+        "display": "caret-icon"
+      }
+    },
+    "flex-layout.row#banner-principal": {
+      "title": "Banner Principal",
+      "children": ["list-context.image-list#banner-principal"],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "sy-banner-container"
+      }
+    },
+  
+    "flex-layout.row#home-container": {
+      "children": ["flex-layout.col#home-container"],
+      "props": {
+        "blockClass": "sy-container"
+      }
+    },
+    
+    "flex-layout.col#home-container": {
+      "children": [
+        "flex-layout.row#banner-quadruple",
+        "rich-text#title-banners-categories",
+        "flex-layout.row#banners-categories",
+        "rich-text#shelf-title1",
+        "flex-layout.row#shelf1",
+        "flex-layout.row#banner-singular",
+        "rich-text#shelf-title2",
+        "flex-layout.row#shelf2",
+        "flex-layout.row#banners-double",
+        "rich-text#shelf-title3",
+        "flex-layout.row#shelf3",
+        "rich-text#instagram-title",
+        "flex-layout.row#instafeed"
+      ]
+    },
+    "list-context.image-list#banner-principal": {
+      "title": "Banners Principal",
+      "children": ["slider-layout#banners"],
+      "props": {
+        "images": [{
+            "image": "/arquivos/735-9_ecommerce_banner-rotativo_01-renda_v1.jpg",
+            "mobileImage": "/arquivos/735-9_ecommerce_rotativo_01-renda_672x450_v1.jpg"
+          },
+          {
+            "image": "/arquivos/735-9_ecommerce_banner-rotativo_02-rioman_v1.jpg",
+            "mobileImage": "/arquivos/735-9_ecommerce_rotativo_02-rioman_672x450_v1.jpg"
+          },
+          {
+            "image": "/arquivos/735-9_ecommerce_banner-rotativo_03-frete-gratis_v1.jpg",
+            "mobileImage": "/arquivos/735-9_ecommerce_rotativo_03-frete-gratis_672x450_v1.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#banners": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "autoplay": {
+          "timeout": 4000,
+          "stopOnHover": true
+        },
+        "slideTransition": {
+          "speed": 4000,
+          "delay": 4000,
+          "timing": 4000
+        },
+        "infinite": true,
+        "showPaginationDots": "always",
+        "showNavigationArrows": "always",
+        "blockClass": ["sy-banner-principal--search"]
+      }
+    },
+  
+    "rich-text#shelf-title1": {
+      "props": {
+        "text": "## Destaques",
+        "blockClass": "shelfTitle"
+      }
+    },
+    "rich-text#shelf-title2": {
+      "props": {
+        "text": "## Destaques",
+        "blockClass": "shelfTitle"
+      }
+    },
+    "rich-text#shelf-title3": {
+      "props": {
+        "text": "## Destaques",
+        "blockClass": "shelfTitle"
+      }
+    },
+  
+    "flex-layout.row#shelf1": {
+      "title": "Vitrine 1",
+      "children": ["list-context.product-list#shelf-home1"],
+      "props": {
+        "blockClass": "shelf-home"
+      }
+    },
+    "list-context.product-list#shelf-home1": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+      }
+    },
+  
+    "flex-layout.row#shelf2": {
+      "title": "Vitrine 2",
+      "children": ["list-context.product-list#shelf-home2"],
+      "props": {
+        "blockClass": "shelf-home"
+      }
+    },
+    "list-context.product-list#shelf-home2": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+      }
+    },
+  
+    "flex-layout.row#shelf3": {
+      "title": "Vitrine 3",
+      "children": ["list-context.product-list#shelf-home3"],
+      "props": {
+        "blockClass": "shelf-home"
+      }
+    },
+    "list-context.product-list#shelf-home3": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC"
+      }
+    },
+  
+    "slider-layout#shelf": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "showPaginationDots": "always",
+        "blockClass": "shelf"
+      }
+    },
+    "rich-text#question": {
+      "props": {
+        "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+        "blockClass": "question"
+      }
+    },
+  
+    "flex-layout.row#instafeed": {
+      "children": ["instafeed"],
+      "props": {
+        "text": "Instagram",
+        "blockClass": "sy-instafeed"
+      }
+    },
+  
+    "rich-text#instagram-title": {
+      "props": {
+        "text": "Instagram",
+        "blockClass": "sy-instafeed-title"
+      }
+    }
+  }

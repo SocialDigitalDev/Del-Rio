@@ -1,0 +1,73 @@
+
+/*ARROWS SLIDER*/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--sy-banner-principal) :global(.vtex-slider-layout-0-x-caretIcon),
+:global(.vtex-flex-layout-0-x-flexRow--sy-row-banner-double) :global(.vtex-slider-layout-0-x-caretIcon),
+:global(.vtex-store-components-3-x-caretIcon){
+  display: none;
+}
+
+:global(.vtex-stack-layout-0-x-stackContainer--product) :global(.vtex-store-components-3-x-swiperCaretPrev),
+:global(.vtex-stack-layout-0-x-stackContainer--product) :global(.vtex-store-components-3-x-swiperCaretNext) {
+  display: none;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--sy-banner-principal) :global(.vtex-slider-layout-0-x-sliderLeftArrow)::before,
+:global(.vtex-flex-layout-0-x-flexRow--sy-row-banner-double) :global(.vtex-slider-layout-0-x-sliderLeftArrow)::before,
+:global(.vtex-stack-layout-0-x-stackContainer--product) :global(.vtex-store-components-3-x-swiperCaretPrev)::before,
+:global(.vtex-modal-layout-0-x-paper--sy-modal-product-zoom) :global(.vtex-store-components-3-x-swiperCaretPrev)::before {
+  content: '';
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='46' viewBox='0 0 24 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M23.25 0.5L0.749999 23L23.25 45.5' stroke='%2334363D' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 46px;
+  display: inline-block;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--sy-banner-principal) :global(.vtex-slider-layout-0-x-sliderRightArrow)::before,
+:global(.vtex-flex-layout-0-x-flexRow--sy-row-banner-double) :global(.vtex-slider-layout-0-x-sliderRightArrow)::before,
+:global(.vtex-stack-layout-0-x-stackContainer--product) :global(.vtex-store-components-3-x-swiperCaretNext)::before,
+:global(.vtex-modal-layout-0-x-paper--sy-modal-product-zoom) :global(.vtex-store-components-3-x-swiperCaretNext)::before{
+  content: '';
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='46' viewBox='0 0 24 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M23.25 0.5L0.749999 23L23.25 45.5' stroke='%2334363D' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 46px;
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+:global(.vtex-modal-layout-0-x-paper--sy-modal-product-zoom) :global(.vtex-store-components-3-x-swiperCaretPrev) {
+  left: 10%;
+}
+
+:global(.vtex-modal-layout-0-x-paper--sy-modal-product-zoom) :global(.vtex-store-components-3-x-swiperCaretNext) {
+  right: 10%;
+}
+
+/*DOTS SLIDER*/
+:global(.vtex-slider-layout-0-x-paginationDot):global(.vtex-slider-layout-0-x-paginationDot--isActive),
+:global(.vtex-store-components-3-x-swiperBullet):global(.vtex-store-components-3-x-swiperBullet--active) {
+  background: #48385C;
+  height: 8px!important;;
+  width: 16px!important;;
+  border-radius: 8px!important;;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot),
+:global(.vtex-store-components-3-x-swiperBullet) {
+  background: #C7C7C7;
+  height: 8px!important;
+  width: 8px!important;
+  opacity: 1;
+}
+
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--sy-banner-principal) {
+  padding: 10px 0;
+}
+
+
+/*BANNER PRINCIPAL*/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--sy-banner-principal) :global(.vtex-slider-layout-0-x-imageElement--sy-banner-principal){
+  max-height: 450px !important;
+}

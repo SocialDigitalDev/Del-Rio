@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": ["product-selling-price"]
+  },
+
+  "flex-layout.row#product-list-price": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 5
+    },
+    "children": ["product-list-price"]
+  },
+
+  "flex-layout.row#installments": {
+    "props": {
+      "blockClass": "e-product-installments"
+    },
+    "children": ["product-installments"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "store.custom#trocas-e-devolucoes": {
+        "blocks": [
+            "institutional-main#trocas-e-devolucoes"
+        ]
+    },
+
+    "institutional-main#trocas-e-devolucoes": {
+        "children": [
+            "rich-text#title-trocas-e-devolucoes",
+            "rich-text#texts-trocas-e-devolucoes"
+        ]
+    },
+
+    "rich-text#title-trocas-e-devolucoes": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "#### Trocas e devoluções",
+            "blockClass": "title-institucional"
+        }
+    },
+
+    "rich-text#texts-trocas-e-devolucoes": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "#### Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio architecto exercitationem, maiores amet similique quae in consequatur asperiores adipisci? Necessitatibus quod velit consectetur similique repellat inventore dolorem, suscipit unde?",
+            "blockClass": "text-institucional"
+        }
+    }
+}

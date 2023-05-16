@@ -1,0 +1,32 @@
+{
+  "store.custom#politica-de-privacidade": {
+      "blocks": [
+          "institutional-main#politica-de-privacidade"
+      ]
+  },
+
+  "institutional-main#politica-de-privacidade": {
+      "children": [
+          "rich-text#title-politica-de-privacidade",
+          "rich-text#texts-politica-de-privacidade"
+      ]
+  },
+
+  "rich-text#title-politica-de-privacidade": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "#### Política de privacidade",
+          "blockClass": "title-institucional"
+      }
+  },
+
+  "rich-text#texts-politica-de-privacidade": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "#### Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio architecto exercitationem, maiores amet similique quae in consequatur asperiores adipisci? Necessitatibus quod velit consectetur similique repellat inventore dolorem, suscipit unde?",
+          "blockClass": "text-institucional"
+      }
+  }
+}

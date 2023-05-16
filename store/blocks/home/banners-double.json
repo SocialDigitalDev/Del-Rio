@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#banners-double": {
+    "title": "Banners Duplos",
+    "props": {
+      "blockClass": "sy-row-banner-double"
+    },
+    "children": ["list-context.image-list#banners-double"]
+  },
+  "list-context.image-list#banners-double": {
+    "children": ["slider-layout#banners-double"],
+    "props": {
+      "images": [
+        {
+          "image":  "/arquivos/735-9_ecommerce_meio-1-banner_700x280_v3.png",
+          "mobileImage": "/arquivos/735-9_ecommerce_meio-1-mobile_360x245_v1.png",
+          "width": "100%"
+        },
+        {
+          "image":  "/arquivos/735-9_ecommerce_meio-2-banner_700x280_v1.png",
+          "mobileImage": "/arquivos/735-9_ecommerce_meio-2-mobile_360x245_v1.png",
+          "width": "100%"
+        }       
+      ]
+    }
+  },
+  "slider-layout#banners-double": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },      
+      "infinite": false,
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "blockClass": "sy-banner-double"
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#sports",
+      "menu-item#feminino",
+      "menu-item#masculino",
+      "menu-item#infantil",
+      "menu-item#maternidade",
+      "menu-item#kits",
+      "menu-item#linha-noite",
+      "menu-item#ecologico",
+      // "menu-item#novidades",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#feminino": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/feminino",
+        "noFollow": false,
+        "tagTitle": "FEMININO",
+        "text": "FEMININO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#sports": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-sports",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sport",
+        "noFollow": false,
+        "tagTitle": "SPORT",
+        "text": "SPORT"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#masculino": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-masculino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino",
+        "noFollow": false,
+        "tagTitle": "MASCULINO",
+        "text": "MASCULINO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#infantil": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil",
+        "noFollow": false,
+        "tagTitle": "INFANTIL",
+        "text": "INFANTIL"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#maternidade": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-maternidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maternidade",
+        "noFollow": false,
+        "tagTitle": "MATERNIDADE",
+        "text": "MATERNIDADE"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#kits": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-kits",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kits",
+        "noFollow": false,
+        "tagTitle": "KITS",
+        "text": "KITS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#linha-noite": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-kits",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linha-noite",
+        "noFollow": false,
+        "tagTitle": "LINHA NOITE",
+        "text": "LINHA NOITE"
+      }
+    }
+    // "blocks": [
+    //   "vtex.menu@2.x:submenu#main-submenu"
+    // ]
+  },
+  "menu-item#ecologico": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-ecologico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ecologico",
+        "noFollow": false,
+        "tagTitle": "ECOLÓGICO",
+        "text": "ECOLÓGICO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#novidades": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      }
+    },
+    "blocks": [
+      // "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#ofertas": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    },
+    "blocks": [
+      // "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  /*COLUNAS MENU - DESKTOP*/
+  "vtex.menu@2.x:submenu#main-submenu": {
+    "props": {
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "flex-layout.row#menu-main"
+    ]
+  },
+  "flex-layout.row#menu-main": {
+    "children": [
+      "flex-layout.col#spacer-menu",
+      "flex-layout.col#submenu-one",
+      "flex-layout.col#submenu-two",
+      "flex-layout.col#submenu-three",
+      "flex-layout.col#submenu-four",
+      "flex-layout.col#submenu-five",
+      "flex-layout.col#spacer-menu"
+    ],
+    "props": {
+      "blockClass": "flex-row-menu"
+    }
+  },
+  "flex-layout.col#spacer-menu": {
+    "props": {
+      "width": "5%"
+    }
+  },
+  "flex-layout.col#submenu-one": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-one",
+      "menu-item#dropdown-submenu-item"
+    ]
+  },
+  "flex-layout.col#submenu-two": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-two"
+    ]
+  },
+  "flex-layout.col#submenu-three": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-three"
+    ]
+  },
+  "flex-layout.col#submenu-four": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-four"
+    ]
+  },
+  "flex-layout.col#submenu-five": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-five"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-one": {
+    "props": {
+      "blockClass": "submenuTitle"
+    }
+  },
+  // >>>>>>>>>>>>>>
+  "vtex.menu@2.x:menu#submenu-two": {
+    "props": {
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-three": {
+    "props": {
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-four": {
+    "props": {
+      "blockClass": "submenuTitle"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-five": {
+    "props": {
+      "blockClass": "submenuTitle"
+    }
+  },
+  // Menu item >> submenu
+  "menu-item#dropdown-submenu-item": {
+    "props": {
+      "blockClass": [
+        "submenuTitle",
+        "submenu-dropdown"
+      ],
+      "id": "menu-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "SUBMENU--DROPDOWN",
+        "text": "Menu item"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-dropdown-submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#main-dropdown-submenu": {
+    "props": {
+      "blockClass": [
+        "main-submenu",
+        "main-submenuItem"
+      ]
+    },
+    "children": [
+      "flex-layout.row#dropdown-submenu"
+    ]
+  },
+  "flex-layout.row#dropdown-submenu": {
+    "children": [
+      "flex-layout.col#spacer-menu",
+      "flex-layout.col#dropdown-submenu-col",
+      "flex-layout.col#spacer-menu"
+    ],
+    "props": {
+      "blockClass": "flex-row-menu"
+    }
+  },
+  "flex-layout.col#dropdown-submenu-col": {
+    "children": [
+      "vtex.menu@2.x:menu#dropdown-submenu-one"
+    ]
+  },
+  "vtex.menu@2.x:menu#dropdown-submenu-one": {
+    "props": {
+      "blockClass": [
+        "submenuTitle",
+        "submenuItem"
+      ]
+    }
+  },
+  // 
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": []
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  }
+}

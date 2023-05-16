@@ -1,0 +1,231 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  //Header Desktop
+  "header-layout.desktop": {
+    "children": [
+      "helmet-component",
+      "flex-layout.row#topbar",
+      "sticky-layout#desktop",
+      "sy-modal-lgpd"
+      // "theme-natal"
+      // "sy-popup"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop",
+      "flex-layout.row#category-menu"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "sy-desktop-header"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "login#hidden",
+      // "flex-layout.col#wishlist",  
+      "sy-login-custom",
+      "modal-trigger#login", 
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop-edit"]
+  },
+
+  "logo#desktop-edit": {
+    "props": {
+      "title": "Logo DelRio",
+      "href": "/",
+      "url": "/arquivos/logo-DelRio-header-preto.png",
+      "width": 100,
+      "height": 57
+    }
+  },
+
+  // "flex-layout.col#wishlist": {
+  //   "props": {
+  //     "verticalAlign": "middle",
+  //     "blockClass": "sy-header-wishlist"
+  //   },
+  //   "children": ["logo#wishlist"]
+  // },
+
+  "logo#wishlist": {
+    "props": {
+      "href": "/wishlist",
+      "url": "/arquivos/star-outline.svg",
+      "blockClass": "sy-header-icon-wishlist"
+    }
+  },
+
+  "flex-layout.row#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "sy-navMenu-desk"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+  //Header Tablet/Mobile
+
+  //tablet
+  
+  "header-layout.mobile": {
+    "children": [
+      "responsive-layout.tablet#header",
+      "responsive-layout.phone#header"
+      // "theme-natal"
+    ]
+  }, 
+
+  "responsive-layout.tablet#header": {
+    "children": [
+      "helmet-component",
+      "flex-layout.row#topbar",
+      "sticky-layout#desktop",
+      "sy-modal-lgpd"
+      // "sy-popup"
+    ]
+  },
+
+  //mobile
+  "responsive-layout.phone#header": {
+    "children": [
+      "helmet-component",
+      "sticky-layout#mobile",
+      "sy-modal-lgpd"
+      // "sy-popup"
+    ]
+  },
+
+  
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#topbar-mobile",
+      "flex-layout.row#mobile-header"
+    ],
+    "props": {
+      "blockClass": "sy-mobile-header"
+    }
+  },
+
+  "flex-layout.row#mobile-header": {
+    "children": [
+      "drawer",
+      "modal-trigger#search-mobile",
+      "flex-layout.col#spacer",      
+      "logo#mobile",
+      "flex-layout.col#spacer",      
+      "flex-layout.row#group-mobile"      
+    ],
+    "props": {
+      "blockClass": "sy-flex-headerMobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "drawer": {
+    "children": ["flex-layout.row#drawer-row"],
+    "props" : {
+      "blockClass": "sy-menu-mobile",
+      "isFullWidth": true,
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.row#drawer-row":{
+    "children":[
+      "flex-layout.col#drawer-col"
+    ],
+    "props":{
+      "blockClass": "drawer-row"
+    }
+  },
+
+  "flex-layout.col#drawer-col":{
+    "children":[
+      "menu#drawer"
+    ]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "drawer#submenu-sport",
+      "drawer#submenu-feminino",
+      "drawer#submenu-masculino",
+      "drawer#submenu-infantil",
+      "drawer#submenu-maternidade",
+      "drawer#submenu-kits",
+      "drawer#submenu-ecologico",
+      // "menu-item#novidades-mobile",
+      "menu-item#ofertas-mobile",
+      "menu-item#linhanoite-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  
+  "logo#mobile": {
+    "props": {
+      "title": "Logo DelRio",
+      "href": "/",
+      "url": "/arquivos/logo-DelRio-header-preto.png",
+      "width": 100,
+      "height": 57
+
+    }
+  },
+
+  "flex-layout.row#group-mobile" :{
+    "children": [
+      "login#hidden",
+      "sy-login-custom",
+      "modal-trigger#login",
+      "minicart.v2"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "sy-group-mobile",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "login#hidden": {
+    "props": {
+      "blockClass": "sy-login-hidden"
+    }
+  }
+}

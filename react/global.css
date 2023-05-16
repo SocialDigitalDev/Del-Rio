@@ -1,0 +1,623 @@
+
+@import "./components/pages/institutional/institutional-main.css";
+
+
+.globalcss {
+    display: none;
+}
+
+/* ACCOUNT */
+.myo-cancel-btn, .vtex-account__order-details .dib-ns + .dib-ns  {
+    display: none !important;
+}
+
+/* CATEGORY / DEPARTAMENT / SEARCH */
+.render-route-store-search-category .vtex-search-result-3-x-galleryTitle--layout, 
+.render-route-store-search-department .vtex-search-result-3-x-galleryTitle--layout {
+    display: none;
+}
+
+.vtex-search-result-3-x-filterTitle span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+
+.vtex-search-result-3-x-filterTitle .ml2 .vtex-tag {
+    background: none;
+    color: #228FE0;
+    padding: 0;
+}
+
+.vtex-search-result-3-x-filterTitle .ml2 .vtex-tag .items-stretch span {
+    color: #228FE0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-decoration: underline;
+}
+
+.vtex-search-result-3-x-filterTitle .ml2 .vtex-tag .items-stretch span::after {
+    content: "_Filtros";
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.vtex-search-result-3-x-filter__container .vtex-search-result-3-x-filterItem--selected .vtex__icon-check path{
+    fill: #fff;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--content-category > .vtex-flex-layout-0-x-stretchChildrenWidth:nth-child(2) {
+    margin-left: 125px;
+}
+
+.vtex-search-result-3-x-totalProducts--layout span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #414141;
+    text-transform: none;
+}
+
+.vtex-search-result-3-x-totalProducts--layout > span::before {
+    content: "Total de ";
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100px;
+    margin: 16px auto;
+    overflow: hidden;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--load-colors {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 16px 0 0;
+    font-size: 0;
+    background: url('/arquivos/loading-shelf.gif') center no-repeat;
+    background-size: 10%;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors {
+    display: flex;
+    gap: 0 5px;
+    grid-gap: 0 5px;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    min-width: 24px;
+    max-width: 85px;
+    height: 24px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors span.delrio--list-qtd {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color {
+    display: inline-block;
+    min-width: 24px;
+    min-height: 24px;
+    border-radius: 50%;
+    font-size: 0;
+    border: 1px solid #575757 !important
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Mousse {
+    background: #d2c1b0;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Rosa.Romance {
+    background: #e18479;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Rosa.Claro {
+    background: #F7BCC6;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Quartzo {
+    background: #f7cac9;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Preto {
+    background: #000;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Rosa {
+    background: #F70D92;
+    border: none;
+}
+
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Rosa.Make {
+    background: #ffc0cb;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Areia {
+    background: #deccb4;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Nude {
+    background: #EBBD9B;
+    border: none;
+}
+
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.New.Nude {
+    background: #b1a0b9;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Rosa.Cha {
+    background: #c75b7a;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Branca,
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Branco {
+    background: #fff;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Perola {
+    background: #f4f9fc;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Indigo {
+    background: #7d85c3;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Mescla {
+    background: #8c9091;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Nature {
+    background: #f8f7ed;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Azul.Marinho {
+    background: #000028;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Amarelo {
+    background: #F5DC06;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Azul {
+    background: #073875;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Azul.Claro {
+    background: #64AAC4;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Verde {
+    background: #5FC936;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Verde.Escuro {
+    background: #006101;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Vinho {
+    background-color:#630523;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Marrom {
+    background-color:#803B17;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Bege {
+    background-color:#E1D3AD;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Off-white {
+    background-color:#EEEDEA;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Cinza {
+    background-color:#9C9D98;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Roxo {
+    background-color:#795888;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Flor.Violeta {
+    background-color:#B849B3;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Cinza.Neville {
+    background-color:#505455;
+    border: none;
+}
+
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.SORTIDO,
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Sortido,
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.SORTIDOS,
+.vtex-product-summary-2-x-containerNormal .vtex-product-summary-2-x-element .delrio--content-colors ul.delrio--list-colors li.circle-color.Sortidos {
+    background: url('/arquivos/multicolor.png') no-repeat;
+    background-size: 100%;
+    border: 1px solid #ddd;
+}
+
+
+@media screen and (min-width: 1201px) {
+    .vtex-search-result-3-x-galleryItem--grid .vtex-flex-layout-0-x-flexRowContent--product-price .vtex-flex-layout-0-x-stretchChildrenWidth:first-child { 
+        width: 40% !important;
+    }
+
+    .vtex-search-result-3-x-galleryItem--grid .vtex-flex-layout-0-x-flexRowContent--product-price .vtex-flex-layout-0-x-stretchChildrenWidth:last-child { 
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    .vtex-search-result-3-x-orderBy--layout .vtex-search-result-3-x-orderByOptionsContainer.db {
+        bottom: 0;
+        transform: translateY(0);
+    }
+
+    .vtex-search-result-3-x-orderByOptionItem.bg-light-gray {
+        background-color: #F0F0F0;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 100px) {
+    .vtex-search-result-3-x-filterTitle .ml2 {
+        display: none;
+    }
+
+    .vtex-search-result-3-x-orderBy--layout .vtex-search-result-3-x-orderByOptionsContainer.db {
+        bottom: 0;
+        transform: translateY(0);
+    }
+
+    .vtex-search-result-3-x-orderByOptionItem.bg-light-gray {
+        background-color: #F0F0F0;
+	}
+
+
+
+}
+
+
+/* LOGIN */
+.vtex-login-2-x-sendButton .vtex-button .vtex-button__label span {
+    color: #FFF;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+}
+
+
+.vtex-login-2-x-backButton .vtex-button .vtex-button__label span {
+    color: #48385C;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important
+}
+
+.vtex-login-2-x-inputContainer.vtex-login-2-x-inputContainerPassword .relative .pa2 {
+    margin-top: 8px;
+}
+
+.vtex-login-2-x-inputContainer.vtex-login-2-x-inputContainerPassword .relative .pa2::before {
+    content: "A senha deve conter";
+    color: #353840;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.vtex-login-2-x-inputContainer.vtex-login-2-x-inputContainerPassword .relative .pa2 .w-20 {
+    display: none;
+}
+
+.vtex-login-2-x-inputContainer.vtex-login-2-x-inputContainerPassword .relative .pa2 .w-80 span {
+    color: #353840;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sy-login-DropDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 25px;
+}
+
+@media (max-width: 992px) {
+    .sy-login-DropDown {
+        position: initial;
+        margin-right: 0;
+    }
+}
+
+.dropDownLogin {
+    display: block;
+    width: 100%;
+    max-width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .dropDownLogin {
+        font-size: 0;
+    }
+}
+
+.dropDownLogin::before {
+    content: '';
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M16.1249 6.75C15.9412 9.22828 14.0624 11.25 11.9999 11.25C9.93742 11.25 8.05538 9.22875 7.87492 6.75C7.68742 4.17188 9.51554 2.25 11.9999 2.25C14.4843 2.25 16.3124 4.21875 16.1249 6.75Z' stroke='%2347395A' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M12 14.25C7.92187 14.25 3.7828 16.5 3.01687 20.7469C2.92452 21.2588 3.21421 21.75 3.74999 21.75H20.25C20.7862 21.75 21.0759 21.2588 20.9836 20.7469C20.2172 16.5 16.0781 14.25 12 14.25Z' stroke='%2347395A' stroke-miterlimit='10'/%3e%3c/svg%3e ");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+/* @media (max-width: 640px) {
+    .dropDownLogin::before {
+        margin: 0;
+    }
+} */
+
+.dropOptionsLogin {
+    position: absolute;
+    background: #fff;
+    width: 180px;
+    top: 62px;
+    right: 0;
+    padding: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 992px) {
+    .dropOptionsLogin {
+        width: 100%;
+        padding: 25px 20px;
+        top: 100px;
+    }
+}
+
+.dropOptionsLogin ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropOptionsLogin ul li {
+    list-style: none;
+}
+
+.dropOptionsLogin ul li+li {
+    padding-top: 15px;
+}
+
+.dropOptionsLogin ul li a {
+    color: #47395A;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropOptionsLogin ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    .dropOptionsLogin ul li a {
+        text-align: left;
+    }
+}
+
+.vtex-login-2-x-loginOptionsContainer .vtex-login-2-x-accessCodeOptionBtn .vtex-button span::first-letter, 
+.vtex-login-2-x-loginOptionsContainer .vtex-login-2-x-emailPasswordOptionBtn .vtex-button span::first-letter{
+    text-transform: uppercase;
+}
+
+
+/*Guia de tamanho PDP*/
+.sy-guia-tamanho{
+    color:#000000;
+    font-family: Akrobat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+    position: relative;
+    margin-bottom: 32px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--productSpecification span[data-specification-name="Tabela de Medidas"] {
+    display: none;
+}
+
+
+/*input minicart */
+.vtex-flex-layout-0-x-flexRow--sy-product-minicart input.flex-auto{
+    color: #000000;
+    font-family: Akrobat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+/*NOTIFICACAO ADD-CART*/
+.vtex-toast .pr5.mw6-ns.lh-copy {
+    font-size: 0;
+}
+
+.vtex-toast .pr5.mw6-ns.lh-copy::before {
+    content: 'Produto adicionado com sucesso';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/*TRATATIVAS PDP TABLET*/
+@media (min-width: 641px) and (max-width: 1025px){
+    .vtex-flex-layout-0-x-flexRowContent--sy-product > .vtex-flex-layout-0-x-stretchChildrenWidth:first-child,
+    .vtex-flex-layout-0-x-flexRowContent--product-availability>.vtex-flex-layout-0-x-stretchChildrenWidth:first-child {
+        margin: 0 auto;
+        padding: 0;
+        width: 90% !important;
+    }
+
+    .vtex-flex-layout-0-x-flexRowContent--sy-product > .vtex-flex-layout-0-x-stretchChildrenWidth:last-child,
+    .vtex-flex-layout-0-x-flexRowContent--product-availability > .vtex-flex-layout-0-x-stretchChildrenWidth:last-child {
+        margin: 0 auto;
+        padding: 0;
+        width: 60% !important;
+    }
+}
+
+
+/*BANNER CATEGORIAS RESPONSIVO*/
+
+img.visible-desktop, img.visible-mobile{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 640px) {
+    img.visible-desktop{
+        display: none;
+    }
+    img.visible-mobile{
+        display: block;
+    }
+}
+
+@media (min-width:641px) {
+    img.visible-desktop{
+        display: block;
+    }
+    img.visible-mobile{
+        display: none;
+    }
+}
+
+
+/*PLACEHOLDER BUSCA*/
+
+.vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input::-webkit-input-placeholder { 
+    color: #47395A;
+    opacity: 1;
+    font-family: Akrobat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+  
+.vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input:-ms-input-placeholder {
+    color: #47395A;
+    opacity: 1;
+    font-family: Akrobat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+  
+.vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input::placeholder {
+    color: #47395A;
+    opacity: 1;
+    font-family: Akrobat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/*ORDER PLACED*/
+.vtex-order-placed-2-x-cancelOrderButton, .vtex-order-placed-2-x-updateOrderButton, 
+.vtex-order-placed-2-x-section.vtex-order-placed-2-x-section--confirmation .vtex-button {
+    display: none !important;
+}
+
+.vtex-order-placed-2-x-section.vtex-order-placed-2-x-section--confirmation .vtex-button,
+.vtex-order-placed-2-x-noticeListItem .vtex-button, .vtex-order-placed-2-x-printButtonWrapper .vtex-button,
+.vtex-order-placed-2-x-myOrdersButton .vtex-button, .vtex-order-placed-2-x-updateOrderButton .vtex-button,
+.vtex-order-placed-2-x-section.vtex-order-placed-2-x-section--paymentMethods .vtex-button {
+    color: #fff;
+    background: #323232;
+    border-radius: 0;
+    border: none;
+    font-weight: 600;
+}
