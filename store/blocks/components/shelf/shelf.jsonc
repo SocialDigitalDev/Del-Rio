@@ -3,7 +3,7 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "shelf-color",
+      // "shelf-color",
       "product-summary-space",
       "flex-layout.row#prices"
       // "flex-layout.row#btn-buy"
