@@ -126,19 +126,19 @@
   },
   "rich-text#copy": {
     "props": {
-      "text": "2021 © Copyright Delrio. Todos os direitos reservados.\nA loja online Delrio é operada pela Infracommerce CNPJ: 15.427.207/0009-71 / Endereço: CENU - Torre Norte, Av. das Nações Unidas, 12901 - Cidade Monções, São Paulo.",
+      "text": "2023 © Copyright DelRio. Todos os direitos reservados.\nA loja online DelRio é operada pela Social Logística e Distribuição LTDA - Avenida Portugal, 46, Galpão 01 Setor C1 - Itapevi - SP, CEP: 06696-060 / CNPJ: 28.511.223/0004-85",
       "blockClass": "sy-footer-copy-content",
       "width": "100%"
     }
   },
   "image#infracommerce-logo": {
     "props": {
-      "src": "assets/global-logo-infracommerce.png",
+      "src": "assets/logo-sdc.svg",
       "link": {
-        "url": "https://www.infracommerce.com.br/",
+        "url": "https://socialdigitalcommerce.com.br/",
         "openNewTab": true,
         "noFollow": true,
-        "title": "Infracommerce"
+        "title": "Social Digital Commerce"
       },
       "blockClass": "logo-infracommerce"
     }
