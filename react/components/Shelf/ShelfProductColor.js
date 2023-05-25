@@ -63,33 +63,31 @@ const ShelfProductColor = ({ children }) => {
 			setError(error);
 		})
 	}, [])
-
-	console.log('itemsContent?', itemsContent)
 	
-		if (error) {
-			return <div className="delrio--error-msg">Error: {error.message}</div>;
-		} else if (!isLoaded) {
-			return <div className="delrio--load-colors">Loading...</div>;
-		} else {	
-			
-			return (			
-			<div className="delrio--content-colors">
-				<ul className="delrio--list-colors">
-					{items.map(color => (			
-						color != undefined || color != null
-						? <li className={`circle-color ${color}`}>
-							{color}
-							</li>							
-						: ''
-					))}
-				</ul>
-				{items.length >= 4  
-					? <span className="delrio--list-qtd">+{items.length- 3}</span>
+	if (error) {
+		return <div className="delrio--error-msg">Error: {error.message}</div>;
+	} else if (!isLoaded) {
+		return <div className="delrio--load-colors">Loading...</div>;
+	} else {	
+		
+		return (			
+		<div className="delrio--content-colors">
+			<ul className="delrio--list-colors">
+				{items.map(color => (			
+					color != undefined || color != null
+					? <li className={`circle-color ${color}`}>
+						{color}
+						</li>							
 					: ''
-				}
-			</div>
-			);
-		}
+				))}
+			</ul>
+			{items.length >= 4  
+				? <span className="delrio--list-qtd">+{items.length- 3}</span>
+				: ''
+			}
+		</div>
+		);
+	}
 	
 }
 

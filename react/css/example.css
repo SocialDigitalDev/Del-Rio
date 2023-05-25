@@ -1,7 +1,1 @@
-.exemplo {
-    display: block
-}
-
-.exemplo .example {
-    display: flex
-}
+.exemplo{display:block}.exemplo .example{display:flex}
