@@ -572,19 +572,19 @@
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--preto) {
-  background-color: #000;
+  background-color: #000000;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--mousse) {
-  background-color: #9e8472;
+  background-color: #c99f7e;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--quartzo) {
-  background-color: #a6777a;
+  background-color: #bb9da0;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--areia) {
-  background-color: #dccbb5;
+  background-color: #ebcfc2;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--rosa-romance) {
@@ -596,19 +596,19 @@
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--rosa-make) {
-  background-color: #ffc0cb;
+  background-color: #daadbf;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--rosa-cha) {
-  background-color: #e4a8a8;
+  background-color: #d392a0;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--new-nude) {
-  background-color: #b1a0b9;
+  background-color: #765675;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--nature) {
-  background-color: #f8f7ed;
+  background-color: #f1ddd8;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--azul-marinho) {
@@ -628,11 +628,11 @@
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--branco) {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--mescla) {
-  background-color: #8c9091;
+  background-color: #9fa0a4;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--nude) {
@@ -644,7 +644,7 @@
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--amarelo) {
-  background-color: #FFFCB4;
+  background-color: #FFF498;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--amarelo-vanilla) {
@@ -668,7 +668,7 @@
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--vinho) {
-  background-color:#733437;
+  background-color:#641e26;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeText--bege) {
@@ -735,8 +735,85 @@
   background-color: #B849B3;
 }
 :global(.vtex-product-specification-badges-0-x-badgeText--cinza-neville) {
-  background-color: #505455;
+  background-color: #606085;
 }
+:global(.vtex-product-specification-badges-0-x-badgeText--algodao-doce) {
+  background-color: #fce1ec;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--cereja) {
+  background-color: #cd1618;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--amendoa) {
+  background-color: #e1a76e;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--cromo) {
+  background-color: #747f80;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--anis) {
+  background-color: #cfdbe5;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--fucsia) {
+  background-color: #9b2469;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--nutelle) {
+  background-color: #cba783;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--lavanda) {
+  background-color: #90afcf;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--perola) {
+  background-color: #90afcf;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--azul-celeste) {
+  background-color: #90afcf;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--lilas) {
+  background-color: #c8c8d6;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--pessego) {
+  background-color: #f9cbbf;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--lilas) {
+  background-color: #c8c8d6;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--azul-sky) {
+  background-color: #1e2f9a;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--berinjela) {
+  background-color: #703848;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--marinho) {
+  background-color: #242040;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--bic) {
+  background-color: #1e2e9b;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--romance) {
+  background-color: #dea89d;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--mescla-claro) {
+  background-color: #d2d1cc;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--cappuccino) {
+  background-color: #6c5847;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--mescla-escuro) {
+  background-color: #2f2f2f;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--vanilla) {
+  background-color: #fdf0ae;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--carmim) {
+  background-color: #6e0e2a;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--flor-violeta) {
+  background-color: #aa3d7f;
+}
+:global(.vtex-product-specification-badges-0-x-badgeText--verde-militar) {
+  background-color: #3b3c2a;
+}
+
+
 
 :global(.vtex-product-specification-badges-0-x-badgeText--sortido) {
   background: url('/arquivos/multicolor.png') no-repeat;  
