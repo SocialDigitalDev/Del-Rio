@@ -32,7 +32,7 @@ const SimilarColor = () => {
 
             return (
 				{
-					"cor":prodColor,
+					"cor": prodColor,
 					"link": link
 				}
             )
@@ -50,10 +50,8 @@ const SimilarColor = () => {
     }
 
 	const setElem = (elem) => {
-		console.log('elem', elem)
 
 		let item = elem.map((prod) => {
-			console.log('prod -->', prod)
 
 			return (
 				<li className={ "similar-colors--item-color similar-colors--item-color_" + prod.cor.replace(/\s+/, "-").toLowerCase() }>
