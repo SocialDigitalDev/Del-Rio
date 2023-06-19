@@ -10,40 +10,11 @@
   },
 
   "flex-layout.row#related-products": {
-    "children": ["flex-layout.col#current-product", "shelf.relatedProducts"],
+    "children": [
+      "similar-color"
+    ],
     "props": {
       "blockClass": "related-products"
-    }
-  },
-
-  "flex-layout.col#current-product": {
-    "children": ["product-specification-badges#current-product"],
-    "props": {
-      "blockClass": "current-product"
-    }
-  },
-
-  "shelf.relatedProducts": {
-    "blocks": ["product-summary.shelf#related-products"],
-    "props": {
-      "recommendation": "similars",
-      "productList": {
-        "showTitle": false,
-        "arrows": false,
-        "minItemsPerPage": 5,
-        "itemsPerPage": 10,
-        "scroll": "BY_PAGE"
-      }
-    }
-  },
-  "product-specification-badges#current-product": {
-    "props": {
-      "specificationGroupName": "Cor",
-      "specificationsOptions": [{
-        "specificationName": "Cor",
-        "displayValue": "SPECIFICATION_VALUE"
-      }],
-      "blockClass": "current-product"
     }
   }
 }

@@ -9,9 +9,6 @@ const ShelfProductColor = ({ children }) => {
 	const colorProduct = product?.product?.properties.filter(
 		property => property.name === 'Cor'
 	)[0]
-	console.log("🚀 ~ file: ShelfProductColor.js ~ line 12 ~ ShelfProductColor ~ colorProduct", colorProduct.values[0])
-
-	console.log("🚀 ~ file: ShelfProductColor.js ~ line 8 ~ ShelfProductColor ~ product", product.product)
 	
 	const [error, setError] = useState(null);
 	const [isLoaded, setIsLoaded] = useState(false);
@@ -19,10 +16,8 @@ const ShelfProductColor = ({ children }) => {
 	const [itemsContent, setItemsContent] = useState(true);
 
 	const verifyResult = (result) => {
-		console.log('result', result)
 		
 		let arrResult = result.length ? true : false;
-		console.log('arr', arrResult)
 
 		if (arrResult) {
 			const createArrayOnlyColors = result.map(item => {
@@ -30,8 +25,6 @@ const ShelfProductColor = ({ children }) => {
 			})
 			let removeDuplicatesFromArrayColors = [...new Set(createArrayOnlyColors)];
 			removeDuplicatesFromArrayColors.push(colorProduct.values[0])
-			
-			console.log("🚀 ~ file: ShelfProductColor.js ~ line 26 ~ verifyResult ~ removeDuplicatesFromArrayColors", removeDuplicatesFromArrayColors)
 
 			setItems(removeDuplicatesFromArrayColors);
 		}
@@ -40,9 +33,7 @@ const ShelfProductColor = ({ children }) => {
 	}
 
 	const verifyItems = () => {
-		console.log('items.length)', items.length)
 		let arrItems = items.length ? true : false;
-		console.log('arrItems', arrItems)
 
 		if (!arrItems) {
 			console.log('setItemsContent')

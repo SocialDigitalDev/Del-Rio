@@ -41,5 +41,8 @@
 	},
   "theme-natal": {
 		"component": "ThemeNatal"
-	}
+	},
+  "similar-color": {
+    "component": "SimilarColor"
+  }
 }
