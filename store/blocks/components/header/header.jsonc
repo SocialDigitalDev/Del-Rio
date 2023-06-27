@@ -188,12 +188,12 @@
       "drawer#submenu-kits",
       "drawer#submenu-ecologico",
       // "menu-item#novidades-mobile",
-      "menu-item#ofertas-mobile",
+      "menu-item#lovers-mobile",
       "menu-item#linhanoite-mobile"
     ],
     "props": {
       "orientation": "vertical"
-    }
+    } 
   },
   
   "logo#mobile": {
