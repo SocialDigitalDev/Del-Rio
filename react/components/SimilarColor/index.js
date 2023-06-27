@@ -70,7 +70,6 @@ const SimilarColor = () => {
 				</li>
 			)
 		})
-
 		setProductSimilar(item)
 	}
 
