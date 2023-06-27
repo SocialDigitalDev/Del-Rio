@@ -27,19 +27,30 @@ const SimilarColor = () => {
 
         let color = item.map((prod) => {
 
-            let prodColor = prod?.Cor[0]
-            let link = prod?.linkText
-
-            return (
-				{
-					"cor": prodColor,
-					"link": link
-				}
-            )
+            let prodColor = prod?.Cor;
+            let link = prod?.linkText;
+			let prodFormatted = prodColor.join("--");
+			let prodLength = Object.keys(prodColor).length;
+			
+			if(prodLength > 1){
+				return (
+					{
+						"cor": prodFormatted,
+						"link": link
+					}
+				)
+			}else {
+				return (
+					{
+						"cor": prodColor[0],
+						"link": link
+					}
+				)
+			}
         })
 		
 		!color ? setIsLoaded(false) : setIsLoaded(true)
-
+	
 		let result = color.filter(
 			(item, index) => index === color.findIndex(
 			  other => item.cor === other.cor
