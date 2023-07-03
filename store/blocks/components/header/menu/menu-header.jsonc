@@ -13,7 +13,7 @@
       "menu-item#linha-noite",
       "menu-item#ecologico",
       // "menu-item#novidades",
-      "menu-item#ofertas"
+      "menu-item#lovers"
     ]
   },
   "menu-item#feminino": {
@@ -187,10 +187,10 @@
       // "vtex.menu@2.x:submenu#main-submenu"
     ]
   },
-  "menu-item#ofertas": {
+  "menu-item#lovers": {
     "props": {
       "blockClass": "main-menu-item",
-      "id": "menu-item-ofertas",
+      "id": "menu-item-lovers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -198,8 +198,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "OFERTAS",
-        "text": "OFERTAS"
+        "tagTitle": "DELRIO TEENS",
+        "text": "DELRIO TEENS"
       }
     },
     "blocks": [

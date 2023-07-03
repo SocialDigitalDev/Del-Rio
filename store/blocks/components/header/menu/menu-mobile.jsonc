@@ -149,13 +149,13 @@
       }
     }
   },
-  "menu-item#ofertas-mobile": {
+  "menu-item#lovers-mobile": {
     "blocks": [
       // "vtex.menu@2.x:submenu.accordion#ofertas-mobile"
     ],
     "props": {
-      "blockClass": ["main-mobile", "ofertas-mobile"],
-      "id": "menu-item-category-ofertas",
+      "blockClass": ["main-mobile", "lovers-mobile"],
+      "id": "menu-item-category-lovers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -163,8 +163,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": true,
-        "tagTitle": "OFERTAS",
-        "text": "OFERTAS"
+        "tagTitle": "DELRIO TEENS",
+        "text": "DELRIO TEENS"
       }
     }
   },
