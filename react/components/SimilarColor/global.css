@@ -235,9 +235,6 @@
 .similar-colors--item-color_pessego {
     background-color: #f9cbbf;
 }
-.similar-colors--item-color_lilas {
-    background-color: #c8c8d6;
-}
 .similar-colors--item-color_azul-sky {
     background-color: #1e2f9a;
 }
@@ -292,4 +289,60 @@
 .similar-colors--item-color_branco-e-preto {  
     background: url('/arquivos/degrade-preto-e-branco.png') no-repeat;
     background-size: 100%;
+}
+
+.similar-colors--item-color_branco\/nuvem--chiclete--vanilla {
+    background: linear-gradient(to right, #90afcf 40%, #daadbf 30%, #daadbf 65%, #fdf0ae 50%);
+}
+
+.similar-colors--item-color_algodão-doce--branco\/melancia {
+    background: linear-gradient(to right, #fce1ec 40%, #ffffff 30%, #ffffff 65%, #cd1618 50%);
+}
+
+.similar-colors--item-color_lilás--marinho--perola {
+    background: linear-gradient(to right, #c8c8d6 40%, #242040 30%, #242040 65%, #fef4e1 50%);   
+}
+
+.similar-colors--item-color_anis--branco--chiclete {
+    background: linear-gradient(to right, #cfdbe5 40%, #ffffff 30%, #ffffff 65%, #daadbf 50%);   
+}
+
+.similar-colors--item-color_algodão-doce\/unicórnio--lilás--vinho {
+    background: linear-gradient(to right, #fce1ec 40%,  #c8c8d6 30%,  #c8c8d6 65%, #641e26 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--branco\/lhama {
+    background: linear-gradient(to right, #fce1ec 40%,  #ffffff 30%,  #ffffff 65%, #ebcfc2 50%);   
+}
+
+.similar-colors--item-color_anis--branco\/sweet {
+    background: linear-gradient(to right, #cfdbe5 40%,  #ffffff 30%,  #ffffff 65%, #daadbf 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--anis--branco {
+    background: linear-gradient(to right, #fce1ec 40%,  #cfdbe5 30%,  #cfdbe5 65%, #ffffff 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--dog--lilás {
+    background: linear-gradient(to right, #fce1ec 40%,   #e1a76e 30%,   #e1a76e 65%, #c8c8d6 50%);   
+}
+
+.similar-colors--item-color_branco--chiclete--marinho {
+    background: linear-gradient(to right, #ffffff 40%,   #daadbf 30%,   #daadbf 65%, #242040 50%);   
+}
+
+.similar-colors--item-color_branco--chiclete--marinho {
+    background: linear-gradient(to right, #ffffff 40%,   #daadbf 30%,   #daadbf 65%, #242040 50%);   
+}
+
+.similar-colors--item-color_preto\/nature\/romance {
+    background: linear-gradient(to right, #000000 40%,   #f1ddd8 30%,   #f1ddd8 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_nature--pêssego--preto {
+    background: linear-gradient(to right, #dea89d 40%,   #f9cbbf 30%,   #f9cbbf 65%, #000000 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--branco--lilás {
+    background: linear-gradient(to right, #fce1ec 40%,   #ffffff 30%,   #ffffff 65%, #c8c8d6 50%);   
 }
