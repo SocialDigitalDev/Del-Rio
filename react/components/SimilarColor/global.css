@@ -346,3 +346,340 @@
 .similar-colors--item-color_algodão-doce--branco--lilás {
     background: linear-gradient(to right, #fce1ec 40%,   #ffffff 30%,   #ffffff 65%, #c8c8d6 50%);   
 }
+
+.similar-colors--item-color_branco--preto {
+    background: linear-gradient(to right, #ffffff 40%,   #ffffff 30%,   #000000 65%, #000000 50%);   
+}
+
+.similar-colors--item-color_areia--rosa-chá,
+.similar-colors--item-color_areia--rosa-cha {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #d392a0 65%, #d392a0 50%);   
+}
+
+.similar-colors--item-color_mousse--nature {
+    background: linear-gradient(to right, #c99f7e 40%,   #c99f7e 30%,   #f1ddd8 65%, #f1ddd8 50%);   
+}
+
+.similar-colors--item-color_branco--pink\/mini--preto {
+    background: linear-gradient(to right, #ffffff 40%,   #FF1493 30%,   #FF1493 65%, #000000 50%);   
+}
+
+.similar-colors--item-color_areia--preto--rosa-chá,
+.similar-colors--item-color_areia--preto--rosa-cha {
+    background: linear-gradient(to right, #ebcfc2 40%,   #000000 30%,   #000000 65%, #d392a0 50%);   
+}
+
+.similar-colors--item-color_areia--mousse--onça,
+.similar-colors--item-color_areia--mousse--onca {
+    background: linear-gradient(to right, #ebcfc2 40%,   #c99f7e 30%,   #c99f7e 65%, #8b6e5c 50%);   
+}
+
+.similar-colors--item-color_areia--branco--make {
+    background: linear-gradient(to right, #ebcfc2 40%,   #fff 30%,   #fff 65%, #daadbf 50%);   
+}
+
+.similar-colors--item-color_areia--preto--tigre {
+    background: linear-gradient(to right, #ebcfc2 40%,   #000 30%,   #000 65%, #c1d0cc 50%);   
+}
+
+.similar-colors--item-color_nature--quartzo--romance {
+    background: linear-gradient(to right, #f1ddd8 40%,   #bb9da0 30%,   #bb9da0 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_branco--mousse--preto {
+    background: linear-gradient(to right, #fff 40%,   #c99f7e 30%,   #c99f7e 65%, #000 50%);   
+}
+
+.similar-colors--item-color_branco\/floral {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #e5b0bc  65%, #e5b0bc  50%);   
+}   
+
+.similar-colors--item-color_areia--make--mousse--preto {
+    background: linear-gradient(to right, #ebcfc2 20%,   #daadbf 40%,   #c99f7e  75%, #000  90%);   
+}
+
+.similar-colors--item-color_nature--romance {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #dea89d 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_mousse--preto {
+    background: linear-gradient(to right, #c99f7e 40%,   #c99f7e 30%,   #000 65%, #000 50%);   
+}
+
+.similar-colors--item-color_capuccino--mousse {
+    background: linear-gradient(to right, #6c5847 40%,   #6c5847 30%,   #c99f7e 65%, #c99f7e 50%);   
+}
+
+.similar-colors--item-color_nature\/vintage {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #f1ddd8 65%, #f1ddd8 50%);   
+}
+
+.similar-colors--item-color_areia--preto {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #000 65%, #000 50%);   
+}
+
+.similar-colors--item-color_branco\/flower {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #000 65%, #000 50%);   
+}
+
+.similar-colors--item-color_branco\/flower {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #feefeb 65%, #feefeb 50%);   
+}
+
+.similar-colors--item-color_branco--romance {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #dea89d 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--branco,
+.similar-colors--item-color_algodao-doce--branco {
+    background: linear-gradient(to right, #fce1ec 40%,   #fce1ec 30%,   #fff 65%, #fff 50%);   
+}
+
+.similar-colors--item-color_nature--rosa-chá,
+.similar-colors--item-color_nature--rosa-cha {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #d392a0 65%, #d392a0 50%);   
+}
+
+.similar-colors--item-color_branco--chiclete {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #daadbf 65%, #daadbf 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--lilás,
+.similar-colors--item-color_algodao-doce--lilas {
+    background: linear-gradient(to right, #fce1ec 40%,   #fce1ec 30%,   #c8c8d6 65%, #c8c8d6 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--anis--petit {
+    background: linear-gradient(to right, #fce1ec 40%,   #cfdbe5 30%,   #cfdbe5 65%, #fff6e4 50%);   
+}
+
+.similar-colors--item-color_branco\/unicórnio--lilás {
+    background: linear-gradient(to right, #fff 40%,   #ffdfea  30%,   #ffdfea  65%, #c8c8d6 50%);   
+}
+
+.similar-colors--item-color_branco--lilás--pêssego {
+    background: linear-gradient(to right, #fff 40%,   #ffdfea  30%,   #ffdfea  65%, #f9cbbf 50%);   
+}
+
+.similar-colors--item-color_preto--quartzo {
+    background: linear-gradient(to right, #000 40%,   #000 30%,   #bb9da0 65%, #bb9da0 50%);   
+}
+
+.similar-colors--item-color_preto\/tule--rosa-chá {
+    background: linear-gradient(to right, #000 40%,   #000 30%,   #d392a0 65%, #d392a0 50%);   
+}
+
+.similar-colors--item-color_mousse--rosa-chá {
+    background: linear-gradient(to right, #c99f7e 40%,   #c99f7e 30%,   #d392a0 65%, #d392a0 50%);   }
+
+.similar-colors--item-color_nature--romance\/oncinha {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #dea89d 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_baleia\/anis {
+    background: #cfdbe5;
+}
+
+.similar-colors--item-color_urso\/marinho {
+    background: #242040;
+}
+
+.similar-colors--item-color_ilha-dino--vanilla {
+    background: #fdf0ae;
+}
+
+.similar-colors--item-color_dinossauro\/marinho {
+    background: #242040;
+}
+
+.similar-colors--item-color_branco--mousse {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #c99f7e 65%, #c99f7e 50%);   
+}
+
+.similar-colors--item-color_areia\/porcelana--marinho {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #242040 65%, #242040 50%);   
+}
+
+.similar-colors--item-color_nature\/calcalgodão-doceao--romance {
+    background: linear-gradient(to right, #f1ddd8 40%,   #fce1ec 30%,   #fce1ec 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_areia\/lina--rosa-chá {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #d392a0 65%, #d392a0 50%);   
+}
+
+.similar-colors--item-color_marinho\/make {
+    background: linear-gradient(to right, #242040 40%,   #242040 30%,   #daadbf 65%, #daadbf 50%);   
+}
+
+.similar-colors--item-color_quartzo--unicórnio {
+    background: #bb9da0;   
+}
+
+.similar-colors--item-color_ancora\/anis {
+    background: #cfdbe5;
+}
+
+.similar-colors--item-color_chiclete--perola {
+    background: linear-gradient(to right, #daadbf 40%,   #daadbf 30%,   #fef4e1 65%, #fef4e1 50%);   
+}
+
+.similar-colors--item-color_branco\/pêssego {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #f9cbbf 65%, #f9cbbf 50%);   
+}
+
+.similar-colors--item-color_algodão-doce--dog {
+    background: #fce1ec;
+}
+
+.similar-colors--item-color_new-nude--quartzo {
+    background: linear-gradient(to right, #765675 40%,   #765675 30%,   #bb9da0 65%, #bb9da0 50%);   
+}
+
+.similar-colors--item-color_mousse--romance {
+    background: linear-gradient(to right, #c99f7e 40%,   #c99f7e 30%,   #dea89d 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_mousse--quartzo {
+    background: linear-gradient(to right, #c99f7e 40%,   #c99f7e 30%,   #bb9da0 65%, #bb9da0 50%);   
+}
+
+.similar-colors--item-color_nature--quartzo {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #bb9da0 65%, #bb9da0 50%);   
+}
+
+.similar-colors--item-color_areia--capuccino {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #6c5847 65%, #6c5847 50%);   
+}
+
+.similar-colors--item-color_mescla--romance {
+    background: linear-gradient(to right, #9fa0a4 40%,   #9fa0a4 30%,   #dea89d 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_nature\/oncinha--new-nude {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #765675 65%, #765675 50%);   
+}
+
+.similar-colors--item-color_preto--romance {
+    background: linear-gradient(to right, #000 40%,   #000 30%,   #dea89d 65%, #dea89d 50%);   
+}
+
+.similar-colors--item-color_make {
+    background: #daadbf;
+}
+
+.similar-colors--item-color_branco\/areia {
+    background: linear-gradient(to right, #fff 40%,   #fff 30%,   #ebcfc2 65%, #ebcfc2 50%);   
+}
+
+.similar-colors--item-color_areia\/leopardo--preto {
+    background: linear-gradient(to right, #ebcfc2 40%,   #ebcfc2 30%,   #000 65%, #000 50%);    
+}
+
+.similar-colors--item-color_mescla--mousse {
+    background: linear-gradient(to right, #9fa0a4 40%,   #9fa0a4 30%,   #c99f7e 65%, #c99f7e 50%);    
+}
+
+.similar-colors--item-color_mescla\/make {
+    background: linear-gradient(to right, #9fa0a4 40%,   #9fa0a4 30%,   #daadbf 65%, #daadbf 50%);    
+}
+
+.similar-colors--item-color_nature\/anis {
+    background: linear-gradient(to right, #f1ddd8 40%,   #f1ddd8 30%,   #cfdbe5 65%, #cfdbe5 50%);    
+}
+
+.similar-colors--item-color_preto\/leopardo {
+    background: #000;
+}
+
+.similar-colors--item-color_mescla\/preto {
+    background: linear-gradient(to right, #f1ddd8 40%,  #f1ddd8 30%,   #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_nature\/fúcsia {
+    background: linear-gradient(to right, #f1ddd8 40%,  #f1ddd8 30%,   #9b2469 65%, #9b2469  50%);
+}
+
+.similar-colors--item-color_fucsia--mescla {
+    background: linear-gradient(to right, #9b2469 40%,  #9b2469 30%,   #9fa0a4 65%, #9fa0a4  50%);
+}
+
+.similar-colors--item-color_marinho\/areia {
+    background: linear-gradient(to right, #242040 40%,  #242040 30%,   #ebcfc2 65%, #ebcfc2  50%);
+}
+
+.similar-colors--item-color_make--preto {
+    background: linear-gradient(to right, #daadbf 40%,  #daadbf 30%,   #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_areia--branco {
+    background: linear-gradient(to right, #ebcfc2 40%,  #ebcfc2 30%,   #fff 65%, #fff 50%);
+}
+
+.similar-colors--item-color_carmim--make {
+    background: linear-gradient(to right, #6e0e2a 40%,  #6e0e2a 30%,   #daadbf 65%, #daadbf 50%);
+}
+
+.similar-colors--item-color_algodão-doce--preto--quartzo {
+    background: linear-gradient(to right, #fce1ec 40%,  #000 30%,   #000 65%, #bb9da0 50%);
+}
+
+.similar-colors--item-color_branco\/preto--branco\/preto {
+    background: linear-gradient(to right, #fff 40%,  #fff 30%,   #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_marinho--mescla {
+    background: linear-gradient(to right, #242040 40%,  #242040 30%,  #9fa0a4 65%, #9fa0a4 50%);
+}
+
+.similar-colors--item-color_branco--branco--preto {
+    background: linear-gradient(to right, #fff 40%,  #fff 30%,  #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_bic--preto {
+    background: linear-gradient(to right, #1e2e9b 40%,  #1e2e9b 30%,  #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_vinho\/preto--vinho\/preto {
+    background: linear-gradient(to right, #641e26 40%,  #641e26 30%,  #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_branco--preto--preto {
+    background: linear-gradient(to right, #000 40%,  #000 30%,  #fff 65%, #fff 50%);
+}
+
+.similar-colors--item-color_branco\/cos-mescla {
+    background: linear-gradient(to right, #fff 40%,  #fff 30%,  #9fa0a4 65%, #9fa0a4 50%);
+}
+
+.similar-colors--item-color_marinho\/cos-cinza {
+    background: linear-gradient(to right, #242040 40%,  #242040 30%,  #6d7076 65%, #6d7076 50%);
+}
+
+.similar-colors--item-color_preto\/cos-mescla {
+    background: linear-gradient(to right, #000 40%,  #000 30%,  #6d7076 65%, #6d7076 50%);
+}
+
+.similar-colors--item-color_vinho\/cos-preto {
+    background: linear-gradient(to right, #641e26 40%,  #641e26 30%,  #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_mescla\/cos-preto {
+    background: linear-gradient(to right, #6d7076 40%,  #6d7076 30%,  #000 65%, #000 50%);
+}
+
+.similar-colors--item-color_amarelo\/cos-mescla {
+    background: linear-gradient(to right, #FFF498 40%,  #FFF498 30%,  #6d7076 65%, #6d7076 50%);
+}
+
+.similar-colors--item-color_preto\/cos-vermelho {
+    background: linear-gradient(to right, #000 40%,  #000 30%,  #cd1618 65%, #cd1618 50%);
+}
+
+.similar-colors--item-color_marinho--mescla-escuro {
+    background: linear-gradient(to right, #242040 40%,  #242040 30%,  #2f2f2f 65%, #2f2f2f 50%);
+}
+
+.similar-colors--item-color_verde-acqua {
+    background: #03bb85;
+}
