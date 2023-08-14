@@ -10,8 +10,8 @@
     "children": [
       "helmet-component",
       "flex-layout.row#topbar",
-      "sticky-layout#desktop",
-      "sy-modal-lgpd"
+      "sticky-layout#desktop"
+      // "sy-modal-lgpd"
       // "theme-natal"
       // "sy-popup"
     ]
@@ -110,8 +110,8 @@
     "children": [
       "helmet-component",
       "flex-layout.row#topbar",
-      "sticky-layout#desktop",
-      "sy-modal-lgpd"
+      "sticky-layout#desktop"
+      // "sy-modal-lgpd"
       // "sy-popup"
     ]
   },
@@ -120,8 +120,8 @@
   "responsive-layout.phone#header": {
     "children": [
       "helmet-component",
-      "sticky-layout#mobile",
-      "sy-modal-lgpd"
+      "sticky-layout#mobile"
+      // "sy-modal-lgpd"
       // "sy-popup"
     ]
   },
