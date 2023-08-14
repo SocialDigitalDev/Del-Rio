@@ -1,18 +1,23 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
       "sy-newsletter",
-      "flex-layout.row#footer-desktop-container"      
+      "flex-layout.row#footer-desktop-container"
     ],
     "props": {
       "blockClass": "sy-footer-container"
     }
   },
   "flex-layout.row#footer-desktop-container": {
-    "children": ["flex-layout.col#footer-desktop-container"]
+    "children": [
+      "flex-layout.col#footer-desktop-container"
+    ]
   },
   "flex-layout.col#footer-desktop-container": {
     "children": [
@@ -48,13 +53,20 @@
     }
   },
   "flex-layout.row#footer-social-images": {
-    "children": ["link#instagram", "link#facebook", "link#youtube"],
+    "children": [
+      "link#instagram",
+      "link#facebook",
+      "link#youtube",
+      "link#tiktok"
+    ],
     "props": {
       "blockClass": "sy-footer-social"
     }
   },
   "link#instagram": {
-    "children": ["image#instagram"],
+    "children": [
+      "image#instagram"
+    ],
     "props": {
       "href": "https://www.instagram.com/modadelrio/",
       "target": "_blank"
@@ -62,12 +74,14 @@
   },
   "image#instagram": {
     "props": {
-      "src": "/arquivos/logo-instagram.svg",      
+      "src": "/arquivos/logo-instagram.svg",
       "alt": "Instagram"
     }
   },
   "link#facebook": {
-    "children": ["image#facebook"],
+    "children": [
+      "image#facebook"
+    ],
     "props": {
       "href": "https://www.facebook.com/ModaDelRio/",
       "target": "_blank"
@@ -80,7 +94,9 @@
     }
   },
   "link#youtube": {
-    "children": ["image#youtube"],
+    "children": [
+      "image#youtube"
+    ],
     "props": {
       "href": "https://www.youtube.com/channel/UCGeujNJJZ7jHKxUaPtJsmWw",
       "target": "_blank"
@@ -92,6 +108,22 @@
       "alt": "Youtube"
     }
   },
+  "link#tiktok": {
+    "children": [
+      "image#tiktok"
+    ],
+    "props": {
+      "href": "https://www.tiktok.com/@modadelrio?lang=pt-BR",
+      "target": "_blank"
+    }
+  },
+  "image#tiktok": {
+    "props": {
+      "src": "assets/svg/logo-tiktok.svg",
+      "alt": "TikTok",
+      "maxWidth": 25
+    }
+  },
   "logo#footer-logo-desktop--edit": {
     "props": {
       "url": "/arquivos/logo-DelRio-preto.png",
@@ -100,25 +132,35 @@
     }
   },
   "flex-layout.col#footer-payment": {
-    "children": ["vtex.menu@2.x:menu#Pagamento", "vtex.menu@2.x:menu#Security"],
+    "children": [
+      "vtex.menu@2.x:menu#Pagamento",
+      "vtex.menu@2.x:menu#Security"
+    ],
     "props": {
       "blockClass": "sy-footer-right"
     }
   },
   "flex-layout.row#footer-bottom-desktop": {
-    "children": ["flex-layout.row#footer-copy-col"],
+    "children": [
+      "flex-layout.row#footer-copy-col"
+    ],
     "props": {
       "blockClass": "sy-footer-copy"
     }
   },
   "flex-layout.row#footer-copy-col": {
-    "children": ["rich-text#copy", "flex-layout.row#footer-bottom-images"],
+    "children": [
+      "rich-text#copy",
+      "flex-layout.row#footer-bottom-images"
+    ],
     "props": {
       "blockClass": "sy-footer-copy-col"
     }
   },
   "flex-layout.row#footer-bottom-images": {
-    "children": ["image#infracommerce-logo"],
+    "children": [
+      "image#infracommerce-logo"
+    ],
     "props": {
       "width": "100%",
       "blockClass": "sy-payments-synap"
@@ -147,7 +189,7 @@
     "children": [
       "sy-newsletter",
       "flex-layout.row#footer-top-mobile",
-      "flex-layout.row#footer-bottom-mobile"      
+      "flex-layout.row#footer-bottom-mobile"
     ]
   },
   "flex-layout.row#footer-top-mobile": {
@@ -162,7 +204,9 @@
     }
   },
   "flex-layout.row#footer-bottom-mobile": {
-    "children": ["flex-layout.row#footer-copy-col"],
+    "children": [
+      "flex-layout.row#footer-copy-col"
+    ],
     "props": {
       "blockClass": "sy-footer-copy"
     }
