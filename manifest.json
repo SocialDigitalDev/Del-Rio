@@ -63,7 +63,9 @@
     "vtex.product-specifications": "1.x",
     "vtex.condition-layout": "2.x",
     "vtex.product-context": "0.x",
-    "vtex.device-detector": "0.x"
+    "vtex.device-detector": "0.x",
+    "vtex.format-currency": "0.x",
+    "vtex.order-manager": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

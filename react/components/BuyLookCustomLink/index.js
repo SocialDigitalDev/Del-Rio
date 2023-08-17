@@ -15,11 +15,11 @@ const BuyLookCustomLink = () => {
 
     let formattedProducts = suggestions?.map(item => item.productId).toString();
 
-    return (
+    return suggestions ?(
         <div className="buy-look--link-wrapper">
             <a href={`/compre-o-look?mainProduct=${productId}&productIds=${formattedProducts}`} className="">Compre o Look</a>
         </div>
-    );
+    ) : null;
 }
 
 export default BuyLookCustomLink;
