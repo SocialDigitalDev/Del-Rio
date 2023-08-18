@@ -14,9 +14,7 @@ const BuyLookCustomPage = () => {
         const prodIdsArr = prodIds.split(',');
 
         for (let i = 0; i < prodIdsArr.length; i++){
-            await axios({
-                url: `/api/catalog_system/pub/products/search?fq=productId:${prodIdsArr[i]}`
-            }).then(function(response){
+            await axios(`/api/catalog_system/pub/products/search?fq=productId:${prodIdsArr[i]}`).then(function(response){
                 setListedProduct(prevArr => [...prevArr, response.data[0]]);
             });
         }
@@ -61,15 +59,14 @@ const BuyLookCustomPage = () => {
                             </div>
                         )
                     }
-                    { item.items[0].sellers[0].commertialOffer.Installments[0].NumberOfInstallments > 1 ? (
-                            <div className="product-price-installments">
-                                <span className="installments">
-                                    Em até {item.items[0].sellers[0].commertialOffer.Installments[0].NumberOfInstallments}x <FormattedCurrency value={item.items[0].sellers[0].commertialOffer.Installments[0].Value} /> sem juros
-                                </span>
-                            </div>
-                        ) : (
-                            null
-                        )
+                    { item?.items[0]?.sellers[0]?.commertialOffer?.Installments !== null && 
+                    item?.items[0]?.sellers[0]?.commertialOffer?.Installments[0]?.NumberOfInstallments > 1 ?
+                        <div className="product-price-installments">
+                            <span className="installments">
+                                Em até {item?.items[0]?.sellers[0]?.commertialOffer?.Installments[0]?.NumberOfInstallments}x de <FormattedCurrency value={item?.items[0]?.sellers[0]?.commertialOffer?.Installments[0]?.NumberOfInstallments} /> sem juros
+                            </span>
+                        </div>
+                    : null
                     }
                 </div>
             </div>
