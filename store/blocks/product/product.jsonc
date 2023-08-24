@@ -156,7 +156,8 @@
       "flex-layout.row#buy-button",
       "shipping-simulator",
       "product-description",
-      "share#default"
+      "share#default",
+      "buy-look-link"
     ]
   },
   /*NAME*/
