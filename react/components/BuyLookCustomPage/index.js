@@ -13,6 +13,7 @@ const BuyLookCustomPage = () => {
     const [errorCart, setErrorCart] = useState(false);
     const [getSku, setSku] = useState();
     
+    // Requisição assíncrona que traz os produtos gerados em um array direto da URL capturada
     async function listProducts() {
 
         const urlSearch = window.location.search;
@@ -27,6 +28,7 @@ const BuyLookCustomPage = () => {
         }
     }
 
+    // Variável de array de objetos que é populada pelo SKU/Variante selecionado na página;
     let sku = [
         {
             id: getSku,
@@ -35,6 +37,7 @@ const BuyLookCustomPage = () => {
         }
     ]
 
+    // Função de mensagem de sucesso com botões para recarregar a página e ir para o checkout
     function PopUpSuccess() {
         return (
             <div className="compre-o-look--pop-up">
@@ -48,6 +51,7 @@ const BuyLookCustomPage = () => {
         )
     }
 
+    // Função de mensagem de erro com um botão OK que fecha o modal, também como clicar fora
     function ErrorSize() {
         return (
             <div className="compre-o-look--error" onClick={() => setSelectSize(false)}>
@@ -59,6 +63,7 @@ const BuyLookCustomPage = () => {
         )
     }
 
+    // Função de mensagem de erro com um botão OK que fecha o modal, também como clicar fora
     function ErrorAddCart() {
         return (
             <div className="compre-o-look--error" onClick={() => setErrorCart(false)}>
@@ -70,6 +75,7 @@ const BuyLookCustomPage = () => {
         )
     }
 
+    // Função que verifica se o botão comprar pertence ao produto.
     function VerifyBuyButton(prod) {
         let verifiedSku = prod?.items?.find(item => item?.itemId === getSku)?.itemId;    
         if ( verifiedSku === getSku ){
@@ -79,13 +85,13 @@ const BuyLookCustomPage = () => {
         }
     }
 
-
+    // Função de recarregamento de página.
     const reloadPage = (e) => {
         e.preventDefault()
         window.location.reload()
     }
 
-
+    // Função de adição do SKU selecionado ao carrinho.
     const addToCart = () => {
 
         let t = ["items", "totalizers", "clientProfileData", "shippingData", "paymentData", "sellers", "messages", "marketingData", "clientPreferencesData", "storePreferencesData", "giftRegistryData", "ratesAndBenefitsData", "openTextField", "commercialConditionData", "customData"];
@@ -95,8 +101,6 @@ const BuyLookCustomPage = () => {
             orderItems: sku,
             expectedOrderFormSections: t
         }
-
-        console.log(data);
 
         fetch(`/api/checkout/pub/orderForm/${idOF}/items?sc=1`, {
             method: 'POST',
@@ -121,11 +125,12 @@ const BuyLookCustomPage = () => {
             });
     }
 
-
+    // Hook de DOM Ready onde a função de requisição é executada assincronamente.
     useEffect(() => {
         listProducts();
     }, [])
 
+    // Variável-Função que roda um looping e pré-renderiza produto a produto da página e retorna a mesma completa.
     const listArr = listedProduct?.map(item =>
 
         <div className="compre-o-look--product-container">
@@ -217,7 +222,7 @@ const BuyLookCustomPage = () => {
         </div>
     )
 
-
+    // Bloco de renderização do componente. Renderiza a lista de produtos pré-renderizados, junto com as mensagens de erro.
     return (
         <div className="compre-o-look--wrapper">
             {listArr}

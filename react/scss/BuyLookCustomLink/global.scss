@@ -1,0 +1,35 @@
+.buy-look{
+
+    &--link-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        @media (min-width: 577px){
+            align-items: center;
+        }
+        @media (max-width: 576px){
+            flex-flow: column;
+        }
+
+        a{
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #48385C;
+            border: 1px solid #48385C;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            text-decoration: none;
+            transition: .3s all ease;
+
+            &:hover{
+                background: #48385C;
+                color: #fff;
+            }
+        }
+    }
+}

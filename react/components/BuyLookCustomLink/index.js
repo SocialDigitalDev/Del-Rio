@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import { useProduct } from "vtex.product-context";
+import "../../css/BuyLookCustomLink/global.css";
 
 const BuyLookCustomLink = () => {
 
@@ -15,8 +16,9 @@ const BuyLookCustomLink = () => {
 
     let formattedProducts = suggestions?.map(item => item.productId).toString();
 
-    return suggestions ?(
+    return suggestions?.length > 0 ?(
         <div className="buy-look--link-wrapper">
+            <p className="like-it">Gostou da nossa composição?</p>
             <a href={`/compre-o-look?mainProduct=${productId}&productIds=${formattedProducts}`} className="">Compre o Look</a>
         </div>
     ) : null;
