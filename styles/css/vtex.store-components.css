@@ -1372,3 +1372,17 @@
   color: #000;
   margin-bottom: 0;
 }
+
+@media (max-width: 1280px) and (min-width: 577px){
+  :global(.vtex-rich-text-0-x-container--page-title){
+    padding: 0 2em
+  }
+}
+@media (max-width: 577px){
+  :global(.vtex-rich-text-0-x-container--page-title){
+    padding: 0 1em
+  }
+  :global(.vtex-rich-text-0-x-container--page-title) :global(.vtex-rich-text-0-x-headingLevel1){
+    font-size: 40px;
+  }
+}

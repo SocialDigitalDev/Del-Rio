@@ -9,8 +9,10 @@ const BuyLookCustomPage = () => {
     const { orderForm } = useOrderForm();
     const [listedProduct, setListedProduct] = useState([]);
     const [show, setShow] = useState(false);
+    const [selectSize, setSelectSize] = useState(false);
+    const [errorCart, setErrorCart] = useState(false);
     const [getSku, setSku] = useState();
-
+    
     async function listProducts() {
 
         const urlSearch = window.location.search;
@@ -46,14 +48,45 @@ const BuyLookCustomPage = () => {
         )
     }
 
+    function ErrorSize() {
+        return (
+            <div className="compre-o-look--error" onClick={() => setSelectSize(false)}>
+                <div className="compre-o-look--error-container">
+                    <p className="compre-o-look--error-select">Selecione um tamanho</p>
+                    <button className="compre-o-look--error-ok" onClick={() => setSelectSize(false)}>OK</button>
+                </div>
+            </div>
+        )
+    }
+
+    function ErrorAddCart() {
+        return (
+            <div className="compre-o-look--error" onClick={() => setErrorCart(false)}>
+                <div className="compre-o-look--error-container">
+                    <p className="compre-o-look--error-select">Ocorreu um erro ao adicionar o produto ao carrinho! Por favor tente novamente mais tarde.</p>
+                    <button className="compre-o-look--error-ok" onClick={() => setErrorCart(false)}>OK</button>
+                </div>
+            </div>
+        )
+    }
+
+    function VerifyBuyButton(prod) {
+        let verifiedSku = prod?.items?.find(item => item?.itemId === getSku)?.itemId;    
+        if ( verifiedSku === getSku ){
+            addToCart();
+        } else {
+            setSelectSize(true);
+        }
+    }
+
+
     const reloadPage = (e) => {
         e.preventDefault()
         window.location.reload()
     }
 
 
-    const addToCart = (e) => {
-        e.preventDefault()
+    const addToCart = () => {
 
         let t = ["items", "totalizers", "clientProfileData", "shippingData", "paymentData", "sellers", "messages", "marketingData", "clientPreferencesData", "storePreferencesData", "giftRegistryData", "ratesAndBenefitsData", "openTextField", "commercialConditionData", "customData"];
         let idOF = orderForm.id
@@ -62,6 +95,8 @@ const BuyLookCustomPage = () => {
             orderItems: sku,
             expectedOrderFormSections: t
         }
+
+        console.log(data);
 
         fetch(`/api/checkout/pub/orderForm/${idOF}/items?sc=1`, {
             method: 'POST',
@@ -75,18 +110,21 @@ const BuyLookCustomPage = () => {
                 return resp.json()
             })
             .then((response) => {
-                console.log('deu bom?', response)
-                setShow(currentShow => !currentShow)
+                if (response?.error) {
+                    setSelectSize(true);
+                } else {
+                    setShow(currentShow => !currentShow)
+                }
             })
-            .catch(err => {
-                console.log('error', err);
+            .catch(() => {
+                setErrorCart(true);
             });
     }
+
 
     useEffect(() => {
         listProducts();
     }, [])
-
 
     const listArr = listedProduct?.map(item =>
 
@@ -135,17 +173,32 @@ const BuyLookCustomPage = () => {
                 <div className="compre-o-look--product-sizes-wrapper">
                     <p className="sizes-title">Tamanho</p>
                     <div className="compre-o-look--product-sizes-selector">
-                        {item?.items.map(secItem =>
-                            <div className="size-wrapper">
+                        {item?.items.map(secItem => secItem?.sellers[0]?.commertialOffer?.IsAvailable == true ?
+                            <div className={`size-wrapper available`}>
                                 <input
                                     type="radio"
-                                    name="sizeSelector"
+                                    name={`sizeSelector${item?.productId}`}
                                     id={`sizeSelector${secItem?.itemId}`}
                                     className={`size-selector ${secItem?.Tamanho[0]}`}
                                     data-id={secItem?.itemId}
                                     onClick={() => setSku(secItem?.itemId)}
                                     value={secItem?.Tamanho[0]}
-                                />
+                                    />
+                                <label for={`sizeSelector${secItem?.itemId}`}>
+                                    {secItem?.Tamanho[0]}
+                                </label>
+                            </div>
+                            :
+                            <div className={`size-wrapper unavailable`}>
+                                <input
+                                    type="radio"
+                                    name={`sizeSelector${item?.productId}`}
+                                    id={`sizeSelector${secItem?.itemId}`}
+                                    className={`size-selector ${secItem?.Tamanho[0]}`}
+                                    data-id={secItem?.itemId}
+                                    onClick={() => setSku(secItem?.itemId)}
+                                    value={secItem?.Tamanho[0]}
+                                    />
                                 <label for={`sizeSelector${secItem?.itemId}`}>
                                     {secItem?.Tamanho[0]}
                                 </label>
@@ -154,7 +207,9 @@ const BuyLookCustomPage = () => {
                     </div>
                 </div>
                 <div className="compre-o-look--buy-button">
-                    <button className="buy-button" onClick={addToCart}>
+                    <button className="buy-button" onClick={function() {
+                        VerifyBuyButton(item)
+                    }}>
                         Comprar
                     </button>
                 </div>
@@ -167,6 +222,8 @@ const BuyLookCustomPage = () => {
         <div className="compre-o-look--wrapper">
             {listArr}
             {show ? <PopUpSuccess /> : null}
+            {errorCart ? <ErrorAddCart /> : null}
+            {selectSize ? <ErrorSize /> : null}
         </div>
     );
 }
