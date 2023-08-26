@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { FormattedCurrency } from "vtex.format-currency";
-import { useOrderForm } from "vtex.order-manager/OrderForm";
+import { useOrderItems } from "vtex.order-items/OrderItems";
 import "../../css/BuyLookCustomPage/global.css";
 
 const BuyLookCustomPage = () => {
 
-    const { orderForm } = useOrderForm();
+    const { addItems } = useOrderItems()
     const [listedProduct, setListedProduct] = useState([]);
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState("");
     const [selectSize, setSelectSize] = useState(false);
-    const [errorCart, setErrorCart] = useState(false);
     const [getSku, setSku] = useState();
+    const mainProductImage = listedProduct[0]?.items[0]?.images[0]?.imageUrl
     
     // Requisição assíncrona que traz os produtos gerados em um array direto da URL capturada
     async function listProducts() {
@@ -37,20 +37,6 @@ const BuyLookCustomPage = () => {
         }
     ]
 
-    // Função de mensagem de sucesso com botões para recarregar a página e ir para o checkout
-    function PopUpSuccess() {
-        return (
-            <div className="compre-o-look--pop-up">
-                <div className="compre-o-look--pop-up-content">
-                    <p className="all-set">Tudo certo!</p>
-                    <p className="message">Produto adicionado ao carrinho!</p>
-                    <span onClick={reloadPage}>Continuar Comprando</span>
-                    <a href="/checkout/#/cart" className="go-to-cart">Ir para o carrinho</a>
-                </div>
-            </div>
-        )
-    }
-
     // Função de mensagem de erro com um botão OK que fecha o modal, também como clicar fora
     function ErrorSize() {
         return (
@@ -58,18 +44,6 @@ const BuyLookCustomPage = () => {
                 <div className="compre-o-look--error-container">
                     <p className="compre-o-look--error-select">Selecione um tamanho</p>
                     <button className="compre-o-look--error-ok" onClick={() => setSelectSize(false)}>OK</button>
-                </div>
-            </div>
-        )
-    }
-
-    // Função de mensagem de erro com um botão OK que fecha o modal, também como clicar fora
-    function ErrorAddCart() {
-        return (
-            <div className="compre-o-look--error" onClick={() => setErrorCart(false)}>
-                <div className="compre-o-look--error-container">
-                    <p className="compre-o-look--error-select">Ocorreu um erro ao adicionar o produto ao carrinho! Por favor tente novamente mais tarde.</p>
-                    <button className="compre-o-look--error-ok" onClick={() => setErrorCart(false)}>OK</button>
                 </div>
             </div>
         )
@@ -92,37 +66,13 @@ const BuyLookCustomPage = () => {
     }
 
     // Função de adição do SKU selecionado ao carrinho.
-    const addToCart = () => {
-
-        let t = ["items", "totalizers", "clientProfileData", "shippingData", "paymentData", "sellers", "messages", "marketingData", "clientPreferencesData", "storePreferencesData", "giftRegistryData", "ratesAndBenefitsData", "openTextField", "commercialConditionData", "customData"];
-        let idOF = orderForm.id
-
-        let data = {
-            orderItems: sku,
-            expectedOrderFormSections: t
-        }
-
-        fetch(`/api/checkout/pub/orderForm/${idOF}/items?sc=1`, {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
+    const addToCart = async () => {
+        await addItems(sku).then(() => {
+            setShow("show");
+            setTimeout(() => {
+                setShow("");
+            }, 5000)
         })
-            .then((resp) => {
-                return resp.json()
-            })
-            .then((response) => {
-                if (response?.error) {
-                    setSelectSize(true);
-                } else {
-                    setShow(currentShow => !currentShow)
-                }
-            })
-            .catch(() => {
-                setErrorCart(true);
-            });
     }
 
     // Hook de DOM Ready onde a função de requisição é executada assincronamente.
@@ -225,10 +175,20 @@ const BuyLookCustomPage = () => {
     // Bloco de renderização do componente. Renderiza a lista de produtos pré-renderizados, junto com as mensagens de erro.
     return (
         <div className="compre-o-look--wrapper">
-            {listArr}
-            {show ? <PopUpSuccess /> : null}
-            {errorCart ? <ErrorAddCart /> : null}
+            <div className="compre-o-look--container">
+                <div className="compre-o-look--main-product-wrapper">
+                    <img src={mainProductImage} className="main-product-image" />
+                </div>
+                <div className="compre-o-look--product-wrapper">
+                    {listArr}
+                </div>
+            </div>
             {selectSize ? <ErrorSize /> : null}
+            <div className={`compre-o-look--pop-up ${show}`}>
+                <div className="compre-o-look--pop-up-content">
+                    <p className="message">Produto adicionado ao carrinho!</p>
+                </div>
+            </div>
         </div>
     );
 }

@@ -2,7 +2,8 @@
     "minicart.v2": {
       "children": ["minicart-base-content"],
       "props": {
-        "quantityDisplay": "not-empty"
+        "quantityDisplay": "not-empty",
+        "customPixelEventName": "addToCart"
       }
     },
     "minicart-base-content": {
