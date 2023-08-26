@@ -52,17 +52,11 @@ const BuyLookCustomPage = () => {
     // Função que verifica se o botão comprar pertence ao produto.
     function VerifyBuyButton(prod) {
         let verifiedSku = prod?.items?.find(item => item?.itemId === getSku)?.itemId;    
-        if ( verifiedSku === getSku ){
+        if ( getSku && verifiedSku === getSku ){
             addToCart();
         } else {
             setSelectSize(true);
         }
-    }
-
-    // Função de recarregamento de página.
-    const reloadPage = (e) => {
-        e.preventDefault()
-        window.location.reload()
     }
 
     // Função de adição do SKU selecionado ao carrinho.
@@ -183,12 +177,12 @@ const BuyLookCustomPage = () => {
                     {listArr}
                 </div>
             </div>
-            {selectSize ? <ErrorSize /> : null}
             <div className={`compre-o-look--pop-up ${show}`}>
                 <div className="compre-o-look--pop-up-content">
                     <p className="message">Produto adicionado ao carrinho!</p>
                 </div>
             </div>
+            {selectSize ? <ErrorSize /> : null}
         </div>
     );
 }
