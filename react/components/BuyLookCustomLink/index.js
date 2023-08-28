@@ -18,7 +18,7 @@ const BuyLookCustomLink = () => {
 
     return suggestions?.length > 0 ?(
         <div className="buy-look--link-wrapper">
-            <p className="like-it">Gostou da nossa composição?</p>
+            {/* <p className="like-it">Gostou da nossa composição?</p> */}
             <a href={`/compre-o-look?mainProduct=${productId}&productIds=${formattedProducts}`} className="">Compre o Look</a>
         </div>
     ) : null;
