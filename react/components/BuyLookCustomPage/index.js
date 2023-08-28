@@ -12,6 +12,7 @@ const BuyLookCustomPage = () => {
     const [selectSize, setSelectSize] = useState(false);
     const [getSku, setSku] = useState();
     const mainProductImage = listedProduct[0]?.items[0]?.images[0]?.imageUrl
+    const secondaryProductImage = listedProduct[0]?.items[0]?.images[1]?.imageUrl
     
     // Requisição assíncrona que traz os produtos gerados em um array direto da URL capturada
     async function listProducts() {
@@ -171,7 +172,7 @@ const BuyLookCustomPage = () => {
         <div className="compre-o-look--wrapper">
             <div className="compre-o-look--container">
                 <div className="compre-o-look--main-product-wrapper">
-                    <img src={mainProductImage} className="main-product-image" />
+                    <img src={secondaryProductImage ? secondaryProductImage : mainProductImage} className="main-product-image" />
                 </div>
                 <div className="compre-o-look--product-wrapper">
                     {listArr}

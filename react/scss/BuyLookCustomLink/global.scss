@@ -2,14 +2,19 @@
 
     &--link-wrapper{
         display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
+        justify-content: flex-start;
+        margin-bottom: 32px;
 
         @media (min-width: 577px){
             align-items: center;
         }
         @media (max-width: 576px){
             flex-flow: column;
+            align-items: center;
+        }
+
+        p{
+            margin-right: 20px;
         }
 
         a{
@@ -25,6 +30,10 @@
             height: 40px;
             text-decoration: none;
             transition: .3s all ease;
+
+            @media (min-width: 1200px){
+                margin-left: 225px;
+            }
 
             &:hover{
                 background: #48385C;

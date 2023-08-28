@@ -154,10 +154,10 @@
       "sku-selector",
       "sy-productInfo",
       "flex-layout.row#buy-button",
+      "buy-look-link",
       "shipping-simulator",
       "product-description",
-      "share#default",
-      "buy-look-link"
+      "share#default"
     ]
   },
   /*NAME*/
