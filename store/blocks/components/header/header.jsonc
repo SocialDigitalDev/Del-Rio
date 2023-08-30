@@ -189,7 +189,8 @@
       "drawer#submenu-ecologico",
       // "menu-item#novidades-mobile",
       "menu-item#lovers-mobile",
-      "menu-item#linhanoite-mobile"
+      // "menu-item#linhanoite-mobile"
+      "drawer#submenu-linha-noite"
     ],
     "props": {
       "orientation": "vertical"

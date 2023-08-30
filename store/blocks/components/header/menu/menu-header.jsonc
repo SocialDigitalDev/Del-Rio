@@ -144,10 +144,10 @@
         "tagTitle": "LINHA NOITE",
         "text": "LINHA NOITE"
       }
-    }
-    // "blocks": [
-    //   "vtex.menu@2.x:submenu#main-submenu"
-    // ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
   },
   "menu-item#ecologico": {
     "props": {
