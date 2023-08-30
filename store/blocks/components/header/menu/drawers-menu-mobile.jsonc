@@ -258,6 +258,40 @@
       "orientation": "vertical"
     },
     "title": "Itens - Ecologico"
+  },
+  /***************************************/
+  /************** LINHA NOITE **************/
+  /***************************************/
+  "drawer#submenu-linha-noite": {
+    "children": ["menu#drawer-linha-noite"],
+    "blocks": ["drawer-trigger#linha-noite"],
+    "props": {
+      "blockClass": "submenu-mobile",
+      "isFullWidth": true
+    },
+    "title": "Linha Noite"
+  },
+  "drawer-trigger#linha-noite": {
+    "children": ["rich-text#submenu-linha-noite"],
+    "title": "Titulo - Submenu"
+  },
+  "rich-text#submenu-linha-noite": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "LINHA NOITE"
+    },
+    "title": "Titulo"
+  },
+  "menu#drawer-linha-noite": {
+    "children": [
+      "rich-text#linha-noite-mobile",
+      "vtex.menu@2.x:menu#linha-noite-mobile"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-linha-noite",
+      "orientation": "vertical"
+    },
+    "title": "Itens - Linha Noite"
   }
   
 }
