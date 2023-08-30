@@ -168,23 +168,21 @@
       }
     }
   },
-  "menu-item#linhanoite-mobile": {
-    "blocks": [
-      // "vtex.menu@2.x:submenu.accordion#linhanoite-mobile"
-    ],
+  "rich-text#linha-noite-mobile": {
     "props": {
-      "blockClass": ["main-mobile", "linhanoite-item"],
-      "id": "menu-item-category-linhanoite",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/linha-noite",
-        "noFollow": true,
-        "tagTitle": "LINHA NOITE",
-        "text": "LINHA NOITE"
-      }
+      "blockClass": ["main-mobile", "categorias-item"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[LINHA NOITE](/feminino/linha-noite)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "title": "titulo"
+    }
+  },
+  "vtex.menu@2.x:menu#linha-noite-mobile": {
+    "props": {
+      "blockClass": "linha-noite-mobile",
+      "orientation": "vertical"
     }
   }
 }
