@@ -1,7 +1,7 @@
 {
   "vendor": "delrio",
   "name": "dev-theme",
-  "version": "1.5.24",
+  "version": "1.5.25",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
