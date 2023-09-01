@@ -53,12 +53,7 @@
     }
   },
   "flex-layout.row#footer-social-images": {
-    "children": [
-      "link#instagram",
-      "link#facebook",
-      "link#youtube",
-      "link#tiktok"
-    ],
+    "children": ["link#instagram", "link#facebook", "link#youtube", "link#tiktok"],
     "props": {
       "blockClass": "sy-footer-social"
     }
