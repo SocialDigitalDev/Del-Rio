@@ -1,6 +1,8 @@
 {
   "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "props": {
       "openAutocompleteOnFocus": true,
       "blockClass": "sy-search-desktop",
@@ -11,32 +13,36 @@
       "hideTitles": false
     }
   },
-  
-  "modal-trigger#search-mobile" :{
-    "children":["image#search","modal-layout#search-mobile"],
-    "props":{
+  "modal-trigger#search-mobile": {
+    "children": [
+      "image#search-trigger",
+      "modal-layout#search-mobile"
+    ],
+    "props": {
       "blockClass": "sy-modal-trigger--search-mobile"
     }
   },
-
-  "image#search": {
+  "image#search-trigger": {
     "props": {
-      "src": "/arquivos/search-outline.svg",
+      "src": "assets/svg/search-outline.svg",
+      "blockClass": "modal-trigger-image",
       "maxHeight": "24px",
       "maxWidth": "24px"
     }
   },
-  
   "modal-layout#search-mobile": {
-    "children": ["search-bar#mobile"],
+    "children": [
+      "search-bar#mobile"
+    ],
     "props": {
       "blockClass": "sy-modal--search-mobile"
     }
   },
-
-  "search-bar#mobile":{
-    "blocks": ["autocomplete-result-list.v2"],
-    "props":{
+  "search-bar#mobile": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
       "openAutocompleteOnFocus": false,
       "blockClass": "sy-search-mobile",
       "placeholder": "Pesquisar"
