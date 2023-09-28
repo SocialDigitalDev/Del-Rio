@@ -1,0 +1,23 @@
+{
+	"store.custom#collection": {
+		"title": "PAGINA DE COLECAO",
+		"blocks": ["search-result-layout.customQuery"]
+	},
+
+	"search-result-layout.customQuery": {
+		"title": "CONFIGURACOES DA PAGINA",
+		"props": {
+			"querySchema": {
+                "skusFilter": "ALL",
+                "queryField": "",
+                "mapField": "productClusterIds",
+                "maxItemsPerPage": 20
+            }
+		},
+		"blocks": [
+			"search-result-layout.desktop#collection",
+			"search-result-layout.mobile#collection",
+			"search-not-found-layout"
+		]
+	}
+}

@@ -82,6 +82,34 @@
 			"blockClass": "sy-container"			
 		}
 	},
+	"search-result-layout.desktop#collection": {
+		"children": [
+			"image#collection-banner-desktop",
+			"flex-layout.row#result" 
+			// "rich-text#title-category",
+			// "rich-text#text-category"
+		],
+		"props": {
+			"pagination": "show-more",
+			"preventRouteChange": false,
+			"defaultGalleryLayout": "grid",
+			"blockClass": "sy-container"			
+		}
+	},
+	"image#collection-banner-desktop": {
+		"title": "Banner de Coleção [DESKTOP]",
+		"props": {
+			"blockClass": "collection-banner",
+			"src": ""
+		}
+	},
+	"image#collection-banner-mobile": {
+		"title": "Banner de Coleção [MOBILE]",
+		"props": {
+			"blockClass": "collection-banner",
+			"src": ""
+		}
+	},
 	"search-result-layout.desktop#search": {
 		"children": [
 			"flex-layout.row#banner-principal-search",
@@ -165,7 +193,7 @@
 	"flex-layout.col#search-infoLeft": {
 		"children": ["flex-layout.col#searchTitle"]
 	},
-
+	
 	"flex-layout.col#searchTitle": {
 		"children": ["search-title.v2"],
 		"props": {
@@ -250,6 +278,25 @@
 	"search-result-layout.mobile": {
 		"children": [
 			"search-banner#one",
+			"flex-layout.row#searchbread",
+			"flex-layout.row#searchinfomobile",
+			"flex-layout.row#searchtitle-mob",
+			"flex-layout.row#fetchprevious",
+			"flex-layout.row#contentmobile",
+			"flex-layout.row#fetchmore"
+		],
+		"props": {
+			"pagination": "show-more",
+			"mobileLayout": {
+				"mode1": "small",
+				"mode2": "normal"
+			},
+			"defaultGalleryLayout": "grid"
+		}
+	},
+	"search-result-layout.mobile#collection": {
+		"children": [
+			"image#collection-banner-mobile",
 			"flex-layout.row#searchbread",
 			"flex-layout.row#searchinfomobile",
 			"flex-layout.row#searchtitle-mob",
