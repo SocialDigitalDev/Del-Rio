@@ -20,7 +20,7 @@
   /*************************************************/
   /*************  MASCULINO  *************/
   /*************************************************/
- 
+
   "rich-text#masculino-mobile": {
     "props": {
       "blockClass": ["main-mobile", "categorias-item"],
@@ -104,7 +104,7 @@
       "orientation": "vertical"
     }
   },
-  
+
   /*************************************************/
   /*************  ECOLOGICO  *************/
   /*************************************************/
@@ -165,6 +165,25 @@
         "noFollow": true,
         "tagTitle": "DELRIO TEENS",
         "text": "DELRIO TEENS"
+      }
+    }
+  },
+  "menu-item#outlet-mobile": {
+    "blocks": [
+      // "vtex.menu@2.x:submenu.accordion#ofertas-mobile"
+    ],
+    "props": {
+      "blockClass": ["main-mobile", "outlet-mobile"],
+      "id": "menu-item-category-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/308?map=productClusterIds",
+        "noFollow": true,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
       }
     }
   },
