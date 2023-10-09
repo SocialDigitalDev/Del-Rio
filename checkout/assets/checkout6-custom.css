@@ -247,7 +247,7 @@ header .content {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 0;
-    color: #48385C;
+    color: #ff03ec;
     text-align: center;
     line-height: 37px;
 }
@@ -289,7 +289,7 @@ header .content {
     width: 210px;
     height: 40px;
     margin: 0;
-    background: #48385C;
+    background: #ff03ec;
     border: none;
     border-radius: 0;
     text-align: center;
@@ -360,7 +360,7 @@ header .content {
 
 /* Handle */
 .cart-template.full-cart .cart-items::-webkit-scrollbar-thumb {
-    background: #48385C;
+    background: #ff03ec;
 }
 
 
@@ -373,7 +373,7 @@ header .content {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #48385C;
+    color: #ff03ec;
 }
 
 .cart-template.full-cart .cart-items tbody {
@@ -673,7 +673,7 @@ header .content {
     border-radius: 0;
     box-shadow: none;
     text-shadow: none;
-    background: #48385C;
+    background: #ff03ec;
     font-family: 'Akrobat', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -684,8 +684,8 @@ header .content {
 .cart-template.full-cart .summary-template-holder .cart-more-options #shipping-preview-container .vtex-shipping-preview-0-x-pc form.srp-postal-code__form #cart-shipping-calculate:hover {
     display: block;
     background: #fff;
-    color: #48385C;
-    border: 1px solid #48385C;
+    color: #ff03ec;
+    border: 1px solid #ff03ec;
     font-weight: 700;
 }
 
@@ -893,7 +893,7 @@ header .content {
     width: 140px;
     height: 32px;
     padding: 6px 23px;
-    background: #48385C;
+    background: #ff03ec;
     border: none;
     box-shadow: none;
     text-shadow: none;
@@ -907,8 +907,8 @@ header .content {
 
 .cart-template.full-cart .cart-links-bottom .btn-place-order-wrapper #cart-to-orderform:hover {
     background: #fff;
-    border: 1px solid #48385C;
-    color: #48385C;
+    border: 1px solid #ff03ec;
+    color: #ff03ec;
     padding: 6px 0;
 }
 
@@ -930,7 +930,7 @@ h1#orderform-title {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #48385C;
+    color: #ff03ec;
 }
 
 .client-pre-email {
@@ -952,7 +952,7 @@ h1#orderform-title {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #48385C;
+    color: #ff03ec;
     line-height: 37px;
 }
 
@@ -984,7 +984,7 @@ h1#orderform-title {
     width: 140px;
     height: 32px;
     margin-left: 16px;
-    background: #48385C;
+    background: #ff03ec;
     color: #fff;
     border-radius: 0;
     border: none;
@@ -1006,7 +1006,7 @@ h1#orderform-title {
 .client-pre-email .emailInfo h3 {
     font-weight: 900;
     font-size: 16px;
-    color: #48385C;
+    color: #ff03ec;
 }
 
 .client-pre-email .emailInfo > * {
@@ -1168,7 +1168,7 @@ h1#orderform-title {
 .accordion-group form.form-step p.submit.btn-submit-wrapper #go-to-shipping, .accordion-group form.form-step p.submit.btn-submit-wrapper #go-to-payment {
     width: 140px;
     height: 32px;
-    background: #48385C;
+    background: #ff03ec;
     font-family: 'Akrobat', sans-serif;
     font-weight: 500;
     color: #fff;
@@ -1195,7 +1195,7 @@ h1#orderform-title {
     width: 100%;
     height: 32px;
     margin-top: 15px;
-    background: #48385C;
+    background: #ff03ec;
     border: none;
     border-radius: 0;
     text-shadow: none;
@@ -1210,20 +1210,20 @@ h1#orderform-title {
 
 .accordion-group .shipping-container .vtex-omnishipping-1-x-submitPaymentButton #btn-go-to-payment:hover {
     background: #fff;
-    color: #48385C;
-    border: 1px solid #48385C;
+    color: #ff03ec;
+    border: 1px solid #ff03ec;
 }
 
 .vtex-omnishipping-1-x-addressFormPart1 small a {
     font-family: 'Akrobat', sans-serif;
     font-weight: 500;
     font-size: 10px;
-    color: #48385C;
+    color: #ff03ec;
     text-decoration: underline;
 }
 
 .vtex-omnishipping-1-x-svg path {
-    fill: #48385C;
+    fill: #ff03ec;
 }
 
 .vtex-omnishipping-1-x-addressSummaryActive .address-summary {
@@ -1240,8 +1240,8 @@ h1#orderform-title {
 }
 
 .vtex-omnishipping-1-x-summaryChange {
-    border-color: #48385C !important;
-    color: #48385C !important;
+    border-color: #ff03ec !important;
+    color: #ff03ec !important;
     font-family: 'Akrobat', sans-serif;
     font-weight: 500;
     font-size: 12px !important;
@@ -1288,14 +1288,14 @@ h1#orderform-title {
     font-family: 'Akrobat', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #48385C;
+    color: #ff03ec;
 }
 
 .mini-cart .quantity {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 12px;
-    color: #48385C;
+    color: #ff03ec;
     background: #e9e2f1;
     border: none;
 }
@@ -1318,7 +1318,7 @@ h1#orderform-title {
     font-family: 'Akrobat', sans-serif;
     font-weight: 700;
     font-size: 12px;
-    color: #48385C;
+    color: #ff03ec;
 }
 
 .mini-cart .summary-template-holder {
@@ -1372,7 +1372,7 @@ h1#orderform-title {
 }
 
 button#payment-data-submit, #sac-submit, #payment-data-submit {
-    background: #48385C;
+    background: #ff03ec;
     box-shadow: none;
     border: none;
     border-radius: 0;
