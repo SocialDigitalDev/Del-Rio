@@ -1,0 +1,41 @@
+.buy-look{
+
+    &--link-wrapper{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 32px;
+
+        @media (min-width: 577px){
+            align-items: center;
+        }
+        @media (max-width: 576px){
+            flex-flow: column;
+            align-items: center;
+        }
+
+        p{
+            margin-right: 10px;
+        }
+
+        a{
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            background: #856da1;
+            color: #fff;
+            border: 1px solid #856da1;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            text-decoration: none;
+            transition: .3s all ease;
+            
+            &:hover{
+                background: #fff;
+                color: #856da1;
+            }
+        }
+    }
+}

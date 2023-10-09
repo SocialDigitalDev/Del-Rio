@@ -31,7 +31,7 @@
     }
   },
   "flex-layout.row#header-social-images": {
-    "children": ["link#header-instagram", "link#header-facebook", "link#header-youtube"],
+    "children": ["link#header-instagram", "link#header-facebook", "link#header-youtube", "link#header-tiktok"],
     "props": {
       "blockClass": "sy-header-social",
       "vertical-align": "middle",
@@ -75,6 +75,20 @@
     "props": {
       "src": "/arquivos/logo-youtube-branco.svg",
       "alt": "Youtube"
+    }
+  },
+  "link#header-tiktok": {
+    "children": ["image#header-tiktok"],
+    "props": {
+      "href": "https://www.tiktok.com/@modadelrio?lang=pt-BR",
+      "target": "_blank"
+    }
+  },
+  "image#header-tiktok": {
+    "props": {
+      "src": "assets/svg/tiktok-iconv2.svg",
+      "alt": "TikTok",
+      "width": 15
     }
   }
   /*FIM TOP BAR*/

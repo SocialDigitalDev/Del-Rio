@@ -13,7 +13,8 @@
       "menu-item#linha-noite",
       "menu-item#ecologico",
       // "menu-item#novidades",
-      "menu-item#lovers"
+      "menu-item#lovers",
+      "menu-item#outlet"
     ]
   },
   "menu-item#feminino": {
@@ -144,10 +145,10 @@
         "tagTitle": "LINHA NOITE",
         "text": "LINHA NOITE"
       }
-    }
-    // "blocks": [
-    //   "vtex.menu@2.x:submenu#main-submenu"
-    // ]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main-submenu"
+    ]
   },
   "menu-item#ecologico": {
     "props": {
@@ -200,6 +201,25 @@
         "noFollow": false,
         "tagTitle": "DELRIO TEENS",
         "text": "DELRIO TEENS"
+      }
+    },
+    "blocks": [
+      // "vtex.menu@2.x:submenu#main-submenu"
+    ]
+  },
+  "menu-item#outlet": {
+    "props": {
+      "blockClass": "main-menu-item",
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/308?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
       }
     },
     "blocks": [
@@ -343,7 +363,7 @@
       ]
     }
   },
-  // 
+  //
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
       "width": "auto"

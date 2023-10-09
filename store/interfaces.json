@@ -44,5 +44,11 @@
 	},
   "similar-color": {
     "component": "SimilarColor"
+  },
+  "buy-look-link": {
+    "component": "BuyLookCustomLink"
+  },
+  "buy-look-page": {
+    "component": "BuyLookCustomPage"
   }
 }

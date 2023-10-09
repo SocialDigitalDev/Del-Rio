@@ -1,0 +1,16 @@
+{
+    "store.custom#compre-o-look": {
+        "children": [
+            "rich-text#page-title",
+            "buy-look-page"
+        ]
+    },
+
+    "rich-text#page-title": {
+        "title": "Título: Compre o Look",
+        "props": {
+            "blockClass": "page-title",
+            "text": "# Compre o Look"
+        }
+    }
+}
