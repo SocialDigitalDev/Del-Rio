@@ -27,7 +27,7 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   z-index: 2;
-  border-top: 3px solid #48385C;
+  border-top: 3px solid #ff03ec;
   
   @media (min-width: 768px) and (max-width: 1025px) {
     padding: 15px 20px;
@@ -59,7 +59,7 @@ export const Content = styled.div`
     }
 
     a {
-      color: #48385C;
+      color: #ff03ec;
       font-weight: 700;
 
       &::before {
@@ -70,7 +70,7 @@ export const Content = styled.div`
   }
 
   .sy-btn-lgpd {
-    background: #48385C;
+    background: #ff03ec;
     color: #fff;
     font-family: Akrobat;
     font-size: 16px;
