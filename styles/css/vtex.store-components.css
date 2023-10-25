@@ -108,7 +108,7 @@
 }
 
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--sy-banner-categories) {
-  background: #ff03ec;
+  background: #EE2A5A;
   width: 72px;
   height: 72px;
   border-radius: 100%;
@@ -208,7 +208,7 @@
   display: none;
 }
 
-@media (min-width: 641px) and (max-width: 1025px) { 
+@media (min-width: 641px) and (max-width: 1025px) {
   :global(.vtex-flex-layout-0-x-flexCol--sy-product-tablet) .productNameContainer {
     text-align: left;
     display: block;
@@ -435,7 +435,7 @@
     padding: 0;
   }
 
-  :global(.vtex-flex-layout-0-x-flexColChild--info-availability) 
+  :global(.vtex-flex-layout-0-x-flexColChild--info-availability)
   :global(.vtex-flex-layout-0-x-flexRowContent--sy-product-buttons) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: auto !important;
   }
@@ -816,13 +816,13 @@
 
 
 :global(.vtex-product-specification-badges-0-x-badgeText--sortido) {
-  background: url('/arquivos/multicolor.png') no-repeat;  
+  background: url('/arquivos/multicolor.png') no-repeat;
 }
-:global(.vtex-product-specification-badges-0-x-badgeText--sortidos) {  
+:global(.vtex-product-specification-badges-0-x-badgeText--sortidos) {
   background: url('/arquivos/multicolor.png') no-repeat;
   background-size: 100%;
 }
-:global(.vtex-product-specification-badges-0-x-badgeText--branco-e-preto) {  
+:global(.vtex-product-specification-badges-0-x-badgeText--branco-e-preto) {
   background: url('/arquivos/degrade-preto-e-branco.png') no-repeat;
   background-size: 100%;
 }
@@ -996,7 +996,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  pointer-events: none;  
+  pointer-events: none;
 }
 
 .shippingTableRadioBtn {
@@ -1188,10 +1188,10 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
-:global(.vtex-toast) {  
+:global(.vtex-toast) {
   color: #47395A;
   border: none;
   border-radius: 0;
@@ -1202,7 +1202,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 :global(.vtex-toast)::before {

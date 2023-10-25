@@ -1,15 +1,42 @@
 {
   "name": "delrio",
-  "version": "1.4.3",
-  "main": "index.js",
-  "author": "Synapcom",
+  "private": true,
   "license": "MIT",
   "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
     "start": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"vtex link\" \"sass --watch --no-source-map react/scss:react/css --style compressed\"",
     "deploy-sass": "sass --no-source-map react/scss:react/css --style compressed",
     "precaution": "echo Tenha certeza de que você está logado na loja utilizando o vtex login",
     "checkout": "concurrently \"sass --watch --no-source-map checkout/assets/scss:checkout/assets/ --style compressed\""
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,graphql,gql}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@vtex/prettier-config": "0.1.4",
+    "eslint": "7.12.1",
+    "eslint-config-vtex": "12.3.2",
+    "eslint-config-vtex-react": "6.3.2",
+    "husky": "4.2.3",
+    "lint-staged": "10.1.1",
+    "prettier": "2.0.2",
+    "typescript": "3.8.3"
+  },
+  "version": "1.4.3",
+  "main": "index.js",
+  "author": "Synapcom",
   "dependencies": {
     "axios": "^1.4.0",
     "concurrently": "^6.3.0",
