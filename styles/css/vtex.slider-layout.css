@@ -1,5 +1,9 @@
 
 /*ARROWS SLIDER*/
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--sy-banner-categories) :global(.vtex-slider-layout-0-x-sliderArrows){
+  color: white;
+}
+
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sy-banner-principal) :global(.vtex-slider-layout-0-x-caretIcon),
 :global(.vtex-flex-layout-0-x-flexRow--sy-row-banner-double) :global(.vtex-slider-layout-0-x-caretIcon),
 :global(.vtex-store-components-3-x-caretIcon){
