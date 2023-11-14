@@ -58,7 +58,6 @@ const LoginInfo = () => {
   const verifyLogin = () => {
     let user = !document.querySelector('.vtex-login-2-x-profile');
     if (!user) {
-      console.log(user)
       let name = document.querySelector('.vtex-login-2-x-profile').textContent;
       setTxt(name)
       document.querySelector('.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger').style.display = 'none';
