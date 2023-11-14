@@ -454,6 +454,7 @@
     line-height: 20px;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .dropOptionsLogin ul li a:hover {
@@ -621,3 +622,4 @@ img.visible-desktop, img.visible-mobile{
     border: none;
     font-weight: 600;
 }
+
