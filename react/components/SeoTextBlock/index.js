@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import { schema } from "./schema";
+import React, {useState} from 'react';
+import { schema } from './schema';
 import '../../css/SeoTextBlock/global.css';
 
 const SeoTextBlock = ({ enableComponent = false, seoTitle, seoText }) => {
@@ -8,7 +8,7 @@ const SeoTextBlock = ({ enableComponent = false, seoTitle, seoText }) => {
     let [ textSeeMore, setTextSeeMore] = useState('Ver Mais');
 
     function changeSeeMoreState() {
-        if ( seeMore === "ver-mais" ){
+        if ( seeMore === 'ver-mais' ){
             setSeeMore('ver-menos')
             setTextSeeMore('Ver Menos')
         } else {
@@ -21,9 +21,9 @@ const SeoTextBlock = ({ enableComponent = false, seoTitle, seoText }) => {
         <>
             {enableComponent && (
                 <div className={`seo-custom-block ${seeMore}`}>
-                    <h1 className="seo-custom-title" dangerouslySetInnerHTML={{__html: seoTitle }} />
+                    <h1 className='seo-custom-title' dangerouslySetInnerHTML={{__html: seoTitle }} />
                     <div className={`seo-custom-text ${seeMore}`} dangerouslySetInnerHTML={{__html: seoText }} />
-                    <button className="seo-custom-see-more-less" onClick={changeSeeMoreState}>{textSeeMore}</button>
+                    <button className='seo-custom-see-more-less' onClick={changeSeeMoreState}>{textSeeMore}</button>
                 </div>
             )}
         </>
