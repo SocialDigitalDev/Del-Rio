@@ -71,11 +71,7 @@
 	"search-result-layout.desktop": {
 		"children": [
 			"search-banner#one",
-			"rich-text#seo-text-area-1-desktop",
-			"flex-layout.row#result",
-			"rich-text#seo-text-area-2-desktop"
-			// "rich-text#title-category",
-			// "rich-text#text-category"
+			"flex-layout.row#result"
 		],
 		"props": {
 			"pagination": "show-more",
@@ -85,43 +81,49 @@
 		}
 	},
 
-	"rich-text#seo-text-area-1-desktop": {
-		"title": "SEO Área 1 [DESKTOP]",
+	"flex-layout.row#seo-area-1-desktop": {
+		"title": "Conteúdo de SEO - área 1 [DESKTOP]",
 		"props": {
-			"blockClass": "seo-text-area--1",
-			"text": ""
-		}
+			"blockClass": "seo-area"
+		},
+		"children": [
+			"seo-text-block"
+		]
 	},
-	"rich-text#seo-text-area-2-desktop": {
-		"title": "SEO Área 2 [DESKTOP]",
+
+	"flex-layout.row#seo-area-2-desktop": {
+		"title": "Conteúdo de SEO - área 2 [DESKTOP]",
 		"props": {
-			"blockClass": "seo-text-area--2",
-			"text": ""
-		}
+			"blockClass": "seo-area"
+		},
+		"children": [
+			"seo-text-block"
+		]
 	},
-	"rich-text#seo-text-area-1-mobile": {
-		"title": "SEO Área 1 [MOBILE]",
+	"flex-layout.row#seo-area-1-mobile": {
+		"title": "Conteúdo de SEO - área 1 [MOBILE]",
 		"props": {
-			"blockClass": "seo-text-area--1",
-			"text": ""
-		}
+			"blockClass": "seo-area"
+		},
+		"children": [
+			"seo-text-block"
+		]
 	},
-	"rich-text#seo-text-area-2-mobile": {
-		"title": "SEO Área 2 [MOBILE]",
+
+	"flex-layout.row#seo-area-2-mobile": {
+		"title": "Conteúdo de SEO - área 2 [MOBILE]",
 		"props": {
-			"blockClass": "seo-text-area--2",
-			"text": ""
-		}
+			"blockClass": "seo-area"
+		},
+		"children": [
+			"seo-text-block"
+		]
 	},
 
 	"search-result-layout.desktop#collection": {
 		"children": [
 			"image#collection-banner-desktop",
-			"rich-text#seo-text-area-1-desktop",
-			"flex-layout.row#result",
-			"rich-text#seo-text-area-2-desktop"
-			// "rich-text#title-category",
-			// "rich-text#text-category"
+			"flex-layout.row#result"
 		],
 		"props": {
 			"pagination": "show-more",
@@ -147,11 +149,7 @@
 	"search-result-layout.desktop#search": {
 		"children": [
 			"flex-layout.row#banner-principal-search",
-			"rich-text#seo-text-area-1-desktop",
-			"flex-layout.row#result",
-			"rich-text#seo-text-area-2-desktop" 
-			// "rich-text#title-category",
-			// "rich-text#text-category"
+			"flex-layout.row#result"
 		],
 		"props": {
 			"pagination": "show-more",
@@ -203,12 +201,13 @@
 	},
 	"flex-layout.col#content": {
 		"children": [
-			// "flex-layout.row#searchtitle",
 			"breadcrumb.search",
+			"flex-layout.row#seo-area-1-desktop",
 			"flex-layout.row#searchinfo",
 			"flex-layout.row#fetchprevious",
 			"flex-layout.row#products",
-			"flex-layout.row#fetchmore"
+			"flex-layout.row#fetchmore",
+			"flex-layout.row#seo-area-2-desktop"
 		],
 		"props": {
 			"blockClass": "content-prod-category",
@@ -295,14 +294,14 @@
 	"search-result-layout.mobile#search": {
 		"children": [
 			"flex-layout.row#banner-principal-search",
+			"flex-layout.row#seo-area-1-mobile",
 			"flex-layout.row#searchbread",
-			"rich-text#seo-text-area-1-mobile",
 			"flex-layout.row#searchinfomobile",
 			"flex-layout.row#searchtitle-mob",
 			"flex-layout.row#fetchprevious",
 			"flex-layout.row#contentmobile",
 			"flex-layout.row#fetchmore",
-			"rich-text#seo-text-area-2-mobile"
+			"flex-layout.row#seo-area-2-mobile"
 		],
 		"props": {
 			"pagination": "show-more",
@@ -316,14 +315,14 @@
 	"search-result-layout.mobile": {
 		"children": [
 			"search-banner#one",
+			"flex-layout.row#seo-area-1-mobile",
 			"flex-layout.row#searchbread",
 			"flex-layout.row#searchinfomobile",
-			"rich-text#seo-text-area-1-mobile",
 			"flex-layout.row#searchtitle-mob",
 			"flex-layout.row#fetchprevious",
 			"flex-layout.row#contentmobile",
 			"flex-layout.row#fetchmore",
-			"rich-text#seo-text-area-2-mobile"
+			"flex-layout.row#seo-area-2-mobile"
 		],
 		"props": {
 			"pagination": "show-more",
@@ -337,14 +336,14 @@
 	"search-result-layout.mobile#collection": {
 		"children": [
 			"image#collection-banner-mobile",
+			"flex-layout.row#seo-area-1-mobile",
 			"flex-layout.row#searchbread",
-			"rich-text#seo-text-area-1-mobile",
 			"flex-layout.row#searchinfomobile",
 			"flex-layout.row#searchtitle-mob",
 			"flex-layout.row#fetchprevious",
 			"flex-layout.row#contentmobile",
 			"flex-layout.row#fetchmore",
-			"rich-text#seo-text-area-2-mobile"
+			"flex-layout.row#seo-area-2-mobile"
 		],
 		"props": {
 			"pagination": "show-more",

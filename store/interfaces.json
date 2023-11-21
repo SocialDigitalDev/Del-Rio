@@ -50,5 +50,8 @@
   },
   "buy-look-page": {
     "component": "BuyLookCustomPage"
+  },
+  "seo-text-block": {
+    "component": "SeoTextBlock"
   }
 }
