@@ -28,7 +28,7 @@
 }
 
 :global(.vtex-rich-text-0-x-heading--banners-categoriesTitle) {
-  color: #f001fd;
+  color: #073166;
   font-size: 30px;
   font-weight: 900;
   line-height: 37px;
@@ -40,7 +40,7 @@
 
 :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle),
 :global(.vtex-rich-text-0-x-paragraph--sy-instafeed-title) {
-  color: #f001fd;
+  color: #073166;
   font-size: 30px;
   font-weight: 900;
   line-height: 37px;
@@ -51,7 +51,7 @@
 @media (max-width: 767px) {
   :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle),
   :global(.vtex-rich-text-0-x-paragraph--sy-instafeed-title) {
-    color: #f001fd;
+    color: #073166;
     font-size: 24px;
     font-weight: 900;
     line-height: 30px;
@@ -108,7 +108,7 @@
 }
 
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--sy-banner-categories) {
-  background: #f001fd;
+  background: #073166;
   width: 72px;
   height: 72px;
   border-radius: 100%;
