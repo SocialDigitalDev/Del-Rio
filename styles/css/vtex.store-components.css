@@ -28,7 +28,7 @@
 }
 
 :global(.vtex-rich-text-0-x-heading--banners-categoriesTitle) {
-  color: #f001fd;
+  color: #47395a;
   font-size: 30px;
   font-weight: 900;
   line-height: 37px;
@@ -40,7 +40,7 @@
 
 :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle),
 :global(.vtex-rich-text-0-x-paragraph--sy-instafeed-title) {
-  color: #f001fd;
+  color: #47395a;
   font-size: 30px;
   font-weight: 900;
   line-height: 37px;
@@ -51,7 +51,7 @@
 @media (max-width: 767px) {
   :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle),
   :global(.vtex-rich-text-0-x-paragraph--sy-instafeed-title) {
-    color: #f001fd;
+    color: #47395a;
     font-size: 24px;
     font-weight: 900;
     line-height: 30px;
@@ -108,7 +108,7 @@
 }
 
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--sy-banner-categories) {
-  background: #f001fd;
+  background: #47395a;
   width: 72px;
   height: 72px;
   border-radius: 100%;
@@ -444,7 +444,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--sy-product-buttons) :global(.vtex-button) {
   width: 280px;
   height: 40px;
-  background: #ff03ec;
+  background: #47395a;
   border: none;
   border-radius: 0;
 }
@@ -490,7 +490,7 @@
 :global(.vtex-numeric-stepper__plus-button) {
   width: 40px;
   height: 40px;
-  background: #ff03ec;
+  background: #47395a;
   border-radius: 0;
   border: none;
 }
@@ -934,7 +934,7 @@
 }
 
 :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-button) {
-  background: #ff03ec;
+  background: #47395a;
   min-height: auto;
   height: 31px;
   width: 59px;

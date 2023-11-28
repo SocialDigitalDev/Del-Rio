@@ -47,7 +47,7 @@
 /*DOTS SLIDER*/
 :global(.vtex-slider-layout-0-x-paginationDot):global(.vtex-slider-layout-0-x-paginationDot--isActive),
 :global(.vtex-store-components-3-x-swiperBullet):global(.vtex-store-components-3-x-swiperBullet--active) {
-  background: #f001fd;
+  background: #47395a;
   height: 8px!important;
   width: 16px!important;
   border-radius: 8px!important;
