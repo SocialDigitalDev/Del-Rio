@@ -16,7 +16,6 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "flex-layout.row#product-details",
       "flex-layout.row#should-like-title",
       "flex-layout.row#should-like"
     ]
@@ -301,7 +300,7 @@
         "arrows": false,
         "maxItems": 12,
         "gap": "ph3",
-        "minItemsPerPage": 2, 
+        "minItemsPerPage": 2,
         "itemsPerPage": 4,
         "scroll": "BY_PAGE"
       }
