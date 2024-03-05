@@ -1,5 +1,6 @@
 {  
   "modal-trigger#login": {
+    "title": "MODAL TRIGGER - LOGIN",
     "children": [
       "rich-text#login",
       "modal-layout#login"
@@ -9,11 +10,13 @@
     }
   },
   "rich-text#login": {
+    "title": "TEXTO TRIGGER",
     "props": {
       "text": "Login"
     }
   },
   "modal-layout#login": {
+    "title": "MODAL - LOGIN",
     "children": [
       "modal-header#login",
       "modal-content#login"
@@ -23,6 +26,7 @@
     }
   },
   "modal-header#login": {
+    "title": "MODAL HEADER - LOGIN",
     "props": {
       "showCloseButton": true,
       "iconCloseSize": 20,
@@ -30,6 +34,7 @@
     }
   },
   "modal-content#login": {
+    "title": "MODAL CONTENT - LOGIN",
     "children": [
       "rich-text#login-title",
       "login-content"
@@ -39,6 +44,7 @@
     }
   },
   "rich-text#login-title": {
+    "title": "TITULO DO MODAL",
     "props": {
       "text": "Login",
       "textPosition": "CENTER",
@@ -47,6 +53,7 @@
     }
   },
   "login-content": {
+    "title": "LOGIN CONTENT",
     "props": {
       "optionsTitle": "Use uma das opções para confirmar sua identidade",
       "isInitialScreenOptionOnly": true,

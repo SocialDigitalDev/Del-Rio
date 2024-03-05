@@ -7,6 +7,7 @@
   },
   //Header Desktop
   "header-layout.desktop": {
+    "title": "HEADER DESKTOP",
     "children": [
       "helmet-component",
       "flex-layout.row#topbar",
@@ -53,6 +54,7 @@
   },
 
   "flex-layout.col#logo-desktop": {
+    "title": "LOGO",
     "props": {
       "verticalAlign": "middle"
     },
@@ -86,6 +88,7 @@
   },
 
   "flex-layout.row#category-menu": {
+    "title": "CATEGORY MENU -DESKTOP",
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
@@ -99,6 +102,7 @@
   //tablet
 
   "header-layout.mobile": {
+    "title": "HEADER MOBILE",
     "children": [
       "responsive-layout.tablet#header",
       "responsive-layout.phone#header"
@@ -107,6 +111,7 @@
   },
 
   "responsive-layout.tablet#header": {
+    "title": "HEADER - TABLET",
     "children": [
       "helmet-component",
       "flex-layout.row#topbar",
@@ -118,6 +123,7 @@
 
   //mobile
   "responsive-layout.phone#header": {
+    "title": "HEADER - PHONE",
     "children": [
       "helmet-component",
       "sticky-layout#mobile"

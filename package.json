@@ -10,11 +10,7 @@
     "precaution": "echo Tenha certeza de que você está logado na loja utilizando o vtex login",
     "checkout": "concurrently \"sass --watch --no-source-map checkout/assets/scss:checkout/assets/ --style compressed\""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+  
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
       "eslint --fix",

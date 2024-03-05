@@ -1,6 +1,7 @@
 {
   /*INICIO TOP BAR*/
   "flex-layout.row#topbar": {
+    "title": "TOP BAR",
     "props": {
       "blockClass": "sy-topHeader-desk",
       "fullWidth": false
@@ -12,6 +13,7 @@
     ]
   },
   "flex-layout.row#topbar-mobile": {
+    "title": "TOP BAR MOBILE",
     "props": {
       "blockClass": "sy-topHeader-mobile"
     },
@@ -20,17 +22,20 @@
     ]
   },
   "flex-layout.row#spacer-topHeader": {
+    "title": "SPACER",
     "props": {
       "width": "auto"
     }
   },
   "rich-text#topbar-promo": {
+    "title": "TEXTO TOP BAR",
     "props": {
       "blockClass": "sy-topbar-promo",
       "text": "Frete grátis a partir de R$ 250,00"
     }
   },
   "flex-layout.row#header-social-images": {
+    "title": "REDES SOCIAIS",
     "children": ["link#header-instagram", "link#header-facebook", "link#header-youtube", "link#header-tiktok"],
     "props": {
       "blockClass": "sy-header-social",
@@ -39,6 +44,7 @@
     }
   },
   "link#header-instagram": {
+    "title": "INSTAGRAM",
     "children": ["image#header-instagram"],
     "props": {
       "href": "https://www.instagram.com/modadelrio/",
@@ -52,6 +58,7 @@
     }
   },
   "link#header-facebook": {
+    "title": "FACEBOOK",
     "children": ["image#header-facebook"],
     "props": {
       "href": "https://www.facebook.com/ModaDelRio/",
@@ -65,6 +72,7 @@
     }
   },
   "link#header-youtube": {
+    "title": "YOUTUBE",
     "children": ["image#header-youtube"],
     "props": {
       "href": "https://www.youtube.com/channel/UCGeujNJJZ7jHKxUaPtJsmWw",
@@ -78,6 +86,7 @@
     }
   },
   "link#header-tiktok": {
+    "title": "TIKTOK",
     "children": ["image#header-tiktok"],
     "props": {
       "href": "https://www.tiktok.com/@modadelrio?lang=pt-BR",
