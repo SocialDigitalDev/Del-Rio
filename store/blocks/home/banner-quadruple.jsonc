@@ -7,6 +7,7 @@
     "children": ["list-context.image-list#mini-banners"]
   },
   "image#banner-row1": {
+    "title": "BANNER-ROW1",
     "props": {
       "src": "/arquivos/735-9_ecommerce_marcas-delrio_280x280_v1.png",
       "maxWidth": 280,
@@ -16,6 +17,7 @@
     }
   },
   "image#banner-row2": {
+    "title": "BANNER-ROW2",
     "props": {
       "src": "/arquivos/735-9_ecommerce_marcas-rioman_280x280_v1.png",
       "maxWidth": 280,
@@ -25,6 +27,7 @@
     }
   },
   "image#banner-row3": {
+    "title": "BANNER-ROW3",
     "props": {
       "src": "/arquivos/735-9_ecommerce_marcas-miss_280x280_v1.png",
       "maxWidth": 280,
@@ -34,6 +37,7 @@
     }
   },
   "image#banner-row4": {
+    "title": "BANNER-ROW4",
     "props": {
       "src": "/arquivos/735-9_ecommerce_marcas-club_280x280_v1.png",
       "maxWidth": 280,
@@ -43,6 +47,7 @@
     }
   },
   "slider-layout#quadruple": {
+    "title": "BANNER QUADRUPLO",
     // "children": [
     //   "image#banner-row1",
     //   "image#banner-row2",
@@ -66,6 +71,7 @@
     }
   },
   "list-context.image-list#mini-banners": {
+    "title": "LISTA MINI BANNERS",
     "children": ["slider-layout#quadruple"],
     "props": {
       "preload": true,

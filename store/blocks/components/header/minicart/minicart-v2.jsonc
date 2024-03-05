@@ -1,5 +1,6 @@
 {
     "minicart.v2": {
+      "title": "MINICART",
       "children": ["minicart-base-content"],
       "props": {
         "quantityDisplay": "not-empty"
@@ -34,6 +35,7 @@
       }
     },
     "minicart-empty-state": {
+      "title": "SACOLA VAZIA",
       "children": ["flex-layout.row#empty-state"]
     },
     "flex-layout.row#empty-state": {
@@ -50,21 +52,21 @@
       "props": {
         "blockClass": "cart-empty-ops"
       },
-      "title": "Sacola vazia"
+      "title": "TITULO"
     },
     "rich-text#empty-state": {
+      "title": "TEXTO",
       "props": {
         "text": "Sacola vazia",
         "blockClass": "cart-empty"
-      },
-      "title": "Sacola vazia"
+      }
     },
     "rich-text#empty-btn": {
+      "title": "BOTAO",
       "props": {
         "text": "[Comprar](/)",
         "blockClass": "cart-emptybtn"
-      },
-      "title": "Sacola vazia"
+      }
     },
     "minicart-checkout-button": {
       "props": {

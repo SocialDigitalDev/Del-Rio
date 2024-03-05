@@ -1,5 +1,6 @@
 {
   "rich-text#title-banners-categories": {
+    "title": "Compre por tamanho - TITULO",
     "props": {
       "text": "## Compre por tamanho",
       "textAlignment": "CENTER",
@@ -15,6 +16,7 @@
     "children": ["slider-layout#categories"]
   },
   "info-card#banner-categorie-38": {
+    "title": "TAMANHO 1",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -26,6 +28,7 @@
     }
   },
   "info-card#banner-categorie-40": {
+    "title": "TAMANHO 2",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -37,6 +40,7 @@
     }
   },
   "info-card#banner-categorie-42": {
+    "title": "TAMANHO 3",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -49,6 +53,7 @@
     }
   },
   "info-card#banner-categorie-44": {
+    "title": "TAMANHO 4",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -61,6 +66,7 @@
     }
   },
   "info-card#banner-categorie-46": {
+    "title": "TAMANHO 5",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -73,6 +79,7 @@
     }
   },
   "info-card#banner-categorie-48": {
+    "title": "TAMANHO 6",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -85,6 +92,7 @@
     }
   },
   "info-card#banner-categorie-50": {
+    "title": "TAMANHO 7",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -97,6 +105,7 @@
     }
   },
   "info-card#banner-categorie-52": {
+    "title": "TAMANHO 8",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -109,6 +118,7 @@
     }
   },
   "info-card#banner-categorie-54": {
+    "title": "TAMANHO 9",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -121,6 +131,7 @@
     }
   },
   "info-card#banner-categorie-PP": {
+    "title": "TAMANHO 10",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -133,6 +144,7 @@
     }
   },
   "info-card#banner-categorie-P": {
+    "title": "TAMANHO 11",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -145,6 +157,7 @@
     }
   },
   "info-card#banner-categorie-M": {
+    "title": "TAMANHO 12",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -157,6 +170,7 @@
     }
   },
   "info-card#banner-categorie-G": {
+    "title": "TAMANHO 13",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -169,6 +183,7 @@
     }
   },
   "info-card#banner-categorie-GG": {
+    "title": "TAMANHO 14",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -181,6 +196,7 @@
     }
   },
   "info-card#banner-categorie-EG": {
+    "title": "TAMANHO 15",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
@@ -193,6 +209,7 @@
     }
   },
   "info-card#banner-categorie-EEG": {
+    "title": "TAMANHO 16",
     "props": {
       "id": "banner-categorie",
       "isFullModeStyle": true,
