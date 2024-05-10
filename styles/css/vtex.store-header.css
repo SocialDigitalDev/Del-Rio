@@ -52,6 +52,36 @@
   background: #323232;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--topHeader-aviso-chuvas) {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1024px) {
+    :global(.vtex-rich-text-0-x-paragraph--topHeader-aviso-chuvas) {
+        text-align: center;
+    }
+}
+
+:global(.vtex-rich-text-0-x-wrapper--topHeader-aviso-chuvas) {
+    width: 100%;
+    background: #333;
+    padding: 8px;
+}
+
+@media (max-width: 720px) {
+    :global(.vtex-rich-text-0-x-wrapper--topHeader-aviso-chuvas) {
+        padding: 8px;
+    }
+}
+
 :global(.vtex-rich-text-0-x-wrapper--sy-topbar-promo) {
   margin: 0 auto;
 }
@@ -456,7 +486,7 @@
   :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group){
     width: 320px;
   }
-} 
+}
 
 
 @media (max-width: 640px) {
@@ -518,7 +548,7 @@
     width: 320px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-} 
+}
 
 @media (max-width: 640px) {
   :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
@@ -553,7 +583,7 @@
 :global(.vtex-search-2-x-tileListList)::-webkit-scrollbar-track {
   background: #C4C4C4;
 }
- 
+
 /* Handle */
 :global(.vtex-search-2-x-tileListList)::-webkit-scrollbar-thumb,
 :global(.vtex-search-2-x-tileListList)::-webkit-scrollbar-thumb:hover  {
@@ -631,7 +661,7 @@
   text-align: center;
 }
 
-:global(.vtex-login-2-x-emailVerification) :global(.vtex-login-2-x-formTitle), 
+:global(.vtex-login-2-x-emailVerification) :global(.vtex-login-2-x-formTitle),
 :global(.vtex-login-2-x-codeConfirmation ) :global(.vtex-login-2-x-formTitle) {
   color: #000000;
   font-size: 20px;
@@ -678,7 +708,7 @@
   display: none;
 }
 
-:global(.vtex-login-2-x-backButton) :global(.vtex-button) :global(.vtex-button__label) { 
+:global(.vtex-login-2-x-backButton) :global(.vtex-button) :global(.vtex-button__label) {
   color: #ff03ec;
   font-size: 16px !important;
   font-weight: 700 !important;
@@ -744,7 +774,7 @@
 }
 
 @media (max-width: 640px) {
-  :global(.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger) { 
+  :global(.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger) {
     margin-right: 0;
   }
 }
@@ -765,7 +795,7 @@
 }
 
 @media (max-width: 640px) {
-  :global(.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger) :global(.vtex-rich-text-0-x-paragraph) { 
+  :global(.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger) :global(.vtex-rich-text-0-x-paragraph) {
     font-size: 0;
   }
 }
@@ -789,7 +819,7 @@
     top: 5px;
     right: 5px;
   }
-  
+
 }
 
 :global(.vtex-rich-text-0-x-paragraph--sy-login__content--title) {
