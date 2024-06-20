@@ -12,14 +12,7 @@ const SimilarColor = () => {
     const product = productContext?.product
     const prodID = product?.productId
 	
-	let cor = product?.properties?.find(item => item.name === 'Cor')?.values[0]
-	let link = product?.linkText
-	
     useEffect(() => {
-		const prodID2 = product?.productId
-
-		console.log(prodID, "prodID");
-		console.log(prodID2, "prodID2");
 
         axios.get("/api/catalog_system/pub/products/crossselling/similars/" + prodID).then((response) => {
             const similars = response?.data
