@@ -121,6 +121,7 @@
 	},
 
 	"search-result-layout.desktop#collection": {
+		"title": "SEARCH RESULT - DESKTOP",
 		"children": [
 			"image#collection-banner-desktop",
 			"flex-layout.row#result"
@@ -159,6 +160,7 @@
 		}
 	},
 	"flex-layout.row#searchbread": {
+		"title": "BREADCRUMB",
 		"children": ["breadcrumb.search"],
 		"props": {
 			"preserveLayoutOnMobile": true,
@@ -193,6 +195,7 @@
 		}
 	},
 	"flex-layout.col#filter": {
+		"title": "FILTRO",
 		"children": ["filter-navigator.v3"],
 		"props": {
 			"blockClass": "filter-category",
@@ -200,6 +203,7 @@
 		}
 	},
 	"flex-layout.col#content": {
+		"title": "CONTEUDO",
 		"children": [
 			"breadcrumb.search",
 			"flex-layout.row#seo-area-1-desktop",
@@ -394,6 +398,7 @@
 		}
 	},
 	"search-not-found-layout": {
+		"title": "SEARCH NOT FOUND",
 		"children": [
 			"flex-layout.row#searchbread",
 			"rich-text#search-empty",
@@ -405,6 +410,7 @@
 		}
 	},
 	"rich-text#search-empty": {
+		"title": "TITULO - BUSCA VAZIA",
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
@@ -413,6 +419,7 @@
 		}
 	},
 	"rich-text#search-empty2": {
+		"title": "TEXTO - BUSCA VAZIA",
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",

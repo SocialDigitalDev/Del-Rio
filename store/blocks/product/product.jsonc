@@ -148,7 +148,6 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.col#product-prices",
-      "rich-text#related-products",
       "flex-layout.row#related-products",
       "sku-selector",
       "sy-productInfo",
@@ -223,7 +222,6 @@
       "flex-layout.row#product-name",
       "flex-layout.row#buy-button",
       "flex-layout.col#product-prices",
-      "rich-text#related-products",
       "flex-layout.row#related-products",
       "sku-selector",
       "sy-productInfo",

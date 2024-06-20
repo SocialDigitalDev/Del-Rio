@@ -61,8 +61,7 @@ const LoginInfo = () => {
       let name = document.querySelector('.vtex-login-2-x-profile').textContent;
       setTxt(name)
       document.querySelector('.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger').style.display = 'none';
-    } else {
-      document.querySelector('.sy-login-DropDown').style.display = 'none';
+      document.querySelector('.sy-login-DropDown').style.display = 'flex';
     }
   }
 
@@ -70,7 +69,7 @@ const LoginInfo = () => {
     <>
       {canUseDOM && (
         <>
-          <div className="sy-login-DropDown">
+          <div className="sy-login-DropDown" style={{display: "none"}}>
             <span onClick={toggleHidden} className={isHidden ? "dropDownLogin dropDownLogin--active" : "dropDownLogin"}>{txtUser}</span>
             {isHidden && <Child />}
           </div>

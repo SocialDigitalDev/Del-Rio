@@ -1,5 +1,6 @@
 {
 	"search-banner#one": {
+    "title": "BANNER",
     "props": {
       "area": "one",
       "blockClass": "sy-banner-category",

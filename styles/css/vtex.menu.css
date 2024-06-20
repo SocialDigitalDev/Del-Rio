@@ -1,0 +1,35 @@
+@media(min-width: 768px) {
+    .styledLinkContainer--main-menu-item {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .styledLinkContent {
+        color: white;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 767px) {
+    .styledLink {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #EFEFEF;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .styledLink .styledLinkContent {
+        color: #47395A;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}

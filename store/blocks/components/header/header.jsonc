@@ -7,8 +7,10 @@
   },
   //Header Desktop
   "header-layout.desktop": {
+    "title": "HEADER DESKTOP",
     "children": [
       "helmet-component",
+      "rich-text#topbar-rs",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
       // "sy-modal-lgpd"
@@ -53,6 +55,7 @@
   },
 
   "flex-layout.col#logo-desktop": {
+    "title": "LOGO",
     "props": {
       "verticalAlign": "middle"
     },
@@ -86,6 +89,7 @@
   },
 
   "flex-layout.row#category-menu": {
+    "title": "CATEGORY MENU -DESKTOP",
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
@@ -99,6 +103,7 @@
   //tablet
 
   "header-layout.mobile": {
+    "title": "HEADER MOBILE",
     "children": [
       "responsive-layout.tablet#header",
       "responsive-layout.phone#header"
@@ -107,8 +112,10 @@
   },
 
   "responsive-layout.tablet#header": {
+    "title": "HEADER - TABLET",
     "children": [
       "helmet-component",
+      "rich-text#topbar-rs",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
       // "sy-modal-lgpd"
@@ -118,8 +125,10 @@
 
   //mobile
   "responsive-layout.phone#header": {
+    "title": "HEADER - PHONE",
     "children": [
       "helmet-component",
+      "rich-text#topbar-rs",
       "sticky-layout#mobile"
       // "sy-modal-lgpd"
       // "sy-popup"

@@ -11,17 +11,14 @@ const SimilarColor = () => {
     const productContext = useContext(ProductContext)
     const product = productContext?.product
     const prodID = product?.productId
-
-	let cor = product?.properties?.find(item => item.name === 'Cor')?.values[0]
-	let link = product?.linkText
-
+	
     useEffect(() => {
 
         axios.get("/api/catalog_system/pub/products/crossselling/similars/" + prodID).then((response) => {
             const similars = response?.data
             similarsColors(similars)
         })
-    }, [])
+    }, [productContext, prodID])
 
     const similarsColors = (item) => {
 
@@ -72,12 +69,15 @@ const SimilarColor = () => {
 		})
 		setProductSimilar(item)
 	}
+	
+	if (!productSimilar || !productSimilar.length) return null
 
 	if (!isLoaded) {
 		return null
 	} else { 
 		return (
-			<div className="similar-colors--content">				
+			<div className="similar-colors--content">
+				<h3 className="similar-color--label">Cor</h3>		
 				<ul className="similar-colors--products">
 					{ productSimilar }
 				</ul>

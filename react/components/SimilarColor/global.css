@@ -1,6 +1,6 @@
 .similar-colors--content {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
@@ -16,6 +16,18 @@
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.similar-color--label {
+    display: flex;
+    align-self: flex-start;
+    color: #000000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    margin: 0 0 10px;
 }
 
 .similar-colors--products .similar-colors--item-color {
@@ -718,4 +730,32 @@
 
 .similar-colors--item-color_verde-acqua {
     background: #03bb85;
+}
+
+.similar-colors--item-color_capuccino {
+    background: #9C7765;
+}
+
+.similar-colors--item-color_vermelho-paixao {
+    background: #C70220 ;
+}
+
+.similar-colors--item-color_pink {
+    background: #D33A66;
+}
+
+.similar-colors--item-color_cereja {
+    background: #CE181C;
+}
+
+.similar-colors--item-color_rosa-po {
+    background: #E3C4CA;
+}
+
+.similar-colors-item-color_eco-mescla {
+    background: #A4A3A7;
+}
+
+.similar-colors--item-color_algodao-doce {
+    background: #D9C9D0;
 }

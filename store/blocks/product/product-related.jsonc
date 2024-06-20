@@ -1,14 +1,5 @@
 {
   /* Produto Relacionado */
-  "rich-text#related-products": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "### Cor",
-      "blockClass": "related-products"
-    }
-  },
-
   "flex-layout.row#related-products": {
     "children": [
       "similar-color"
