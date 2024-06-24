@@ -759,3 +759,63 @@
 .similar-colors--item-color_algodao-doce {
     background: #D9C9D0;
 }
+
+.similar-colors--item-color_mousse--nature\/coconut {
+    background: linear-gradient(to right, #DBBDAD 40%, #EFEAE5 30%, #EFEAE5 65%, #C8A08F 50%);
+}
+
+.similar-colors--item-color_branco--carmim--vanilla {
+    background: linear-gradient(to right, #FFFFFF 40%, #FFFFFF 30%, #BF424f 65%, #F0DF99 50%);
+}
+
+.similar-colors--item-color_pink-\/.branco {
+    background: linear-gradient(to right, #FFFFFF 40%, #FFFFFF 30%, #D33A66 65%, #D33A66 50%);
+}
+
+.similar-colors--item-color_pêssego-\/.rosa.chá {
+    background: linear-gradient(to right, #D9c9d0 40%, #D9c9d0 30%, #C47977 65%, #C47977 50%);
+}
+
+.similar-colors--item-color_branco-estampado--branco {
+    background: linear-gradient(to right, #D9c9d0 40%, #D9c9d0 30%, #C47977 65%, #C47977 50%);
+}
+
+.similar-colors--item-color_quartzo\/capuccino{
+    background: linear-gradient(to right, #9c7765 40%, #9c7765 30%, #9C7765 65%, #9C7765 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_make-e branco--make e branco--make e branco--make e branco"] {
+    background: linear-gradient(to right, #FFFFFF 40%, #FFFFFF 30%, #F9AABE 65%, #F9AABE 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_pêssego-e nature--pêssego e nature--pêssego e nature--pêssego e nature"] {
+    background: linear-gradient(to right, #EED0C3 40%, #EED0C3 30%, #f4f9f0 65%, #f4f9f0 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_preto-e mousse--preto e mousse--preto e mousse"] {
+    background: linear-gradient(to right, #DBBDAD 40%, #DBBDAD 30%, #000 65%, #000 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_mescla--mescla--mescla--mescla--marinho-e anis--marinho e anis--marinho e anis--marinho e anis"]{
+    background: linear-gradient(to right, #3A4960 40%, #3A4960 30%, #D6E4F0 65%, #D6E4F0 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_marinho-e vanilla--marinho e vanilla--marinho e vanilla--marinho e vanilla--estampado--estampado--estampado--estampado"]{
+    background: linear-gradient(to right, #F0DF99 40%, #F0DF99 30%, #3a4960 65%, #3a4960 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_rosa-chá / areia"]{
+    background: linear-gradient(to right, #C47977 40%, #C47977 30%, #E0CDBF 65%, #E0CDBF 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_areia/mousse"]{
+    background: linear-gradient(to right, #E0CDBF 40%, #E0CDBF 30%, #DBBDAD 65%, #DBBDAD 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_algodão-doce e anis--algodão doce e anis--algodão doce e anis--algodão doce e anis--algodão doce e anis--pérola estampado--pérola estampado--pérola estampado--pérola estampado--pérola estampado"]{
+    background: linear-gradient(to right, #D9C9D0 40%, #D9C9D0 30%, #D6E4F0 65%, #D6E4F0 50%);
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_unicórnio"]{
+    background: #fce1ec;
+}
