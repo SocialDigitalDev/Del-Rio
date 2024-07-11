@@ -3,10 +3,8 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      // "shelf-color",
       "product-summary-space",
       "flex-layout.row#prices"
-      // "flex-layout.row#btn-buy"
     ]
   },
   "flex-layout.row#prices": {
@@ -28,7 +26,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection"
+      "vtex.product-highlights@2.x:product-highlights#tag-lançamento"
     ]
   },
   "product-summary-image#shelf": {
@@ -43,21 +41,30 @@
       "showVariationsLabels": ["false"]
     }
   },
-  "vtex.product-highlights@2.x:product-highlights#collection": {
+  "vtex.product-highlights@2.x:product-highlights#tag-lançamento": {
     "props": {
-      "type": "collection"
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Lançamentos", "Lançamento", "Lançamento - Teens", "LANÇAMENTO", "Lançamento"]
+      }
     },
-    "children": ["product-highlight-wrapper"]
+    "children": [
+      "product-highlight-wrapper#tag-lançamento"
+    ]
   },
-  "product-highlight-wrapper": {
+  "product-highlight-wrapper#tag-lançamento": {
     "props": {
-      "blockClass": "collection"
+      "blockClass": ["collection", "wrap-tag-lançamento"]
     },
-    "children": ["product-highlight-text"]
+    "children": ["image#tag-lançamento"]
   },
-  "product-highlight-text": {
+  "image#tag-lançamento": {
     "props": {
-      "message": "{highlightName}"
+      "maxHeight": "55px",
+      "maxWidth": "55px",
+      "src": "assets/img/tag-lancamento.png",
+      "alt": "tag-lançamento"
     }
   },
   "product-list-price#summary": {
@@ -82,17 +89,6 @@
     "props": {
       "blockClass": "summary",
       "alwaysShow": true
-    }
-  },
-  "flex-layout.row#btn-buy": {
-    "props": {
-      "blockClass": "buy-btn"
-    },
-    "children": ["product-summary-buy-button"]
-  },
-  "product-summary-buy-button": {
-    "props": {
-      "buyButtonText": "Comprar"
     }
   }
 }

@@ -31,7 +31,11 @@
     line-height: 22px;
 }
 
-
+.containerNormal .element :global(.vtex-stack-layout-0-x-stackItem):nth-child(2n) {
+    left: unset !important;
+    top: 5px;
+    right: 5px;
+}
 
 
 /* MEDIA QUERIES */

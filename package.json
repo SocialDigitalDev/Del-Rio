@@ -10,6 +10,11 @@
     "precaution": "echo Tenha certeza de que você está logado na loja utilizando o vtex login",
     "checkout": "concurrently \"sass --watch --no-source-map checkout/assets/scss:checkout/assets/ --style compressed\""
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
       "eslint --fix",
@@ -24,6 +29,7 @@
     "eslint": "7.12.1",
     "eslint-config-vtex": "12.3.2",
     "eslint-config-vtex-react": "6.3.2",
+    "husky": "4.2.3",
     "lint-staged": "10.1.1",
     "prettier": "2.0.2",
     "typescript": "3.8.3"
