@@ -22,7 +22,7 @@ const NewMiniCart = () => {
 
         setTimeout(() => {
             setIsOpen(false);
-        }, 22000);
+        }, 20000);
     }
 
     if (canUseDOM) {

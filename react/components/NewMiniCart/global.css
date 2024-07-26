@@ -14,9 +14,9 @@
 .miniCart {
     width: 375px;
     height: max-content;
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: -80%;
+    top: 0;
     z-index: 1500;
     background: #fff;
 }
@@ -120,7 +120,5 @@
         width: 100%;
         right: 0;
         left: 0;
-        top: 0;
-        position: fixed;
     }
 }
