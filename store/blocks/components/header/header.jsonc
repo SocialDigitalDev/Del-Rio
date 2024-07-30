@@ -13,9 +13,6 @@
       "rich-text#topbar-rs",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
-      // "sy-modal-lgpd"
-      // "theme-natal"
-      // "sy-popup"
     ]
   },
   "sticky-layout#desktop": {
@@ -42,10 +39,10 @@
       "search-bar",
       "flex-layout.col#spacer",
       "login#hidden",
-      // "flex-layout.col#wishlist",
       "sy-login-custom",
       "modal-trigger#login",
-      "minicart.v2"
+      "minicart.v2",
+      "new-mini-cart"
     ]
   },
   "flex-layout.col#spacer": {
@@ -72,13 +69,7 @@
     }
   },
 
-  // "flex-layout.col#wishlist": {
-  //   "props": {
-  //     "verticalAlign": "middle",
-  //     "blockClass": "sy-header-wishlist"
-  //   },
-  //   "children": ["logo#wishlist"]
-  // },
+
 
   "logo#wishlist": {
     "props": {
@@ -107,7 +98,6 @@
     "children": [
       "responsive-layout.tablet#header",
       "responsive-layout.phone#header"
-      // "theme-natal"
     ]
   },
 
@@ -118,8 +108,6 @@
       "rich-text#topbar-rs",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
-      // "sy-modal-lgpd"
-      // "sy-popup"
     ]
   },
 
@@ -130,8 +118,6 @@
       "helmet-component",
       "rich-text#topbar-rs",
       "sticky-layout#mobile"
-      // "sy-modal-lgpd"
-      // "sy-popup"
     ]
   },
 
@@ -196,10 +182,8 @@
       "drawer#submenu-maternidade",
       "drawer#submenu-kits",
       "drawer#submenu-ecologico",
-      // "menu-item#novidades-mobile",
       "menu-item#lovers-mobile",
       "menu-item#outlet-mobile",
-      // "menu-item#linhanoite-mobile"
       "drawer#submenu-linha-noite"
     ],
     "props": {
@@ -223,7 +207,8 @@
       "login#hidden",
       "sy-login-custom",
       "modal-trigger#login",
-      "minicart.v2"
+      "minicart.v2",
+      "new-mini-cart"
     ],
     "props": {
       "preventHorizontalStretch": true,

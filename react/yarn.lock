@@ -3041,9 +3041,9 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
-"delrio.dev-theme@http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.58/public/@types/delrio.dev-theme":
-  version "1.5.58"
-  resolved "http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.58/public/@types/delrio.dev-theme#2a81d26de16e005fb72abf021011001d1a96d5ea"
+"delrio.dev-theme@http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.59/public/@types/delrio.dev-theme":
+  version "1.5.59"
+  resolved "http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.59/public/@types/delrio.dev-theme#61f056ee5aaac571f85e8c5948aa61d4103b02e1"
 
 detect-newline@^3.0.0:
   version "3.1.0"
@@ -7226,9 +7226,9 @@ verror@1.10.0:
   version "0.3.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.sticky-layout@0.3.4/public/@types/vtex.sticky-layout#5b786d6f9ab0a40e4997c955a75885eee32515ef"
 
-"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.173.1/public/@types/vtex.store-components":
-  version "3.173.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.173.1/public/@types/vtex.store-components#622a4bb6babe862caa8dd1961b25931dc2f69b5c"
+"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.174.0/public/@types/vtex.store-components":
+  version "3.174.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.174.0/public/@types/vtex.store-components#f0d57dbd5399a78c25f54a385f1dd03bcf01e1d8"
 
 "vtex.store-drawer@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-drawer@0.17.1/public/@types/vtex.store-drawer":
   version "0.17.1"

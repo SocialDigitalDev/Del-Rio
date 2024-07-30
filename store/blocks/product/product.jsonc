@@ -194,7 +194,7 @@
   "add-to-cart-button": {
     "props": {
       "text": "Comprar",
-      "shouldOpenMinicart": true,
+      "shouldOpenMinicart": false,
       "unavailableText": "Esgotado"
     }
   },

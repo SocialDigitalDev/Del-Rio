@@ -509,8 +509,8 @@
 
 
 /*NOTIFICACAO ADD-CART*/
-.vtex-toast .pr5.mw6-ns.lh-copy {
-    font-size: 0;
+.vtex-toast-container {
+    display: none !important;
 }
 
 .vtex-toast .pr5.mw6-ns.lh-copy::before {

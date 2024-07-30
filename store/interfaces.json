@@ -53,5 +53,8 @@
   },
   "seo-text-block": {
     "component": "SeoTextBlock"
+  },
+  "new-mini-cart": {
+    "component": "NewMiniCart"
   }
 }
