@@ -10,7 +10,6 @@
     "title": "HEADER DESKTOP",
     "children": [
       "helmet-component",
-      "rich-text#topbar-rs",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
     ]
@@ -105,7 +104,6 @@
     "title": "HEADER - TABLET",
     "children": [
       "helmet-component",
-      "rich-text#topbar-rs",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
     ]
@@ -116,7 +114,6 @@
     "title": "HEADER - PHONE",
     "children": [
       "helmet-component",
-      "rich-text#topbar-rs",
       "sticky-layout#mobile"
     ]
   },

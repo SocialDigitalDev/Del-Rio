@@ -1,12 +1,5 @@
 {
   /*INICIO TOP BAR*/
-  "rich-text#topbar-rs": {
-    "title": "Aviso sobre o impacto das chuvas",
-    "props": {
-        "blockClass": "topHeader-aviso-chuvas",
-        "text": "Devido às fortes chuvas no RS, a estimativa de entrega exibida ao finalizar a compra pode variar. Em caso de dúvidas, entre em contato conosco!"
-    }
-  },
   "flex-layout.row#topbar": {
     "title": "TOP BAR",
     "props": {
