@@ -3041,9 +3041,9 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
-"delrio.dev-theme@http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.59/public/@types/delrio.dev-theme":
-  version "1.5.59"
-  resolved "http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.59/public/@types/delrio.dev-theme#61f056ee5aaac571f85e8c5948aa61d4103b02e1"
+"delrio.dev-theme@http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.60/public/@types/delrio.dev-theme":
+  version "1.5.60"
+  resolved "http://delrio.vtexassets.com/_v/public/typings/v1/delrio.dev-theme@1.5.60/public/@types/delrio.dev-theme#81ec82ac2a80b16c0fabd4c2c3014d8353b885a8"
 
 detect-newline@^3.0.0:
   version "3.1.0"
@@ -7182,9 +7182,9 @@ verror@1.10.0:
   version "2.89.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.89.0/public/@types/vtex.product-summary#7ab43385439c520bfb7db6c1d073fdb069776960"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime":
-  version "8.134.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime#ae69e2b2a471291c6c6b155e17510150fbfc2d0e"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.4/public/@types/vtex.render-runtime":
+  version "8.134.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.4/public/@types/vtex.render-runtime#4f329e03a66bdc0297ef608c5745f3cfdc151abe"
 
 "vtex.responsive-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.4/public/@types/vtex.responsive-layout":
   version "0.1.4"
