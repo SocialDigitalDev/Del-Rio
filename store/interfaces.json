@@ -24,9 +24,6 @@
     "component": "InstitutionalPage",
     "composition": "children"
   },
-  "sy-modal-lgpd": {
-    "component": "ModalLGPD"
-  },
   "helmet-component":{
     "component": "HelmetComponent"
   },

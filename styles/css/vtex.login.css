@@ -1,0 +1,4 @@
+/* ajuste tirando segundo aviso de cookie */
+[aria-label="cookieconsent"] {
+    display: none !important;
+}
