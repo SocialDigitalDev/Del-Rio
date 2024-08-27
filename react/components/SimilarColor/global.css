@@ -784,6 +784,10 @@
     background: linear-gradient(to right, #9c7765 40%, #9c7765 30%, #9C7765 65%, #9C7765 50%);
 }
 
+.similar-colors--item-color_verde-musgo {
+    background: #383236;
+}
+
 li[class="similar-colors--item-color similar-colors--item-color_make-e branco--make e branco--make e branco--make e branco"] {
     background: linear-gradient(to right, #FFFFFF 40%, #FFFFFF 30%, #F9AABE 65%, #F9AABE 50%);
 }
