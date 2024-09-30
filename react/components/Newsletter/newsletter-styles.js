@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+//out-rosa
 export const Container = styled.section`
   background: url(/arquivos/banner-newsletterv2.png) no-repeat center;
   background-size: 100% 100%;

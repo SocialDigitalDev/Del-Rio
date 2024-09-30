@@ -623,3 +623,22 @@ img.visible-desktop, img.visible-mobile{
     font-weight: 600;
 }
 
+/* out-rosa */
+.vtex-store-footer-2-x-footerLayoutSpacer--out-rosa .vtex-menu-2-x-menuContainer--sy-fale-institucional .vtex-menu-2-x-styledLinkContent {
+    color: #575757 !important;
+}
+
+.vtex-menu-2-x-styledLink--highlight {
+    text-decoration: underline !important;
+    color: #fff !important;
+    font-weight: 800;
+}
+
+.vtex-slider-layout-0-x-slideChildrenContainer--out-rosa .vtex-store-components-3-x-infoCardCallActionContainer {
+    background: #F95C97 !important;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--sy-banner-container.vtex-flex-layout-0-x-flexRowContent--out-rosa .vtex-slider-layout-0-x-paginationDot.vtex-slider-layout-0-x-paginationDot--isActive {
+    background: #F95C97 !important;
+}
+/* out-rosa */

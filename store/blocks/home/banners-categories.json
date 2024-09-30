@@ -23,7 +23,7 @@
       "textPosition": "center",
       "callToActionMode": "link",
       "callToActionText": "38",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -35,7 +35,7 @@
       "textPosition": "center",
       "callToActionMode": "link",
       "callToActionText": "40",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -48,7 +48,7 @@
       "callToActionMode": "link",
       "callToActionText": "42",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -61,7 +61,7 @@
       "callToActionMode": "link",
       "callToActionText": "44",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -74,7 +74,7 @@
       "callToActionMode": "link",
       "callToActionText": "46",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -87,7 +87,7 @@
       "callToActionMode": "link",
       "callToActionText": "48",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -100,7 +100,7 @@
       "callToActionMode": "link",
       "callToActionText": "50",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -113,7 +113,7 @@
       "callToActionMode": "link",
       "callToActionText": "52",
       "callToActionUrl": "/feminino/52?initialMap=c&initialQuery=feminino&map=category-1,tamanho",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -126,7 +126,7 @@
       "callToActionMode": "link",
       "callToActionText": "54",
       "callToActionUrl": "/feminino/54?initialMap=c&initialQuery=feminino&map=category-1,tamanho",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -139,7 +139,7 @@
       "callToActionMode": "link",
       "callToActionText": "PP",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -152,7 +152,7 @@
       "callToActionMode": "link",
       "callToActionText": "P",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -165,7 +165,7 @@
       "callToActionMode": "link",
       "callToActionText": "M",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -178,7 +178,7 @@
       "callToActionMode": "link",
       "callToActionText": "G",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -191,7 +191,7 @@
       "callToActionMode": "link",
       "callToActionText": "GG",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -204,7 +204,7 @@
       "callToActionMode": "link",
       "callToActionText": "EG",
       "callToActionUrl": "/",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -217,7 +217,7 @@
       "callToActionMode": "link",
       "callToActionText": "EEG",
       "callToActionUrl": "/feminino/eeg?initialMap=c&initialQuery=feminino&map=category-1,tamanho",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "textAlignment": "center"
     }
   },
@@ -254,7 +254,7 @@
       "infinite": false,
       "showPaginationDots": "never",
       "showNavigationArrows": "desktopOnly",
-      "blockClass": ["sy-banner-categories"],
+      "blockClass": ["sy-banner-categories", "out-rosa"],
       "arrowSize": 15
     }
   }

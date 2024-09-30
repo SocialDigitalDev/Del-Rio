@@ -5,7 +5,7 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "blockClass": "sy-search-desktop",
+      "blockClass": ["sy-search-desktop", "out-rosa"],
       "placeholder": "Pesquisar",
       "maxSuggestedProducts": 5,
       "maxSuggestedTerms": 5,

@@ -200,6 +200,10 @@
   background: #47395A;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--sy-navMenu-desk):global(.vtex-flex-layout-0-x-flexRow--out-rosa) {
+  background:  #F95C97 !important;
+}
+
 :global(.vtex-menu-2-x-menuContainerNav) :global(.vtex-menu-2-x-menuContainer) {
   justify-content: center;
 }
@@ -223,7 +227,7 @@
 :global(.vtex-menu-2-x-styledLink--main-menu-item) :global(.vtex-menu-2-x-styledLinkContent--main-menu-item) {
   color: #FFF;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 20px;
   padding: 0 15px;
 }
@@ -502,12 +506,11 @@
 
 :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-styleguide-9-x-input) {
   color: #47395A;
-  opacity: 1; /* Firefox */
-}
-
-:global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-styleguide-9-x-input) {
-  color: #47395A;
   opacity: 1;
+}
+:global(.vtex-store-components-3-x-searchBarInnerContainer--out-rosa) :global(.vtex-styleguide-9-x-input),
+:global(.vtex-store-components-3-x-searchBarInnerContainer--out-rosa) :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #F95C97 !important;
 }
 
 :global(.vtex-modal-layout-0-x-backdropContainer--sy-modal--search-mobile) {
@@ -642,6 +645,10 @@
   width: 18px;
   height: 18px;
   display: inline-block;
+}
+
+:global(.vtex-store-components-3-x-searchBarIcon--out-rosa--search)::before {
+  background-image: url('data:image/svg+xml,<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_171_5170)"><g clip-path="url(%23clip1_171_5170)"><path d="M12.6699 12H11.8799L11.5999 11.73C12.6138 10.554 13.171 9.0527 13.1699 7.5C13.1699 6.21442 12.7887 4.95772 12.0745 3.8888C11.3602 2.81988 10.3451 1.98676 9.15737 1.49479C7.96965 1.00282 6.66271 0.874095 5.40184 1.1249C4.14096 1.3757 2.98277 1.99477 2.07373 2.90381C1.16469 3.81285 0.545624 4.97104 0.29482 6.23192C0.0440165 7.49279 0.172738 8.79973 0.664708 9.98744C1.15668 11.1752 1.9898 12.1903 3.05872 12.9046C4.12764 13.6188 5.38435 14 6.66992 14C8.27992 14 9.75992 13.41 10.8999 12.43L11.1699 12.71V13.5L16.1699 18.49L17.6599 17L12.6699 12ZM6.66992 12C4.17992 12 2.16992 9.99 2.16992 7.5C2.16992 5.01 4.17992 3 6.66992 3C9.15992 3 11.1699 5.01 11.1699 7.5C11.1699 9.99 9.15992 12 6.66992 12Z" fill="%23F95C97"/></g></g><defs><clipPath id="clip0_171_5170"><rect width="18" height="18" fill="white" transform="translate(0.169922 0.5)"/></clipPath><clipPath id="clip1_171_5170"><rect width="18" height="18" fill="white" transform="translate(0.169922 0.5)"/></clipPath></defs></svg>') !important;
 }
 
 :global(.vtex-search-2-x-biggy-js-container--hidden) {
@@ -794,6 +801,10 @@
   display: flex;
 }
 
+:global(.vtex-modal-layout-0-x-triggerContainer--out-rosa) :global(.vtex-rich-text-0-x-paragraph) {
+  color: #F95C97 !important;
+}
+
 @media (max-width: 640px) {
   :global(.vtex-modal-layout-0-x-triggerContainer--sy-modal-login__trigger) :global(.vtex-rich-text-0-x-paragraph) {
     font-size: 0;
@@ -807,6 +818,10 @@
   width: 24px;
   height: 24px;
   display: inline-block;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer--out-rosa) :global(.vtex-rich-text-0-x-paragraph)::before {
+  background-image: url('data:image/svg+xml,<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_171_5175)"><path d="M16.4645 7.25C16.2805 9.728 14.4015 11.75 12.3395 11.75C10.2765 11.75 8.39446 9.729 8.21446 7.25C8.02646 4.672 9.85446 2.75 12.3395 2.75C14.8235 2.75 16.6515 4.719 16.4645 7.25Z" stroke="%23F95C97" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.3397 14.75C8.26175 14.75 4.12275 17 3.35675 21.247C3.26475 21.759 3.55375 22.25 4.08975 22.25H20.5897C21.1257 22.25 21.4157 21.759 21.3237 21.247C20.5567 17 16.4177 14.75 12.3397 14.75Z" stroke="%23F95C97" stroke-miterlimit="10"/></g><defs><clipPath id="clip0_171_5175"><rect width="24" height="24" fill="white" transform="translate(0.339844 0.5)"/></clipPath></defs></svg>') !important;
 }
 
 :global(.vtex-modal-layout-0-x-headerContainer--sy-modal-login__header) {

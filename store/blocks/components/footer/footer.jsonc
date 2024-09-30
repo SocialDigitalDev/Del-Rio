@@ -11,7 +11,7 @@
       "flex-layout.row#footer-desktop-container"
     ],
     "props": {
-      "blockClass": "sy-footer-container"
+      "blockClass": ["sy-footer-container", "out-rosa"]
     }
   },
   "flex-layout.row#footer-desktop-container": {
@@ -33,7 +33,7 @@
       "flex-layout.col#footer-payment"
     ],
     "props": {
-      "blockClass": "sy-footer-links"
+      "blockClass": ["sy-footer-links", "out-rosa"]
     }
   },
   "flex-layout.col#footer-top-desktop": {
@@ -140,7 +140,7 @@
       "flex-layout.row#footer-copy-col"
     ],
     "props": {
-      "blockClass": "sy-footer-copy"
+      "blockClass": ["sy-footer-copy", "out-rosa"]
     }
   },
   "flex-layout.row#footer-copy-col": {
@@ -164,7 +164,7 @@
   "rich-text#copy": {
     "props": {
       "text": "2023 © Copyright DelRio. Todos os direitos reservados.\nA loja online DelRio é operada pela Social Logística e Distribuição LTDA - Avenida Portugal, 46, Galpão 01 Setor C1 - Itapevi - SP, CEP: 06696-060 / CNPJ: 28.511.223/0004-85",
-      "blockClass": "sy-footer-copy-content",
+      "blockClass": ["sy-footer-copy-content", "out-rosa"],
       "width": "100%"
     }
   },
@@ -195,7 +195,7 @@
       "flex-layout.col#footer-payment"
     ],
     "props": {
-      "blockClass": "sy-footer-links"
+      "blockClass": ["sy-footer-links", "out-rosa"]
     }
   },
   "flex-layout.row#footer-bottom-mobile": {
@@ -203,7 +203,7 @@
       "flex-layout.row#footer-copy-col"
     ],
     "props": {
-      "blockClass": "sy-footer-copy"
+      "blockClass": ["sy-footer-copy", "out-rosa"]
     }
   }
 }
