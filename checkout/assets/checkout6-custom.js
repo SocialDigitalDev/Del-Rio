@@ -1,6 +1,6 @@
 // NÃO REMOVER ESSE SCRIPT
 // LÓGICA PARA A FORMA DE PAGAMENTO "PAGAMENTO INSTANT NEO" (SPINPAY)
-setInterval(function() {
+setInterval(function () {
     if (0 === $("#banner-spin").length) {
         const n = '<img id="banner-spin" src="https://spinp.vteximg.com.br/arquivos/spinpay_vtex_pix.png"/>';
         0 !== $(".box-payment-spinpay").length && $(".box-payment-spinpay").html(n), 0 !== $(".SpinPayPaymentGroup").length && $(".SpinPayPaymentGroup").html(n), $("#payment-group-SpinPayPaymentGroup").children().css({
@@ -18,7 +18,7 @@ $("link[href*='checkout-custom.css']").remove();
 
 var checkoutDelRio = {
 
-    init: function() {
+    init: function () {
 
         setTimeout(() => {
             this.orderFormStep();
@@ -30,13 +30,13 @@ var checkoutDelRio = {
         }, 5000);
 
     },
-    openLinks: function() {
+    openLinks: function () {
 
         $('.summary-template-holder .cart-more-options button#shipping-calculate-link').trigger('click');
         $('.summary-template-holder .cart-totalizers #cart-link-coupon-add').trigger('click');
 
     },
-    orderFormStep: function() {
+    orderFormStep: function () {
 
         if (window.location.hash == "#/cart") {
 
@@ -65,10 +65,10 @@ var checkoutDelRio = {
         }
 
     },
-    sizeImg: function() {
+    sizeImg: function () {
 
         setTimeout(() => {
-            $('.cart .table tbody .product-item').each(function() {
+            $('.cart .table tbody .product-item').each(function () {
 
                 var $this = $(this);
 
@@ -106,14 +106,14 @@ var checkoutDelRio = {
         }, 1000);
 
     },
-    emptyCart: function() {
+    emptyCart: function () {
 
         if ($('.empty-cart-content').is(':visible')) {
             $('.cart-template.full-cart').css('display', 'block');
         }
 
     },
-    openSelectShipping: function() {
+    openSelectShipping: function () {
         var elm = $(".srp-delivery-select")
         var len = $(".srp-delivery-select option").length
 
@@ -132,7 +132,7 @@ var checkoutDelRio = {
     },
     waitForElement: function(target, callback, interval = 500) {
         var tries = 0;
-        var checkExist = setInterval(function() {
+        var checkExist = setInterval(function () {
             if ($(target).length) {
                 clearInterval(checkExist);
                 callback && callback();
@@ -148,75 +148,164 @@ var checkoutDelRio = {
 }
 
 
-$doc.ready(function() {
+$doc.ready(function () {
     checkoutDelRio.init();
-    checkoutDelRio.waitForElement(".srp-delivery-select", function() {
+    checkoutDelRio.waitForElement(".srp-delivery-select", function () {
         checkoutDelRio.openSelectShipping()
     });
 });
 
-$win.on('hashchange', function(e) {
+$win.on('hashchange', function (e) {
     checkoutDelRio.orderFormStep();
 });
 
-$(window).on('orderFormUpdated.vtex', function(evt, orderForm) {
+$(window).on('orderFormUpdated.vtex', function (evt, orderForm) {
     checkoutDelRio.sizeImg();
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.addEventListener('DOMContentLoaded', (e) => {
-
-    appendFields()
-
-    $("#go-to-shipping").click(function() {
-        saveMasterData()
+    checkoutDelRio.waitForElement(".srp-delivery-select", function () {
+        checkoutDelRio.openSelectShipping()
     });
-})
-
-
+});
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 function appendFields() {
     $('.box-client-info').append(`
-        <div class="whatsapp">
+        <div class="whatsapp" style="margin-top: 8px;">
             
             <label for="birthDate">
                 Data de nascimento
             </label>
 
-            <input type="date" name="birthDate" id="opt-in-birthDate"
-            }/>
+            <input 
+                type="date" 
+                required
+                name="birthDate" 
+                id="opt-in-birthDate"
+
+                style="height: 32px;
+                    padding: 6px 5px 6px 18px;
+                    border: 0.5px solid #B2B2B2;
+                    border-radius: 0;
+                    box-shadow: none;
+                    text-shadow: none;
+                    background: #fff;
+                    font-family: 'Akrobat', sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #989898;
+                    line-height: 20px;"
+            /> 
+            <span class="help error birth-error" style="display: none;">
+				Campo obrigatório.			
+			</span>
+                                 
+          
         </div>
     `);
 }
 
+document.addEventListener('DOMContentLoaded', (e) => {
+    appendFields()
+
+    $("#go-to-shipping").click(function() {
+  		
+    	birth = $('#opt-in-birthDate').val()
+        if( birth.length == 0){
+            $(".birth-error").css("display", "block")
+        } else{
+            $(".birth-error").css("display", "none")
+            saveMasterData()
+        }
+  
+    });
+}) 
 
 function saveMasterData() {
 
     const orderId = vtexjs.checkout.orderFormId
     let birth = $('#opt-in-birthDate').val();
     let email = $('#client-email').val();
+    let name = $('#client-first-name').val();
 
     var data = {
         birthDate: birth,
-        email: email
+        email: email,
+        name: name,
     };
 
     $.ajax({
@@ -225,7 +314,7 @@ function saveMasterData() {
         type: 'PATCH',
         contentType: 'application/json',
         data: JSON.stringify(data),
-        success: function(success) { console.log("success", success) },
-        error: function(error) { console.log("error", error) },
-    });
+        success: function (success) {console.log("success", success)},
+        error: function (error) {console.log("error", error)},
+  });
 }
