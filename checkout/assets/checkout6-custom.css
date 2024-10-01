@@ -86,7 +86,7 @@ body.body-cart {
 .topbar {
     display: block;
     width: 100%;
-    background: #323232;
+    background: #F95C97;
 }
 
 .topbar p {
@@ -95,7 +95,7 @@ body.body-cart {
     margin: 0;
     padding: 12px 0;
     font-family: 'Akrobat', sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 14px;
     color: #fff;
     text-align: center;
@@ -373,7 +373,7 @@ header .content {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #48385C;
+    color: #F95C97;
 }
 
 .cart-template.full-cart .cart-items tbody {
@@ -440,7 +440,8 @@ header .content {
 }
 
 .cart-template.full-cart .cart-items tbody .product-price span {
-    display: block;
+    display: flex;
+    gap: 5px;
     font-family: 'Akrobat', sans-serif;
     color: #000;
     line-height: 20px;
@@ -488,7 +489,7 @@ header .content {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_428:22585)'%3E%3Crect x='19.4767' y='19.5977' width='40' height='40' transform='rotate(-180 19.4767 19.5977)' fill='%2348385C'/%3E%3Cpath d='M4.26058 9.79883L15.2162 9.79883' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_428:22585'%3E%3Crect width='19.4766' height='19.5971' fill='white' transform='translate(19.4767 19.5977) rotate(-180)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-image: url('data:image/svg+xml,<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="21" height="20" fill="%23F95C97"/><path d="M15.1521 9.18359V10.4966H5.93506V9.18359H15.1521Z" fill="white"/></svg>');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -498,7 +499,7 @@ header .content {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='20' y='19.5977' width='19.4766' height='19.5971' transform='rotate(-180 20 19.5977)' fill='%2348385C'/%3E%3Cpath d='M10.2617 15.3105L10.2617 4.28715' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4.78389 9.79883L15.7395 9.79883' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-image: url('data:image/svg+xml,<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="21" height="20" fill="%23F95C97"/><path d="M15.1521 10.4955H11.2001V14.4475H9.88706V10.4955H5.93506V9.18247H9.88706V5.23047H11.2001V9.18247H15.1521V10.4955Z" fill="white"/></svg>');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -673,7 +674,7 @@ header .content {
     border-radius: 0;
     box-shadow: none;
     text-shadow: none;
-    background: #48385C;
+    background: #F95C97;
     font-family: 'Akrobat', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -684,8 +685,8 @@ header .content {
 .cart-template.full-cart .summary-template-holder .cart-more-options #shipping-preview-container .vtex-shipping-preview-0-x-pc form.srp-postal-code__form #cart-shipping-calculate:hover {
     display: block;
     background: #fff;
-    color: #48385C;
-    border: 1px solid #48385C;
+    color: #F95C97;
+    border: 1px solid #F95C97;
     font-weight: 700;
 }
 
@@ -758,7 +759,7 @@ header .content {
     display: block;
     width: 80px;
     height: 32px;
-    background-color: #47395a;
+    background-color: #F95C97;
     border: none;
     border-radius: 0;
     font-size: 0;
@@ -893,7 +894,7 @@ header .content {
     width: 140px;
     height: 32px;
     padding: 6px 23px;
-    background: #48385C;
+    background: #F95C97;
     border: none;
     box-shadow: none;
     text-shadow: none;
@@ -907,8 +908,8 @@ header .content {
 
 .cart-template.full-cart .cart-links-bottom .btn-place-order-wrapper #cart-to-orderform:hover {
     background: #fff;
-    border: 1px solid #48385C;
-    color: #48385C;
+    border: 1px solid #F95C97;
+    color: #F95C97;
     padding: 6px 0;
 }
 
@@ -930,7 +931,7 @@ h1#orderform-title {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #48385C;
+    color: #F95C97;
 }
 
 .client-pre-email {
@@ -952,7 +953,7 @@ h1#orderform-title {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #48385C;
+    color: #F95C97;
     line-height: 37px;
 }
 
@@ -984,7 +985,7 @@ h1#orderform-title {
     width: 140px;
     height: 32px;
     margin-left: 16px;
-    background: #48385C;
+    background: #F95C97;
     color: #fff;
     border-radius: 0;
     border: none;
@@ -1006,7 +1007,7 @@ h1#orderform-title {
 .client-pre-email .emailInfo h3 {
     font-weight: 900;
     font-size: 16px;
-    color: #48385C;
+    color: #F95C97;
 }
 
 .client-pre-email .emailInfo > * {
@@ -1168,7 +1169,7 @@ h1#orderform-title {
 .accordion-group form.form-step p.submit.btn-submit-wrapper #go-to-shipping, .accordion-group form.form-step p.submit.btn-submit-wrapper #go-to-payment {
     width: 140px;
     height: 32px;
-    background: #48385C;
+    background: #F95C97;
     font-family: 'Akrobat', sans-serif;
     font-weight: 500;
     color: #fff;
@@ -1195,7 +1196,7 @@ h1#orderform-title {
     width: 100%;
     height: 32px;
     margin-top: 15px;
-    background: #48385C;
+    background: #F95C97;
     border: none;
     border-radius: 0;
     text-shadow: none;
@@ -1210,8 +1211,8 @@ h1#orderform-title {
 
 .accordion-group .shipping-container .vtex-omnishipping-1-x-submitPaymentButton #btn-go-to-payment:hover {
     background: #fff;
-    color: #48385C;
-    border: 1px solid #48385C;
+    color: #F95C97;
+    border: 1px solid #F95C97;
 }
 
 .vtex-omnishipping-1-x-addressFormPart1 small a {
@@ -1372,7 +1373,7 @@ h1#orderform-title {
 }
 
 button#payment-data-submit, #sac-submit, #payment-data-submit {
-    background: #48385C;
+    background: #F95C97;
     box-shadow: none;
     border: none;
     border-radius: 0;
@@ -1394,7 +1395,7 @@ button#payment-data-submit span, #sac-submit span, #payment-data-submit span {
 footer {
     display: block;
     width: 100%;
-    background: #E4E4E4;
+    background: #F95C97;
 }
 
 footer .content {
@@ -1654,7 +1655,7 @@ footer .content {
 .copyright {
     display: block;
     width: 100%;
-    background: #47395A;
+    background: #F95C97;
 }
 
 .copyright .content {
@@ -1684,7 +1685,7 @@ footer .content {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    color: #fff;
+    color: #323232;
     line-height: 16px;
 }
 

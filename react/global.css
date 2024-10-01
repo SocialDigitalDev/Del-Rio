@@ -617,7 +617,7 @@ img.visible-desktop, img.visible-mobile{
 .vtex-order-placed-2-x-myOrdersButton .vtex-button, .vtex-order-placed-2-x-updateOrderButton .vtex-button,
 .vtex-order-placed-2-x-section.vtex-order-placed-2-x-section--paymentMethods .vtex-button {
     color: #fff;
-    background: #323232;
+    background: #F95C97;
     border-radius: 0;
     border: none;
     font-weight: 600;

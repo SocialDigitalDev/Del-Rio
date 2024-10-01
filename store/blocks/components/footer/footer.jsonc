@@ -154,7 +154,7 @@
   },
   "flex-layout.row#footer-bottom-images": {
     "children": [
-      "image#infracommerce-logo"
+      "image#social-logo"
     ],
     "props": {
       "width": "100%",
@@ -168,16 +168,16 @@
       "width": "100%"
     }
   },
-  "image#infracommerce-logo": {
+  "image#social-logo": {
     "props": {
-      "src": "assets/logo-sdc.svg",
+      "src": "/arquivos/logo-social-black.svg",
       "link": {
         "url": "https://socialdigitalcommerce.com.br/",
         "openNewTab": true,
         "noFollow": true,
         "title": "Social Digital Commerce"
       },
-      "blockClass": "logo-infracommerce"
+      "blockClass": "logo-social"
     }
   },
   "footer-layout.mobile": {
