@@ -83,7 +83,7 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "blockClass": "sy-navMenu-desk"
+      "blockClass": ["sy-navMenu-desk", "out-rosa"]
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },

@@ -2,3 +2,15 @@
 [aria-label="cookieconsent"] {
     display: none !important;
 }
+
+/* out-rosa */
+
+:global(.render-route-store-home) > :global(.render-provider) {
+    background: url("/arquivos/bg-home-out-rosa.png"), #F95C9733 !important;
+}
+
+:global(.render-route-store-home) > :global(.render-provider) > :global(.vtex-store__template) {
+    background: #F95C9733 !important;
+}
+
+/* out-rosa */
