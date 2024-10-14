@@ -2,7 +2,7 @@
   "vtex.menu@2.x:menu#Institucional": {
     "props": {
       "orientation": "vertical",
-      "blockClass": "sy-fale-institucional"
+      "blockClass": ["sy-fale-institucional", "out-rosa"]
     },
     "children": [
       "menu-item#title-institucional",

@@ -12,7 +12,7 @@ const InstaFeed = () => {
 
       {canUseDOM && (
         <div className="instafeed">
-          <div className="elfsight-app-81d555dd-befe-4754-9291-7a0918c2fa3b"></div>
+          <div className="elfsight-app-240cf1b5-ff6d-479d-8be6-3c6d142c790a"></div>
         </div>
       )}
     </>
