@@ -68,5 +68,8 @@
     "vtex.order-manager": "0.x",
     "vtex.order-items": "0.x"
   },
+  "peerDependencies": {
+    "sizebay.sizebay": "3.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
