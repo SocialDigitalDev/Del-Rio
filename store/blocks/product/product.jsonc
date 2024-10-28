@@ -148,6 +148,7 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.col#product-prices",
+      "flex-layout.row#SizeBay",
       "flex-layout.row#related-products",
       "sku-selector",
       "sy-productInfo",
@@ -302,6 +303,15 @@
         "itemsPerPage": 4,
         "scroll": "BY_PAGE"
       }
+    }
+  },
+    /*SizeBay*/
+  "flex-layout.row#SizeBay": {
+    "children": [
+      "sizebay"
+    ],
+    "props": {
+      "blockClass": "sizebay"
     }
   }
 }
