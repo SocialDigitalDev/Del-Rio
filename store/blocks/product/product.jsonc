@@ -148,10 +148,10 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.col#product-prices",
-      "flex-layout.row#SizeBay",
       "flex-layout.row#related-products",
       "sku-selector",
       "sy-productInfo",
+      "flex-layout.row#SizeBay",
       "flex-layout.row#buy-button",
       "buy-look-link",
       "shipping-simulator",
