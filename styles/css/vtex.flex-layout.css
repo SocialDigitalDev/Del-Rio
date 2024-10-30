@@ -1,4 +1,10 @@
 /* CATEGORY / DEPARTAMENT / SEARCH */
+
+
+.flexRow--sizebay {
+        margin-bottom: 20px;
+}
+
 .flexRow--content-category {
     margin-top: 50px;
 }
