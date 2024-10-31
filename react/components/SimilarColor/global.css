@@ -823,3 +823,11 @@ li[class="similar-colors--item-color similar-colors--item-color_algodão-doce e 
 li[class="similar-colors--item-color similar-colors--item-color_unicórnio"]{
     background: #fce1ec;
 }
+
+li[class="similar-colors--item-color similar-colors--item-color_ameixa"] {
+    background: #a91540;
+}
+
+li[class="similar-colors--item-color similar-colors--item-color_verde-selva"] {
+    background: #366963;
+}
