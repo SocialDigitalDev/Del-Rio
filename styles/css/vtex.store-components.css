@@ -1386,3 +1386,13 @@
     font-size: 40px;
   }
 }
+
+.logoImage {
+  filter: invert(1);
+}
+
+/* logo footer */
+
+.imageElement--logo-social {
+  filter: invert(1);
+}

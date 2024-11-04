@@ -86,7 +86,7 @@ body.body-cart {
 .topbar {
     display: block;
     width: 100%;
-    background: #F95C97;
+    background: #323232;
 }
 
 .topbar p {
@@ -95,7 +95,7 @@ body.body-cart {
     margin: 0;
     padding: 12px 0;
     font-family: 'Akrobat', sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 14px;
     color: #fff;
     text-align: center;
@@ -373,7 +373,7 @@ header .content {
     font-family: 'Akrobat', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #F95C97;
+    color: #48385C;
 }
 
 .cart-template.full-cart .cart-items tbody {
