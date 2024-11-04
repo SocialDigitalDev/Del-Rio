@@ -10,7 +10,6 @@
     "title": "HEADER DESKTOP",
     "children": [
       "helmet-component",
-      "BlackFriday",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
     ]
