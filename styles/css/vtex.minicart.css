@@ -33,10 +33,6 @@
   margin-right: 5px;
 }
 
-.minicartIconContainer--out-rosa::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><g clip-path="url(%23clip0_171_5182)"><path d="M4.7002 8.75C4.50128 8.75 4.31052 8.82902 4.16987 8.96967C4.02921 9.11032 3.9502 9.30109 3.9502 9.5V19.625C3.9502 21.043 5.1572 22.25 6.5752 22.25H19.3252C20.7432 22.25 21.9502 21.101 21.9502 19.684V9.5C21.9502 9.30109 21.8712 9.11032 21.7305 8.96967C21.5899 8.82902 21.3991 8.75 21.2002 8.75H4.7002Z" stroke="%23F95C97" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.4502 8.75V7.25C8.4502 6.05653 8.9243 4.91193 9.76822 4.06802C10.6121 3.22411 11.7567 2.75 12.9502 2.75C14.1437 2.75 15.2883 3.22411 16.1322 4.06802C16.9761 4.91193 17.4502 6.05653 17.4502 7.25V8.75" stroke="%23F95C97" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_171_5182"><rect width="24" height="24" fill="white" transform="translate(0.950195 0.5)"/></clipPath></defs></svg>') !important;
-}
-
 .minicartIconContainer::after {
   color: #47395A;
   content: 'Sacola';
@@ -45,10 +41,6 @@
   line-height: 20px;
   text-transform: capitalize;
   display: inline-block;
-}
-
-.minicartIconContainer--out-rosa::after {
-  color: #F95C97 !important;
 }
 
 :global(.vtex-minicart-2-x-opened) {

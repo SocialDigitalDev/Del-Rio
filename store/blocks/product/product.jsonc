@@ -151,6 +151,7 @@
       "flex-layout.row#related-products",
       "sku-selector",
       "sy-productInfo",
+      "flex-layout.row#SizeBay",
       "flex-layout.row#buy-button",
       "buy-look-link",
       "shipping-simulator",
@@ -302,6 +303,15 @@
         "itemsPerPage": 4,
         "scroll": "BY_PAGE"
       }
+    }
+  },
+    /*SizeBay*/
+  "flex-layout.row#SizeBay": {
+    "children": [
+      "sizebay"
+    ],
+    "props": {
+      "blockClass": "sizebay"
     }
   }
 }

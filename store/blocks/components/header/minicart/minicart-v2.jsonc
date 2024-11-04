@@ -2,8 +2,7 @@
   "minicart.v2": {
     "title": "MINICART",
     "props": {
-      "variation": "link",
-      "blockClass": "out-rosa"
+      "variation": "link"
     }
   }
 }

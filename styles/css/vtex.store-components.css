@@ -40,7 +40,7 @@
 
 :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle),
 :global(.vtex-rich-text-0-x-paragraph--sy-instafeed-title) {
-  color: #F95C97;
+  color: #47395a;
   font-size: 30px;
   font-weight: 900;
   line-height: 37px;
@@ -51,7 +51,7 @@
 @media (max-width: 767px) {
   :global(.vtex-rich-text-0-x-headingLevel2--shelfTitle),
   :global(.vtex-rich-text-0-x-paragraph--sy-instafeed-title) {
-    color: #F95C97;
+    color: #47395a;
     font-size: 24px;
     font-weight: 900;
     line-height: 30px;
@@ -191,10 +191,10 @@
 }
 
 .productBrand {
-  color: #F95C97;
+  color: #47395a;
   font-size: 26px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
@@ -444,7 +444,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--sy-product-buttons) :global(.vtex-button) {
   width: 280px;
   height: 40px;
-  background: #F95C97;
+  background: #47395a;
   border: none;
   border-radius: 0;
 }
@@ -490,7 +490,7 @@
 :global(.vtex-numeric-stepper__plus-button) {
   width: 40px;
   height: 40px;
-  background: #F95C97;
+  background: #47395a;
   border-radius: 0;
   border: none;
 }
@@ -934,7 +934,7 @@
 }
 
 :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-button) {
-  background: #F95C97;
+  background: #47395a;
   min-height: auto;
   height: 31px;
   width: 59px;
@@ -1385,4 +1385,10 @@
   :global(.vtex-rich-text-0-x-container--page-title) :global(.vtex-rich-text-0-x-headingLevel1){
     font-size: 40px;
   }
+}
+
+/* logo footer */
+
+.imageElement--logo-social {
+  filter: invert(1);
 }

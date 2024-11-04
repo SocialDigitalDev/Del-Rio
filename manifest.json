@@ -1,7 +1,7 @@
 {
   "vendor": "delrio",
   "name": "dev-theme",
-  "version": "1.5.65",
+  "version": "3.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -67,6 +67,9 @@
     "vtex.format-currency": "0.x",
     "vtex.order-manager": "0.x",
     "vtex.order-items": "0.x"
+  },
+  "peerDependencies": {
+    "sizebay.sizebay": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-//out-rosa
 export const Container = styled.section`
-  background: url(/arquivos/bg-news-out-rosa.png) no-repeat center;
+  background: url(/arquivos/banner-newsletterv2.png) no-repeat center;
   background-size: 100% 100%;
   position: relative;
   display: block;
@@ -152,7 +151,7 @@ export const Container = styled.section`
     }
 
     .sy-termo-newsletter {
-      color: #fff;
+      color: #575757;
       font-size: 14px;
       font-weight: 600;
       display: flex;
@@ -174,7 +173,7 @@ export const Container = styled.section`
       a {
         color: #0199FF;
         @media (min-width: 641px) {
-          color: #fff;
+          color: #C1345A;
         }
       }
 
