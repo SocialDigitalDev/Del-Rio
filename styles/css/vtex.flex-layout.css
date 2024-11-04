@@ -98,11 +98,6 @@
     width: 100%;
 }
 
-.flexRowContent--out-rosa :global(.vtex-slider-layout-0-x-paginationDot--shelf--isActive) {
-    background: #F95C97 !important;
-}
-
-
 /* MEDIA QUERIES */
 
 

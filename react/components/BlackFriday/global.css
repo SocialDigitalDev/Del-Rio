@@ -17,7 +17,7 @@ body.estilo-bf .vtex-flex-layout-0-x-flexRow--sy-topHeader-desk{
     background-color: #2F2F2F;
     z-index: 1;
 }
-body.estilo-bf .vtex-flex-layout-0-x-flexRow--sy-topHeader-desk .vtex-store-components-3-x-imageElement {filter: brightness(0);}
+
 body.estilo-bf .vtex-sticky-layout-0-x-wrapper .vtex-flex-layout-0-x-flexRow--sy-desktop-header {background-color: #121212;} 
 body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input::-webkit-input-placeholder{color: #beafd1;}
 body.estilo-bf .vtex-store-components-3-x-searchBarInnerContainer .vtex-styleguide-9-x-input:-ms-input-placeholder{color: #beafd1;}

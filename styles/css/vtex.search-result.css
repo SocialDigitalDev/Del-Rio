@@ -128,15 +128,15 @@
 }
 
 .filter__container--priceRange :global(.vtex-slider__base-internal) {
-    background-color: #F95C97;
+    background-color: #ff03ec;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector) {
-    background-color: #F95C97;
+    background-color: #ff03ec;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector-tooltip) {
-    background-color: #F95C97;
+    background-color: #ff03ec;
     border: none;
 }
 
@@ -358,15 +358,15 @@
 }
 
 .filter__container--priceRange :global(.vtex-slider__base-internal) {
-    background-color: #F95C97;
+    background-color: #ff03ec;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector) {
-    background-color:#F95C97;
+    background-color:#ff03ec;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector-tooltip) {
-    background-color: #F95C97;
+    background-color: #ff03ec;
     border: none;
 }
 
@@ -494,14 +494,14 @@
 
 .buttonShowMore :global(.vtex-button) {
     margin-top: 70px;
-    background-color: #F95C97;
+    background-color: #ff03ec;
     border: none;
 }
 
 .buttonShowMore :global(.vtex-button):hover {
     background-color: #fff;
-    color: #F95C97;
-    border: 2px solid  #F95C97;
+    color: #ff03ec;
+    border: 2px solid  #ff03ec;
 }
 
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {

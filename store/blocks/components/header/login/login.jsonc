@@ -6,7 +6,7 @@
       "modal-layout#login"
     ],
     "props": {
-      "blockClass": ["sy-modal-login__trigger", "out-rosa"]
+      "blockClass": ["sy-modal-login__trigger"]
     }
   },
   "rich-text#login": {

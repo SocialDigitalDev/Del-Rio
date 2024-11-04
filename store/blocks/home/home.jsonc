@@ -17,7 +17,7 @@
     "children": ["list-context.image-list#banner-principal"],
     "props": {
       "fullWidth": true,
-      "blockClass": ["sy-banner-container", "out-rosa"]
+      "blockClass": ["sy-banner-container"]
     }
   },
 
@@ -79,7 +79,7 @@
       },
       "showPaginationDots": "always",
       "showNavigationArrows": "always",
-      "blockClass": ["sy-banner-principal--search", "out-rosa"],
+      "blockClass": ["sy-banner-principal--search"],
       "infinite": true
     }
     
@@ -89,21 +89,21 @@
     "title": "Vitrine 1 - TITULO",
     "props": {
       "text": "## Destaques",
-      "blockClass": ["shelfTitle", "out-rosa"]
+      "blockClass": ["shelfTitle"]
     }
   },
   "rich-text#shelf-title2": {
     "title": "Vitrine 2 - TITULO",
     "props": {
       "text": "## Destaques",
-      "blockClass": ["shelfTitle", "out-rosa"]
+      "blockClass": ["shelfTitle"]
     }
   },
   "rich-text#shelf-title3": {
     "title": "Vitrine 3 - TITULO",
     "props": {
       "text": "## Destaques",
-      "blockClass": ["shelfTitle", "out-rosa"]
+      "blockClass": ["shelfTitle"]
     }
   },
 
@@ -111,14 +111,13 @@
     "title": "Vitrine 1",
     "children": ["list-context.product-list#shelf-home1"],
     "props": {
-      "blockClass": ["shelf-home", "out-rosa"]
+      "blockClass": ["shelf-home"]
     }
   },
   "list-context.product-list#shelf-home1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#shelf"],
     "props": {
-      "blockClass": "out-rosa",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
@@ -127,14 +126,13 @@
     "title": "Vitrine 2",
     "children": ["list-context.product-list#shelf-home2"],
     "props": {
-      "blockClass": ["shelf-home", "out-rosa"]
+      "blockClass": ["shelf-home"]
     }
   },
   "list-context.product-list#shelf-home2": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#shelf"],
     "props": {
-      "blockClass": "out-rosa",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
@@ -143,14 +141,13 @@
     "title": "Vitrine 3",
     "children": ["list-context.product-list#shelf-home3"],
     "props": {
-      "blockClass": ["shelf-home", "out-rosa"]
+      "blockClass": ["shelf-home"]
     }
   },
   "list-context.product-list#shelf-home3": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#shelf"],
     "props": {
-      "blockClass": "out-rosa",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
@@ -165,7 +162,7 @@
       "infinite": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "always",
-      "blockClass": ["shelf", "out-rosa"]
+      "blockClass": ["shelf"]
     }
   },
   "rich-text#question": {
