@@ -1387,10 +1387,6 @@
   }
 }
 
-.logoImage {
-  filter: invert(1);
-}
-
 /* logo footer */
 
 .imageElement--logo-social {
