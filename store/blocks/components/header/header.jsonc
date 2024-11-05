@@ -9,6 +9,7 @@
   "header-layout.desktop": {
     "title": "HEADER DESKTOP",
     "children": [
+      "BlackFriday",
       "helmet-component",
       "flex-layout.row#topbar",
       "sticky-layout#desktop"
@@ -95,6 +96,7 @@
   "header-layout.mobile": {
     "title": "HEADER MOBILE",
     "children": [
+      "BlackFriday",
       "responsive-layout.tablet#header",
       "responsive-layout.phone#header"
     ]

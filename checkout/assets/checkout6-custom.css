@@ -489,7 +489,7 @@ header .content {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_428:22585)'%3E%3Crect x='19.4767' y='19.5977' width='40' height='40' transform='rotate(-180 19.4767 19.5977)' fill='%2348385C'/%3E%3Cpath d='M4.26058 9.79883L15.2162 9.79883' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_428:22585'%3E%3Crect width='19.4766' height='19.5971' fill='white' transform='translate(19.4767 19.5977) rotate(-180)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_428:22585)'%3E%3Crect x='19.4767' y='19.5977' width='40' height='40' transform='rotate(-180 19.4767 19.5977)' fill='%23181818'/%3E%3Cpath d='M4.26058 9.79883L15.2162 9.79883' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_428:22585'%3E%3Crect width='19.4766' height='19.5971' fill='white' transform='translate(19.4767 19.5977) rotate(-180)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -499,7 +499,7 @@ header .content {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='20' y='19.5977' width='19.4766' height='19.5971' transform='rotate(-180 20 19.5977)' fill='%2348385C'/%3E%3Cpath d='M10.2617 15.3105L10.2617 4.28715' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4.78389 9.79883L15.7395 9.79883' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='20' y='19.5977' width='19.4766' height='19.5971' transform='rotate(-180 20 19.5977)' fill='%23181818'/%3E%3Cpath d='M10.2617 15.3105L10.2617 4.28715' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M4.78389 9.79883L15.7395 9.79883' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -985,7 +985,7 @@ h1#orderform-title {
     width: 140px;
     height: 32px;
     margin-left: 16px;
-    background: #F95C97;
+    background: #47395A;
     color: #fff;
     border-radius: 0;
     border: none;
@@ -1424,13 +1424,13 @@ footer .content {
 .footer--logo {
     display: block;
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 13px;
 }
 
 .footer--logo i.footer-logo {
     display: block;
-    width: 155px;
-    height: 57px;
+    width: 174px;
+    height: 72px;
     background: url('/arquivos/logo-delrio-fev-23.png') center no-repeat;
     background-size: contain;
     margin: 0 auto;
@@ -1464,7 +1464,7 @@ footer .content {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.0445 7.05609C23.9882 5.78087 23.782 4.90417 23.4865 4.1445C23.1817 3.33813 22.7128 2.61618 22.0984 2.01602C21.4981 1.40653 20.7713 0.932924 19.9741 0.632938C19.2099 0.33753 18.3376 0.131313 17.0621 0.0750881C15.7772 0.0141019 15.3692 0 12.1101 0C8.85106 0 8.44312 0.0141019 7.1629 0.0703264C5.88744 0.126551 5.01058 0.332952 4.25094 0.628176C3.44423 0.932924 2.72215 1.40177 2.12188 2.01602C1.51227 2.61618 1.03875 3.34289 0.738528 4.13992C0.443063 4.90417 0.236806 5.77611 0.180571 7.05133C0.119573 8.33607 0.105469 8.74392 0.105469 12.0024C0.105469 15.2608 0.119573 15.6687 0.175809 16.9487C0.232044 18.2239 0.438484 19.1006 0.733948 19.8603C1.03875 20.6666 1.51227 21.3886 2.12188 21.9887C2.72215 22.5982 3.44899 23.0718 4.24618 23.3718C5.01058 23.6672 5.88268 23.8734 7.15832 23.9297C8.43836 23.9861 8.84648 24 12.1056 24C15.3646 24 15.7726 23.9861 17.0528 23.9297C18.3283 23.8734 19.2051 23.6672 19.9648 23.3718C21.578 22.7482 22.8535 21.473 23.4772 19.8603C23.7725 19.096 23.9789 18.2239 24.0351 16.9487C24.0914 15.6687 24.1055 15.2608 24.1055 12.0024C24.1055 8.74392 24.1007 8.33607 24.0445 7.05609ZM21.8828 16.8549C21.8311 18.027 21.6342 18.66 21.4701 19.0819C21.0667 20.1275 20.2368 20.9573 19.191 21.3606C18.769 21.5247 18.1313 21.7215 16.9636 21.773C15.6975 21.8294 15.3177 21.8433 12.1149 21.8433C8.91206 21.8433 8.52757 21.8294 7.26603 21.773C6.0937 21.7215 5.46064 21.5247 5.0386 21.3606C4.5182 21.1683 4.0445 20.8635 3.66001 20.465C3.26142 20.0758 2.95661 19.607 2.76428 19.0867C2.60015 18.6647 2.40324 18.027 2.35177 16.8597C2.29535 15.5938 2.28143 15.214 2.28143 12.0117C2.28143 8.80949 2.29535 8.42507 2.35177 7.16396C2.40324 5.99185 2.60015 5.35891 2.76428 4.93695C2.95661 4.41646 3.26142 3.94304 3.66478 3.55844C4.05384 3.15993 4.52278 2.85518 5.04336 2.66306C5.4654 2.49897 6.10322 2.30209 7.27079 2.25045C8.53691 2.19422 8.91682 2.18012 12.1195 2.18012C15.3271 2.18012 15.7068 2.19422 16.9684 2.25045C18.1407 2.30209 18.7737 2.49897 19.1958 2.66306C19.7162 2.85518 20.1899 3.15993 20.5744 3.55844C20.973 3.94762 21.2778 4.41646 21.4701 4.93695C21.6342 5.35891 21.8311 5.99643 21.8828 7.16396C21.939 8.42983 21.9531 8.80949 21.9531 12.0117C21.9531 15.214 21.939 15.589 21.8828 16.8549Z' fill='%23626262'/%3E%3Cpath d='M12.1098 5.87695C8.70548 5.87695 5.94336 8.63837 5.94336 12.0422C5.94336 15.4461 8.70548 18.2075 12.1098 18.2075C15.5143 18.2075 18.2763 15.4461 18.2763 12.0422C18.2763 8.63837 15.5143 5.87695 12.1098 5.87695ZM12.1098 16.0415C9.90126 16.0415 8.10979 14.2506 8.10979 12.0422C8.10979 9.83391 9.90126 8.04297 12.1098 8.04297C14.3186 8.04297 16.1099 9.83391 16.1099 12.0422C16.1099 14.2506 14.3186 16.0415 12.1098 16.0415Z' fill='%23626262'/%3E%3Cpath d='M13.4751 11.9706C13.4751 12.7654 12.8305 13.4099 12.0353 13.4099C11.2403 13.4099 10.5957 12.7654 10.5957 11.9706C10.5957 11.1755 11.2403 10.5312 12.0353 10.5312C12.8305 10.5312 13.4751 11.1755 13.4751 11.9706Z' fill='%23626262'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.0445 7.05609C23.9882 5.78087 23.782 4.90417 23.4865 4.1445C23.1817 3.33813 22.7128 2.61618 22.0984 2.01602C21.4981 1.40653 20.7713 0.932924 19.9741 0.632938C19.2099 0.33753 18.3376 0.131313 17.0621 0.0750881C15.7772 0.0141019 15.3692 0 12.1101 0C8.85106 0 8.44312 0.0141019 7.1629 0.0703264C5.88744 0.126551 5.01058 0.332952 4.25094 0.628176C3.44423 0.932924 2.72215 1.40177 2.12188 2.01602C1.51227 2.61618 1.03875 3.34289 0.738528 4.13992C0.443063 4.90417 0.236806 5.77611 0.180571 7.05133C0.119573 8.33607 0.105469 8.74392 0.105469 12.0024C0.105469 15.2608 0.119573 15.6687 0.175809 16.9487C0.232044 18.2239 0.438484 19.1006 0.733948 19.8603C1.03875 20.6666 1.51227 21.3886 2.12188 21.9887C2.72215 22.5982 3.44899 23.0718 4.24618 23.3718C5.01058 23.6672 5.88268 23.8734 7.15832 23.9297C8.43836 23.9861 8.84648 24 12.1056 24C15.3646 24 15.7726 23.9861 17.0528 23.9297C18.3283 23.8734 19.2051 23.6672 19.9648 23.3718C21.578 22.7482 22.8535 21.473 23.4772 19.8603C23.7725 19.096 23.9789 18.2239 24.0351 16.9487C24.0914 15.6687 24.1055 15.2608 24.1055 12.0024C24.1055 8.74392 24.1007 8.33607 24.0445 7.05609ZM21.8828 16.8549C21.8311 18.027 21.6342 18.66 21.4701 19.0819C21.0667 20.1275 20.2368 20.9573 19.191 21.3606C18.769 21.5247 18.1313 21.7215 16.9636 21.773C15.6975 21.8294 15.3177 21.8433 12.1149 21.8433C8.91206 21.8433 8.52757 21.8294 7.26603 21.773C6.0937 21.7215 5.46064 21.5247 5.0386 21.3606C4.5182 21.1683 4.0445 20.8635 3.66001 20.465C3.26142 20.0758 2.95661 19.607 2.76428 19.0867C2.60015 18.6647 2.40324 18.027 2.35177 16.8597C2.29535 15.5938 2.28143 15.214 2.28143 12.0117C2.28143 8.80949 2.29535 8.42507 2.35177 7.16396C2.40324 5.99185 2.60015 5.35891 2.76428 4.93695C2.95661 4.41646 3.26142 3.94304 3.66478 3.55844C4.05384 3.15993 4.52278 2.85518 5.04336 2.66306C5.4654 2.49897 6.10322 2.30209 7.27079 2.25045C8.53691 2.19422 8.91682 2.18012 12.1195 2.18012C15.3271 2.18012 15.7068 2.19422 16.9684 2.25045C18.1407 2.30209 18.7737 2.49897 19.1958 2.66306C19.7162 2.85518 20.1899 3.15993 20.5744 3.55844C20.973 3.94762 21.2778 4.41646 21.4701 4.93695C21.6342 5.35891 21.8311 5.99643 21.8828 7.16396C21.939 8.42983 21.9531 8.80949 21.9531 12.0117C21.9531 15.214 21.939 15.589 21.8828 16.8549Z' fill='%23FFF'/%3E%3Cpath d='M12.1098 5.87695C8.70548 5.87695 5.94336 8.63837 5.94336 12.0422C5.94336 15.4461 8.70548 18.2075 12.1098 18.2075C15.5143 18.2075 18.2763 15.4461 18.2763 12.0422C18.2763 8.63837 15.5143 5.87695 12.1098 5.87695ZM12.1098 16.0415C9.90126 16.0415 8.10979 14.2506 8.10979 12.0422C8.10979 9.83391 9.90126 8.04297 12.1098 8.04297C14.3186 8.04297 16.1099 9.83391 16.1099 12.0422C16.1099 14.2506 14.3186 16.0415 12.1098 16.0415Z' fill='%23FFF'/%3E%3Cpath d='M13.4751 11.9706C13.4751 12.7654 12.8305 13.4099 12.0353 13.4099C11.2403 13.4099 10.5957 12.7654 10.5957 11.9706C10.5957 11.1755 11.2403 10.5312 12.0353 10.5312C12.8305 10.5312 13.4751 11.1755 13.4751 11.9706Z' fill='%23FFF'/%3E%3C/svg%3E%0A");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1474,7 +1474,7 @@ footer .content {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.5898 0H3.62109C1.68274 0 0.105469 1.57727 0.105469 3.51562V20.4844C0.105469 22.4227 1.68274 24 3.62109 24H10.6992V15.5156H7.88672V11.2969H10.6992V8.4375C10.6992 6.11115 12.5916 4.21875 14.918 4.21875H19.1836V8.4375H14.918V11.2969H19.1836L18.4805 15.5156H14.918V24H20.5898C22.5282 24 24.1055 22.4227 24.1055 20.4844V3.51562C24.1055 1.57727 22.5282 0 20.5898 0Z' fill='%23626262'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='24' viewBox='0 0 25 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.5898 0H3.62109C1.68274 0 0.105469 1.57727 0.105469 3.51562V20.4844C0.105469 22.4227 1.68274 24 3.62109 24H10.6992V15.5156H7.88672V11.2969H10.6992V8.4375C10.6992 6.11115 12.5916 4.21875 14.918 4.21875H19.1836V8.4375H14.918V11.2969H19.1836L18.4805 15.5156H14.918V24H20.5898C22.5282 24 24.1055 22.4227 24.1055 20.4844V3.51562C24.1055 1.57727 22.5282 0 20.5898 0Z' fill='%23FFF'/%3E%3C/svg%3E%0A");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1484,7 +1484,7 @@ footer .content {
     display: block;
     width: 24px;
     height: 18px;
-    background-image: url("data:image/svg+xml,%3Csvg width='25' height='18' viewBox='0 0 25 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.9478 3.97453C23.9478 1.86516 22.3962 0.168281 20.479 0.168281C17.8821 0.0468748 15.2337 0 12.5271 0H11.6834C8.98339 0 6.33027 0.0468749 3.73339 0.16875C1.82089 0.16875 0.269328 1.875 0.269328 3.98437C0.152141 5.65266 0.102453 7.32141 0.105266 8.99016C0.100578 10.6589 0.153703 12.3292 0.264641 14.0011C0.264641 16.1105 1.8162 17.8214 3.7287 17.8214C6.45683 17.948 9.25527 18.0042 12.1006 17.9995C14.9506 18.0089 17.7412 17.9495 20.4725 17.8214C22.3896 17.8214 23.9412 16.1105 23.9412 14.0011C24.0537 12.3277 24.1053 10.6589 24.1006 8.98547C24.1112 7.31672 24.0603 5.64641 23.9478 3.97453ZM9.80839 13.5886V4.37766L16.6053 8.98078L9.80839 13.5886Z' fill='%23626262'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='18' viewBox='0 0 25 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.9478 3.97453C23.9478 1.86516 22.3962 0.168281 20.479 0.168281C17.8821 0.0468748 15.2337 0 12.5271 0H11.6834C8.98339 0 6.33027 0.0468749 3.73339 0.16875C1.82089 0.16875 0.269328 1.875 0.269328 3.98437C0.152141 5.65266 0.102453 7.32141 0.105266 8.99016C0.100578 10.6589 0.153703 12.3292 0.264641 14.0011C0.264641 16.1105 1.8162 17.8214 3.7287 17.8214C6.45683 17.948 9.25527 18.0042 12.1006 17.9995C14.9506 18.0089 17.7412 17.9495 20.4725 17.8214C22.3896 17.8214 23.9412 16.1105 23.9412 14.0011C24.0537 12.3277 24.1053 10.6589 24.1006 8.98547C24.1112 7.31672 24.0603 5.64641 23.9478 3.97453ZM9.80839 13.5886V4.37766L16.6053 8.98078L9.80839 13.5886Z' fill='%23FFF'/%3E%3C/svg%3E%0A");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -2122,3 +2122,43 @@ footer .content {
     display: none!important;
 }
 .srp-delivery-select:focus {outline: 0;}
+
+/* black friday */
+body.estilo-bf  footer,
+body.estilo-bf  .copyright,
+body.estilo-bf  #payment-data-submit,
+body.estilo-bf  .client-pre-email .btn-success,
+body.estilo-bf  button#payment-data-submit, #sac-submit, 
+body.estilo-bf .accordion-group form.form-step p.submit.btn-submit-wrapper #go-to-shipping, 
+body.estilo-bf .accordion-group form.form-step p.submit.btn-submit-wrapper #go-to-payment,.accordion-group .shipping-container .vtex-omnishipping-1-x-submitPaymentButton #btn-go-to-payment,
+body.estilo-bf .cart-template.full-cart .summary-template-holder .summary .summary-totalizers .summary-coupon-wrap .summary-coupon p.coupon-fields button#cart-coupon-add,
+body.estilo-bf .cart-template.full-cart .summary-template-holder .cart-more-options #shipping-preview-container .vtex-shipping-preview-0-x-pc form.srp-postal-code__form #cart-shipping-calculate,
+body.estilo-bf .cart-template.full-cart .cart-links-bottom .btn-place-order-wrapper #cart-to-orderform {
+background-color: #000;
+}
+
+
+body.estilo-bf .client-pre-email-h label span,
+body.estilo-bf .client-pre-email .emailInfo h3,
+body.estilo-bf .container-order-form h1#orderform-title::before,
+body.estilo-bf .cart-template.full-cart .cart-items::before {
+    color: #000;
+}
+
+body.estilo-bf .footer--methods-payment h3:nth-of-type(2),
+body.estilo-bf .footer--methods-payment h3,
+body.estilo-bf .footer--institucional h3,
+body.estilo-bf .footer--institucional a,
+body.estilo-bf .footer--contact-us h3,
+body.estilo-bf .footer--contact-us a,
+body.estilo-bf .footer--links-social h3 {
+    color: #fff;
+}
+
+body.estilo-bf .footer--logo i.footer-logo {
+    filter: invert(1);
+}
+
+body.estilo-bf .footer--links-social a[href="https://www.tiktok.com/@modadelrio?lang=pt-BR"] > svg > path {
+    fill: #fff !important;
+}
