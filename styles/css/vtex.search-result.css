@@ -128,15 +128,15 @@
 }
 
 .filter__container--priceRange :global(.vtex-slider__base-internal) {
-    background-color: #ff03ec;
+    background-color: #48385C;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector) {
-    background-color: #ff03ec;
+    background-color: #48385C;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector-tooltip) {
-    background-color: #ff03ec;
+    background-color: #48385C;
     border: none;
 }
 
@@ -177,7 +177,7 @@
     content: "Filtros";
     font-size: 12px;
     font-weight: 500;
-    color: #ff03ec;
+    color: #48385C;
     text-transform: none;
     line-height: 15px;
 }
@@ -254,7 +254,7 @@
 }
 
 .accordionFilter .accordionFilterItemTag :global(.vtex-tag) {
-    background-color: #ff03ec;
+    background-color: #48385C;
 }
 
 .accordionFilter .accordionFilterItemOptions:not(.accordionFilterOpen--cor) {
@@ -358,36 +358,36 @@
 }
 
 .filter__container--priceRange :global(.vtex-slider__base-internal) {
-    background-color: #ff03ec;
+    background-color: #48385C;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector) {
-    background-color:#ff03ec;
+    background-color:#48385C;
 }
 
 .filter__container--priceRange :global(.vtex-slider__selector-tooltip) {
-    background-color: #ff03ec;
+    background-color: #48385C;
     border: none;
 }
 
 .filterButtonsBox .filterClearButtonWrapper :global(.vtex-button) {
     background-color: #fff;
-    border: 2px solid #ff03ec;
-    color: #ff03ec;
+    border: 2px solid #48385C;
+    color: #48385C;
     font-size: 16px;
     font-weight: 700;
     appearance: none;
 }
 
 .filterButtonsBox .filterClearButtonWrapper :global(.vtex-button):hover {
-    background-color: #ff03ec;
+    background-color: #48385C;
     border: none;
     color: #fff;
     appearance: none;
 }
 
 .filterButtonsBox .filterClearButtonWrapper :global(.vtex-button) :global(.vtex-button__label) {
-    color: #ff03ec;
+    color: #48385C;
     font-size: 16px;
     font-weight: 700;
     padding: 0 !important;
@@ -398,7 +398,7 @@
 }
 
 .filterButtonsBox .filterApplyButtonWrapper :global(.vtex-button) {
-    background-color: #ff03ec;
+    background-color: #48385C;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -408,8 +408,8 @@
 
 .filterButtonsBox .filterApplyButtonWrapper :global(.vtex-button):hover {
     background-color: #fff;
-    border: 2px solid #ff03ec;
-    color: #ff03ec;
+    border: 2px solid #48385C;
+    color: #48385C;
     appearance: none;
 }
 
@@ -421,14 +421,14 @@
 }
 
 .filterButtonsBox .filterApplyButtonWrapper :global(.vtex-button):hover :global(.vtex-button__label) {
-    color: #ff03ec;
+    color: #48385C;
 }
 
 
 /* TITLE CATEGORY */
 
 .galleryTitle--layout {
-    color: #ff03ec;
+    color: #48385C;
     font-size: 30px;
     font-style: normal;
     font-weight: 900;
@@ -494,14 +494,14 @@
 
 .buttonShowMore :global(.vtex-button) {
     margin-top: 70px;
-    background-color: #ff03ec;
+    background-color: #48385C;
     border: none;
 }
 
 .buttonShowMore :global(.vtex-button):hover {
     background-color: #fff;
-    color: #ff03ec;
-    border: 2px solid  #ff03ec;
+    color: #48385C;
+    border: 2px solid  #48385C;
 }
 
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
@@ -618,7 +618,7 @@
     .orderBy--layout .filterPopupTitle {
         width: 100%;
         font-size: 12px;
-        color: #ff03ec;
+        color: #48385C;
         text-transform: none;
     }
 
@@ -701,7 +701,7 @@
     .orderBy--layout .filterPopupTitle {
         width: 100%;
         font-size: 12px;
-        color: #ff03ec;
+        color: #48385C;
         text-transform: none;
     }
 

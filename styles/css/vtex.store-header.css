@@ -682,8 +682,8 @@
 
 :global(.vtex-login-2-x-loginOptionsContainer) :global(.vtex-login-2-x-accessCodeOptionBtn) :global(.vtex-button),
 :global(.vtex-login-2-x-formFooter) :global(.vtex-login-2-x-sendButton) :global(.vtex-button) {
-  background: #ff03ec;
-  border: 2px solid #ff03ec;
+  background: #48385C;
+  border: 2px solid #48385C;
   color: #FFF;
   font-size: 16px;
   font-weight: 700;
@@ -692,7 +692,7 @@
 
 :global(.vtex-login-2-x-backButton) :global(.vtex-button) {
   background: #FFF;
-  border: 2px solid #ff03ec;
+  border: 2px solid #48385C;
   box-sizing: border-box;
   border-radius: 0;
   width: 124px;
@@ -704,7 +704,7 @@
 }
 
 :global(.vtex-login-2-x-backButton) :global(.vtex-button) :global(.vtex-button__label) {
-  color: #ff03ec;
+  color: #48385C;
   font-size: 16px !important;
   font-weight: 700 !important;
   line-height: 20px !important;
@@ -712,8 +712,8 @@
 
 :global(.vtex-login-2-x-loginOptionsContainer) :global(.vtex-login-2-x-emailPasswordOptionBtn) :global(.vtex-button) {
   background: #FFF;
-  color: #ff03ec;
-  border: 2px solid #ff03ec;
+  color: #48385C;
+  border: 2px solid #48385C;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -744,8 +744,8 @@
   height: 48px;
   width: 124px;
   border-radius: 0px;
-  background: #ff03ec;
-  border: 2px solid #ff03ec;
+  background: #48385C;
+  border: 2px solid #48385C;
 }
 
 :global(.vtex-login-2-x-sendButton) :global(.vtex-button__label) {

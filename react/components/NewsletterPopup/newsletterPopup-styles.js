@@ -219,7 +219,7 @@ export const TextInput = styled.input `
 `;
 
 export const ButtonEnviar = styled.button `
-  background: #ff03ec;
+  background: #48385C;
   color: #fff;
   font-family: Akrobat;
   font-size: 16px;
