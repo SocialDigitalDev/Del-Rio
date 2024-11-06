@@ -94,6 +94,10 @@ body.estilo-bf .vtex-store-components-3-x-infoCardCallActionContainer--style-bf 
     background: #FF2D2F;
 }
 
+body.estilo-bf .vtex-store-components-3-x-infoCardCallActionContainer--sy-banner-categories {
+    background: #E70621;
+}
+
 
 body.estilo-bf .sy-form-newsletter .sy-termo-newsletter, 
 body.estilo-bf .sy-form-newsletter .sy-termo-newsletter a {
@@ -162,17 +166,20 @@ body.estilo-bf .vtex-rich-text-0-x-wrapper--submenu-mobile,
 body.estilo-bf .vtex-menu-2-x-styledLink--main-mobile,
 body.estilo-bf .vtex-store-drawer-0-x-drawerContent--submenu-mobile .vtex-rich-text-0-x-wrapper--main-mobile, 
 body.estilo-bf .vtex-store-drawer-0-x-drawerContent--submenu-mobile .vtex-menu-2-x-styledLink{
-    border-bottom: 1px solid #beafd1;
+    border-bottom: 1px solid #fff;
 }
+body.estilo-bf .vtex-store-drawer-0-x-drawerContent--submenu-mobile .vtex-rich-text-0-x-link--categorias-item,
 body.estilo-bf .vtex-menu-2-x-styledLinkContent--main-mobile,
 body.estilo-bf .vtex-rich-text-0-x-paragraph--submenu-mobile,
 body.estilo-bf .vtex-rich-text-0-x-paragraph--categorias-item{
-    color: #beafd1;
+    color: #fff;
 }
+body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--submenu-mobile .vtex-store-drawer-0-x-closeIconButton::before,
 body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--sy-menu-mobile .vtex-store-drawer-0-x-closeIcon,
 body.estilo-bf .vtex-store-drawer-0-x-closeIconContainer--submenu-mobile .vtex-store-drawer-0-x-closeIcon {
     filter: brightness(300%);
 }
+
 
 @media (max-width: 767px)  {
     body.estilo-bf .vtex-menu-2-x-styledLink .vtex-menu-2-x-styledLinkContent {
