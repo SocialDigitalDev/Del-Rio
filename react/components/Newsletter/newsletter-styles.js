@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  background: url(/arquivos/banner-newsletterv2.png) no-repeat center;
+  background: url(/arquivos/bf-banner-newsletterv2.png) no-repeat center;
   background-size: 100% 100%;
   position: relative;
   display: block;
@@ -48,7 +48,7 @@ export const Container = styled.section`
       }
 
       @media (max-width: 640px) {
-        background: url(/arquivos/banner-newsletterv2.png) no-repeat center;
+        background: url(/arquivos/bf-banner-newsletterv2.png) no-repeat center;
         background-size: cover;
         background-color: rgba(241, 126, 157, 0.4);
         background-position-y: initial;

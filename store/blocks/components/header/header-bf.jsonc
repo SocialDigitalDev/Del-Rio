@@ -5,5 +5,4 @@
     "header.full#header-bf": {
       "blocks": ["header-layout.desktop", "header-layout.mobile"]
     }
-
   }

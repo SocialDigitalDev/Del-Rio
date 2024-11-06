@@ -69,7 +69,7 @@
   },
   "image#instagram": {
     "props": {
-      "src": "/arquivos/logo-instagram.svg",
+      "src": "/arquivos/bf-logo-instagram.svg",
       "alt": "Instagram"
     }
   },
@@ -84,7 +84,7 @@
   },
   "image#facebook": {
     "props": {
-      "src": "/arquivos/logo-facebook.svg",
+      "src": "/arquivos/bf-logo-facebook.svg",
       "alt": "Facebook"
     }
   },
@@ -99,7 +99,7 @@
   },
   "image#youtube": {
     "props": {
-      "src": "/arquivos/logo-youtube.svg",
+      "src": "/arquivos/bf-logo-youtube.svg",
       "alt": "Youtube"
     }
   },
@@ -114,7 +114,8 @@
   },
   "image#tiktok": {
     "props": {
-      "src": "assets/svg/logo-tiktok.svg",
+      // "assets/svg/logo-tiktok.svg"
+      "src": "/arquivos/bf-logo-tiktok.svg",
       "alt": "TikTok",
       "maxWidth": 25
     }
@@ -170,7 +171,8 @@
   },
   "image#social-logo": {
     "props": {
-      "src": "/arquivos/logo-social-black.svg",
+      // logo-social-black.svg
+      "src": "/arquivos/logo-w-social.png",
       "link": {
         "url": "https://socialdigitalcommerce.com.br/",
         "openNewTab": true,

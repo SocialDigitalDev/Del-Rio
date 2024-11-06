@@ -71,7 +71,7 @@
 }
 
 .minicartTitle {
-  color: #ff03ec;
+  color: #48385C;
   font-size: 0;
   padding-top: 25px;
   padding-bottom: 30px;
@@ -290,7 +290,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-  background: #ff03ec;
+  background: #48385C;
   height: 40px;
   border: none;
   border-radius: 0;
@@ -325,7 +325,7 @@
   align-items: center;
   width: 209px;
   height: 40px;
-  background: #ff03ec;
+  background: #48385C;
 }
 
 :global(.vtex-rich-text-0-x-link--cart-emptybtn) {

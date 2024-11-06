@@ -164,27 +164,27 @@
   },
   "image#visa": {
     "props": {
-      "src": "/arquivos/visa.svg"
+      "src": "/arquivos/bf-visa.svg"
     }
   },
   "image#master": {
     "props": {
-      "src": "/arquivos/master.svg"
+      "src": "/arquivos/bf-master.svg"
     }
   },
   "image#amex": {
     "props": {
-      "src": "/arquivos/amex.svg"
+      "src": "/arquivos/bf-amex.svg"
     }
   },
   "image#boleto": {
     "props": {
-      "src": "/arquivos/boleto.svg"
+      "src": "/arquivos/bf-boleto.svg"
     }
   },
   "image#diners": {
     "props": {
-      "src": "/arquivos/diners.svg"
+      "src": "/arquivos/bf-diners.svg"
     }
   },
   // END PAGAMENTO
@@ -207,12 +207,12 @@
   },
   "image#lets-encrypt": {
     "props": {
-      "src": "/arquivos/logo-lets-encrypt.svg"
+      "src": "/arquivos/bf-logo-lets-encrypt.svg"
     }
   },
   "image#vtex-logo": {
     "props": {
-      "src": "/arquivos/logo-vtex.svg"
+      "src": "/arquivos/bf-logo-vtex.svg"
     }
   },
   // END SECURITY

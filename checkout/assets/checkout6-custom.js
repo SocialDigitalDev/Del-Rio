@@ -20,6 +20,7 @@ var checkoutDelRio = {
 
     init: function () {
 
+        $("body").addClass("estilo-bf");
         setTimeout(() => {
             this.orderFormStep();
             this.emptyCart();
